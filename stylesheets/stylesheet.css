@@ -208,6 +208,7 @@ hr {
 }
 
 .btn-github .icon {
+  opacity: 0.2;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
