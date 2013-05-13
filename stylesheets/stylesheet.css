@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: #eaeaea;
+  color: #000000;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -185,9 +185,9 @@ hr {
   display: inline-block;
   padding: 8px 18px;
   border-radius: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
-  border-top: 2px solid rgba(0, 0, 0, 0);
+  border: 2px solid rgba(0, 0, 0, 1.0);
+  border-bottom: 2px solid rgba(0, 0, 0, 1.0);
+  border-top: 2px solid rgba(0, 0, 0, 1.0);
   color: rgba(255, 255, 255, 0.8);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
