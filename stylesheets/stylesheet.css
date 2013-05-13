@@ -208,7 +208,6 @@ hr {
 }
 
 .btn-github .icon {
-  opacity: 1;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
@@ -218,7 +217,6 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
