@@ -1,0 +1,622 @@
+<html>
+<body style="font-family:helvetica;">
+
+<h2>Hacking Computer Science Education at Khan Academy</h2>
+
+<em><blockquote>The following literary transduction is based on a <a
+target="_blank"
+href="http://www.rit.edu/gccis/news/alumnus-and-jquery-creator-talk-center-student-innovation">lecture</a>
+by <a target="_blank" href="http://twitter.com/jeresig">John Resig</a> given at
+the <a target="_blank" href="http://rit.edu">Rochester Institute of
+Technology</a> <a target="_blank" href="http://magic.rit.edu">Center for Media,
+Arts, Games, Interaction, and Creativity (MAGIC)</a>.</blockquote>
+</em>
+
+<p>
+I'm deeply honored to be here today. I keep coming back to RIT, every couple of
+years, and I live in NYC now. There are always new buildings and new things
+happening. Very fantastic.
+</p>
+
+<p>
+I'm here to talk about the stuff I'm doing with <a target="_blank"
+href="https://www.khanacademy.org/">Khan Academy</a>. I'm the <a
+target="_blank" href="https://www.khanacademy.org/about/the-team">"Dean of
+computer science"</a> which is really a very tongue-in-cheek thing, since we
+can make up our titles.
+</p>
+
+<p>
+I guess, I'd start with an intro to what Khan Academy is, and dig deeper into
+what I'm doing with <a target="_blank" href="https://www.khanacademy.org/cs">CS
+platform</a> in particular.
+</p>
+
+<p>
+I joined in Khan Academy in 2011, after I worked at <a target="_blank"
+href="http://mozilla.org">Mozilla</a> doing JavaScript tool development.
+</p>
+
+<p>
+The big thing, our goal, is <a target="_blank"
+href="https://www.khanacademy.org/about">"Bring World-Class Education to
+Everyone, Everywhere for free."</a>
+</p>
+
+<p>
+We are <strong>really</strong> good at producing educational material. Our Math,
+Science, Computer Science and Art History are very good. Most content is
+released under a <a target="_blank" href="http://creativecommons.org">Creative
+Commons</a> license, so you can take it and do what you want with it.
+</p>
+
+
+<p>
+We're making inroads to bring our content to the world. I've been Working on
+the Internationalization of Khan Academy. There are some problems in CS, that
+are "solved problems," and you'd think doing a website in multiple languages
+would have been one of these... but it is <strong>hard</strong>. So many
+edge-cases...
+</p>
+
+<p>
+We have videos, articles, exercises, all things relating to our curriculum.
+Who here uses Khan Academy Math curriculum as a supplement?
+</p>
+
+<blockquote>
+    <em>many people raise hands</em>
+</blockquote>
+
+<p>
+That's pretty good! We usually tend to skew younger than college age!
+</p>
+
+<p>
+One of the things we do is track all the work you're doing, so you can get a
+more effective education. Every exercise and video, we track when you did it,
+and how it went. If you got right answers, or wrong answers. We can figure out
+why you're getting it wrong, and how to make it better. We have a dashboard,
+where we can push you to work on exercises to move your knowledge forward.
+</p>
+
+<p>
+<a href="https://github.com/Khan/khan-exercises">This was the first thing</a>
+I built at Khan Academy, this framework for easily
+creating exercises. This is a system where you have a problem, charts, hints,
+and when you answer stuff, it can steer you when you get things wrong, to give
+you a better understanding. I worked on the internationalization for this as
+well, and it was ridiculously hard. Exercises made a lot of assumptions about
+English, and western ways of doing this.
+</p>
+
+<p>
+Take "Jane gives one ball to Fred," for example.
+</p>
+
+<p>
+"Oh, that's easy, we'll just replace the words!" But every language has
+differing ideas of what is singular and what is plural. Some places have more
+or less rules, and even separate rules if the number ends with a three! We are
+now available in Spanish and Brazilian Portuguese.
+</p>
+
+<p>
+Much of our Material on the site is split into a tutorial format. This is where
+you can go through, watch videos, do exercises, very linear form. This is great
+for our math content, and you see many students at middle-school and
+grade-school level using this. As I said before, we're tracking lots of data to
+give students a better experience, but also, the teachers.
+</p>
+
+<p>
+Khan Academy is trying to change how we think about education. So we can
+provide teachers with insights on how students are understanding content, and
+progressing. You can see how they are struggling.
+</p>
+
+<p>
+We want to change the "traditional" model--you go in, and the teacher gives a
+lecture to students about a material, and assumes that everyone is at the same
+level. It assumes everyone has equal footing, and often, this is not the case.
+You have students lagging, and students who are <strong>wayyyy</strong> ahead.
+If we had better data, teachers could make more informed decisions.
+</p>
+
+<h3>
+We break it down for the teacher so they can track specifically what students
+are working on at a given time, and analyze students in a class, or across
+classes. No longer do they need to give a general lecture. Now it's "ok, it's
+math time. You set <strong>YOUR</strong> goals."
+</h3>
+
+<p>
+This week, a student decides they want to finish long division. They can work
+on that, and watch videos. The teacher can track whether they are getting
+stuck, and then give a targeted lecture. If there are four students struggling
+with long division, the teacher can give those four a lecture to reinforce
+those concepts, rather than doing the same thing <strong>over and over
+again</strong> with the entire class. This means they have time to do more
+one-to-one teaching. They can see who has higher or lower levels of
+understanding. This is something that provides a huge level of insight to
+teachers, to better use their time.
+</p>
+
+<p>
+We have lots of students using this system now; Over <em>3 million problems per
+day</em>. There are huge spikes in the beginning of school in September--we
+hit <em>10 million active students</em>. I'd like to teach on a classroom
+basis, sure, but this is a way that I can better expand and stretch myself to
+teach computer science content. Depending how you measure, we have <strong>250,000 to 1
+million students</strong> doing Computer Science stuff on the site.</p>
+
+<h2>Khan Academy Computer Science</h2>
+
+<!--No visual :(
+<p>
+That is what I wanted to show you today. This is my baby.
+</p>
+-->
+
+<p>
+I started working on the <a target="_blank" href="https://www.khanacademy.org/cs">CS
+platform</a> late 2011, and released August 2012. We iterated a
+number of times, and settled on this final implementation. The big thing here,
+this is on the CS part of the website. We have a lot of curriculum. My coworker,
+<a href="http://www.pamelafox.org/" target="_blank">Pamela Fox</a>,
+is producing all the content (videos exercises, etc...).
+</p>
+
+<p>
+We go up to object oriented techniques, not much overlap with CS 101, and we have a long way
+to go to be a "full" cs curriculum. You probably won't be able to go out from
+here and get a job yet. I want to encourage people, expecially at the target of
+middle-school and up, in finding the thing that excites them most about
+programming, and applying it to their life.
+</p>
+
+<h3>
+Showing people the ways that programming can help improve science, biology, or
+art. <strong>I'd love it if our Computer Science platform didn't jut produce
+Computer Science students, but enabled students to do what they love, with
+programming to help them do it well</strong>. Art historians who can program.
+Humanities people who can code. Cross-pollination, for disciplines that
+traditionally don't overlap. This is hard, but this is what I'd like to see.
+</h3>
+
+<p>
+Who is familiar with <a target="_blank" href="http://github.com">GitHub</a>?
+</p>
+
+<em>
+    <blockquote>
+        many hands raise
+    </blockquote>
+</em>
+
+<p>
+You can edit code, fork it, upload it, and make changes to the original.
+Similarly, what we have on Khan Academy, is the ability to make programs. Has
+anyone heard of Flappy Bird? <a target="_blank"
+href="https://www.khanacademy.org/cs/flappy-bird/5241613641056256">Someone
+rewrote this within Khan Academy</a>!
+</p>
+
+
+<p>
+We don't allow outside images yet, so anything you can see here on the CS site,
+is <em>drawn</em>.
+</p>
+
+
+<p>
+So someone made this game, a student I don't know. It got 700+
+votes so far, and 1600+ "forks," which we call spin-offs. These are all
+variations on what has been made. It looks like most of them are about the
+same. Slight changes in the color of Flappy bird, stuff like that. Students are
+taking the code and modifying it. This program has already had over
+<strong>1000</strong> spin-offs, or, programs which were cloned or modified in
+some way. The top spin-off itself has <strong>113</strong> votes, and over
+<strong>100</strong> of it's own spin-offs! This is a very different
+collaborative environment. People making something, and learning from it.
+</p>
+
+<h3>
+I wanted to build off of the Open Source Model. I wanted the code to be the
+front and center, and not just show the graphical content, even when it is not
+a programming exercise.
+</h3>
+
+<p>
+We have a partnership with <a target="_blank" href="http://nasa.gov">NASA</a>,
+and we're doing lots of simulation stuff. One is making a lander go into orbit
+and land. It is really hard. Though it isn't required, I wanted to show the
+code. People who are interested in space can look at the simulation, see it,
+and say "hey, how does this work? How can I learn more?"
+</p>
+
+<p>
+I can go in and modify the simulation, and save it as my own spin-off, and make
+whatever changes I want. That is the model we've embraced here.
+</p>
+
+<p>
+Stuff like <a target="_blank" href="https://minecraft.net/">Minecraft</a>, and
+<a target="_blank" href="http://www.cuttherope.net/">Cut The Rope</a> style
+games; those are always popular here. Someone made a drawing program. You can't
+really save "state," so in the program, at the end, it spits out a giant blob
+of text, which is what you can copy-and-paste into a program to recreate your
+drawing!</p>
+
+<h3>
+Students have found ways to work around our system. This type of "meta"
+programming and activity is what it is <strong><em>all</em></strong> about.
+</h3>
+
+<p>
+Students are even making clubs now. They will hang out and chat with each other
+in the comments section. Social groups are forming.
+</p>
+
+<p>
+Students also tend to make lots of demands, and often petition for lots of
+things. Usually you'll find one at the top of just about every page. One
+thing often requested is support for playing sound, which I suspect students
+will abuse plenty...
+</p>
+
+<blockquote><em>*audience has a good laugh*</em></blockquote>
+
+
+<!--
+<p>
+I wanted to show you a little bit of the environment here, and show you how it
+works.
+</p>
+
+<p>
+This is a blank program. In this program, we give them documentation. It is
+based on <a target="_blank" href="http://processing.org/">Processing</a>, which
+is a language created at <a target="_blank" href="http://mit.edu">MIT</a>, and
+it is used extensively to make graphical things, but has been expanded to do
+3D, and stuff with the Kinect, and sound. We're using <a target="_blank"
+href="http://processingjs.org/">Processing.js</a>, which I wrote back in 2008,
+and ported to JavaScript.
+</p>
+
+<h3>
+I wanted to replicate this environment. I wanted to make the process of
+learning more intuitive. The normal feedback loop that exists when you
+programming. Typically, expecially with compiled languages, you save code, run
+it, wait, and then debug, and see if it actually worked. It would be more
+rewarding if you could see an immediate response. Part of that, is having the
+code exist, right next to the graphical output. There is no compilation step.
+</h3>
+
+<p>
+We have the ability now, with things like number-scrubbers, where you can see
+the result of changing the numbers in real-time. Even if you know nothing
+about what the arguments mean, you can mentally reverse engineer what is
+happening underneath. "If I make this number bigger, it moves the location of
+the rectangle."</p>
+-->
+
+<p>
+I like when students can discover things for themselves. What they learn from
+it tends to be much more deeply embedded. They take more pride in it.
+</p>
+
+<!--
+<p>
+This is all and good for a static program, but when you start to do more
+dynamic programs like animation, how do you manipulate state in real-time? One
+of the things you can do in Processing, you can have a draw loop, and you can
+have the draw function called as quickly as possible, and draw again and again
+and again. Nothing interesting is happening with the square, but add some
+loops, and now you've got animation.
+</p>
+
+
+<p>
+We have a color picker, so you don't have to remember all the RGB values
+yourself. We have variables that hook into functions, that update state every
+time the functions are called. One of the interesting things here, what happens
+if we want to update one of these things? We can do that, and the program
+continues to run. It is annoying to stop the program, and recompile, and
+restart. You don't have to do that now.
+</p>
+-->
+
+
+<p>
+This has been my baby, real-time injection of JavaScript code, so you can
+inject state into live running code. I feel like it is worth it. You get a much
+more compelling experience, and you can manipulate things AS THEY HAPPEN. You
+don't have to wait for program to restart. Even as we were typing in the code,
+the program was still running! It works pretty well.
+</p>
+
+
+<!--
+<p>
+Another thing I wanted to show
+</p>
+-->
+
+
+<p>
+We can record all the actions, and keystrokes, and things being said. We can
+play back commands and audio. We use videos frequently, but I don't think they
+are great for computer programming. The thing you want students to do is take
+some code, pause it, and change things to figure it out for themselves.
+</p>
+
+<p>
+We had some really janky solutions where we would pause YouTube videos, and
+regenerate code, but we got to this point. Now, you can pause, make a change,
+and then when you hit play, it reverts the code, and continues from where you
+left off.
+</p>
+
+<p>
+We also have interactive transcripts now too, so that if you are hard of
+hearing, or you want the transcript for what has been said, you can get it. And
+we are now starting to translate those into other languages too (we're working
+on translating the audio.)
+</p>
+
+<p>
+All the ability to do this stuff is powered by browser technology, like <a
+target="_blank" href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>. We pull
+content from  <a target="_blank" href="https://aws.amazon.com/s3/">Amazon
+S3</a>, and it works surprisingly well.
+</p>
+
+
+<p>
+I showed you math exercises, where a student is given a math problem, they put
+in an answer, and then they get a "right or wrong" result. That works OK for
+math, but not really for programming. What works well for learning program is
+actually writing code. I want the students to be writing out the code. This is
+one step above recordings. We are basically showing you what code to write, and
+based on that, they can turn it into their own thing. There are much more
+complicated programs that can be made from the basics.
+</p>
+
+<p>
+One thing I'll mention is that a lot of code is Open Source, and available on
+GitHub. <a target="_blank" href="https://github.com/Khan">If you are interested
+in contributing back, that is all there.</a>
+</p>
+
+
+<p>
+We built a framework this summer called <a target="_blank"
+href="http://khan.github.io/structuredjs">Structured.js</a>. We think it's
+really cool. You can define a rough structure for the code you want students to
+write, and then analyze the code to see if it matches a structure. We parse the
+student code, convert into a syntax tree, and compare it to our syntax tree.
+</p>
+
+<p>
+We use jQuery on the front-end, along with <a target="_blank"
+href="http://backbonejs.org/">backbone.js</a>, and <a target="_blank"
+href="http://facebook.github.io/react/">a new framework from Facebook called
+react</a>. It is pretty crazy, and I think you should check it out.
+I'm slowly getting used to it.
+</p>
+
+<p>
+On the back-end, we use <a target="_blank" href="http://python.org">Python</a>
+on <a target="_blank"
+href="https://cloud.google.com/products/app-engine/">Google's App Engine</a>.
+Sometimes we get on <a target="_blank"
+href="http://www.cbsnews.com/60-minutes/">60 Minutes</a>, and the traffic goes
+bonkers for an hour or two, then goes back down. Google App Engine handles it
+quite well.</p>
+
+<p>
+I think I will wrap up there, and answer any questions anyone might have.
+Questions about what I'm doing at Khan Academy, questions about <a
+target="_blank" href="http://jquery.org">jQuery</a> of course. 
+</p>
+
+<blockquote>
+    <em>
+        audience laughter.
+    </em>
+</blockquote>
+
+<h1>Q &amp; A</h1>
+
+<p>Q: Does the order in which things are written matter in Structured.js?</p>
+
+<p>
+A: in this specific case here, it is forcing you to do your 'if' statement
+before the loop, so yes.
+</p>
+
+<p>
+A tool like this could be used poorly, sure. And that is why we have such
+detailed hints. We provide the structure itself as a hint.
+</p>
+
+<p>
+This is something here, that is one step above a video. They can name their
+variables whatever they want, we don't care, which is an improvement from most
+systems like this.
+</p>
+
+<p>
+This is relatively new, but students love it, and they are using it a lot.
+</p>
+
+<p>
+Q: You are doing this teaching in the browser, which is good, but are there any
+"where to go next?" resources on Khan Academy?
+</p>
+
+<p>
+A: We have an article called <a target="_blank"
+href="https://www.khanacademy.org/cs/programming/good-practices/a/what-to-learn-next">"what
+to learn next"</a> where we direct students to tutorials and articles, projects
+to work on, web development in general, and other language resources. At this
+point, we are not everything for everyone, but we want to be the launching pad.
+Here is your first taste, and then you push off from there.
+</p>
+
+
+<p>
+Q: The structure was all S3 and Google App Engine?
+</p>
+
+<p>
+A: Yes, all cloud hosted. S3 for file hosting, videos typically pulled from
+<a target="_blank" href="http://youtube.com">YouTube</a>. We don't have any
+physical servers. That is the nice thing about being "in the future" now, we
+don't need any of that.
+</p>
+
+<blockquote>
+    <em>
+        Audience laughter.
+    </em>
+</blockquote>
+
+<p>
+Q: What is the history of the name?
+</p>
+
+<p>
+A: It was created by <a target="_blank"
+href="https://en.wikipedia.org/wiki/Salman_Khan_%28educator%29">Salman
+Khan</a>. He created many of the videos on the site. We also have other
+professors and professionals who produce content, but he has done most of it.
+It started as his <a target="_blank"
+href="https://www.youtube.com/user/khanacademy">YouTube
+channel</a>, to help his cousin learn math. It got bigger and bigger, until
+it's it got up to like a million people.
+</p>
+
+<!--Too Technical. If you're technically inclined, you can view the source
+here, and will appreciate this easter egg of sorts ;)
+<p>
+Q: When you're doing real-time injection, and you have a draw function, and a
+draw person function, and you call draw person, what happens if you change the
+draw person function?
+</p>
+
+<p>
+A: It updates. What happens, in the nitty-gritty, let me roughly... it takes
+that function, compiles it, and passes it into the running instance. The draw
+function is using, what is the concept of a closure, which points back to the
+draw person variable. It updates draw person with the new function. It points
+back to the function itself. We reserialize the functions, and inject them back
+in. All the "bad" features of JavaScript--we use Lots of eval, lots of
+with statements.
+</p>
+-->
+
+
+<p>
+Q: How do you moderate all the content? There could be potentially negative
+things, right?
+</p>
+
+<p>
+A: We have a system for people to "flag" content, which puts it into a
+moderators queue. Once it gets three flags, it gets automatically moderated,
+and then can be reapproved by a moderator. We haven't had anything too terrible
+show up yet. It's been running since 2012. Really, it's not the programs, as
+much as the comments... BIG SURPRISE!</p>
+
+<blockquote>
+    <em>
+        Audience Laughter
+    </em>
+</blockquote>
+
+
+<p>
+There have been "factions" of middle-school students who battle
+in the comments sections. We were worried in the beginning, but this hasn't
+actually happened yet. We banned outside images, and only allow images that we
+provide. We had a student write a program that turns an image into a
+multi-lined call to the rectangle function to recreate it. If we find a way to
+ban something, students will always find a way around it. They are mostly doing
+things like putting up pictures of their favorite Pokémon.
+</p>
+
+<h3>If we find a way to ban something, students will always find a way around
+it.</h3>
+
+<p>Q: Biggest tech challenge at Khan Academy?</p>
+
+<p>
+A: The real-time stuff was pretty huge. The internationalization stuff of the
+past year was really hard, but hard in a different way. Not hard in the "how do
+we scale" way, but in the "understanding the cross-cultural issues" way. One of
+the hard problems for his platform, was making it in such a way that young
+students can understand what is going on. We ran a whole summer school, and
+did lots of playtesting. We'd get a different batch every week. They'd get
+summer school credit, and we'd get bug reports. We were in there with our
+notepads, and running everything through <a target="_blank"
+href="http://www.jshint.com/">JSHint</a>. We were trying to provide errors that
+were much more intuitive, but this wasn't explicitly a tech problem.
+</p>
+
+<p>
+Q: You talked about "clubs" forming in the comments, I was wondering how far
+you were willing to take the pseudo-social aspect? Are there plans to expend
+into different languages or other types of programming?
+</p>
+
+<p>
+A: Yes, in some areas. One immediately I think of, is humanities. I didn't
+think about this initially, but the way in which you are making these programs,
+and building a creative work, you spend lots of time, and you want people
+to collaborate. This can happen for writing, poetry, art, music, all of
+these things for which there isn't a model for teaching online. Having the
+staffs and bars for composing music, and hearing the playback in real-time
+would be great. Even better would be for live-forking and editing for
+others to collaborate.
+</p>
+
+<p>
+More immediate feedback on what projects students build is a goal.
+</p>
+
+
+<p>
+The only other language we're looking to go into is HTML/CSS/JavaScript.
+The huge advantage of JavaScript is that it can run natively, you don't need to
+pass it back and forth. For now, we'll be sticking with browser native
+languages.
+</p>
+
+
+<p>
+Q: Khan Academy is free, right? How are you making money right now, and do you
+see any change in the future?
+</p>
+
+<p>
+A: We are funded by Grants. Bill and Melinda Gates foundation, The Carlos Slim
+Foundation, and others. There is a lot of interest, and funding, and we aren't
+in the position of every other education startup--where you're charging
+teachers, schools, or students money. I don't want to be pinching pennies out
+of students pockets. For additional revenue, we have contracts for folks
+who are using our content in commercial contexts.
+</p>
+
+<p>
+We do have <a href="https://www.khanacademy.org/careers" target="_blank">lots of jobs,
+tons of internships</a>. The whole CS platform was built
+by me and interns, so if you wanna work with me and build cool stuff, please do.
+</p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Hacking Computer Science Education at Khan Academy</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://decause.github.io/resig-hackingcsed.html" property="cc:attributionName" rel="cc:attributionURL">Remy DeCausmaker</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" target="_blank" href="http://ejohn.org" rel="dct:source">http://ejohn.org</a>.
+
+
+</body>
+</html>
