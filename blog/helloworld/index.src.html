@@ -1,0 +1,36 @@
+<!--
+.. title: HelloWorld
+.. slug: helloworld
+.. date: 2015-04-01 04:21:00 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+-->
+<h1>HelloWorld</h1>
+
+
+<p>Welcome to the world of static blogs! I've been neckdeep in a seemingly stable and wonderful project called <a target="_blank" href="http://getnikola.com">nikola</a>, that allows for some pretty fantastic python static site generation.</p>
+
+<p>I've been using <a target="_blank" href="http://flask.pocoo.org">flask</a> for all my "deploying a quick webapp to openshift" needs, which has worked out splendidly, but after experimenting with <a target="_blank" href="http://thisweekinfedora.org">http://thisweekinfedora.org</a> I felt like I had to dive in head first and see what all the hubub was about.</p>
+
+<p>Some 4-ish hours later, here we are!</p>
+
+<p>Some caveats:</p>
+<ul>
+    <li>The amazing themes listed at <a target="_blank" href="http://bootswatch.com">bootswatch.com</a> are unvailable to me...
+    <script src="https://gist.github.com/decause/8a1e31728f7ac3e81b9c.js"></script>
+    </li>
+    <li>I don't even know what I don't know I'm doing wrong yet ;)</li>
+    <li>I'm <code>git push -f openshift master</code> to a fresh php5.4 cartridge</li>
+    <li>Scratch that, I'm no longer force-pushing to production! (but I'm not sure why <code>nikola deploy rsync --delete</code> started allofasudden blowing away .git/ after I had been deploying in such a way for hours this evening...)</li>
+    <li>I've added my Opensource.com articles to my blog via the <code>feed_import</code> plugin!!!</a>
+    <li>I've added my decause.github.io articles to my blog via <code>hand copying</code> the source! Def not as exciting, but still cool.</a>
+</ul>
+
+<p>BUT!</p>
+<p>I'm <strong>SUPER</strong> excited to play around more with programmatically generating static content with the power of python.</p>
+<p>Shout-out <a target="_blank" href="http://lewk.org">lmacken</a>, <a target="_blank" href="http://threebean.org">threebean</a>, and <a target="_blank" href="http://rsb.io">ryansb</a> for their wizardry and patience.</p>
+
+

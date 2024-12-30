@@ -3,4 +3,1913 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 30 Dec 2024 19:06:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 30 Dec 2024 21:05:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>decau.se has a POSSE</title><link>https://decau.se/blog/decause-posse/</link><dc:creator>decause</dc:creator><description>&lt;h1&gt;When last we left our hero...&lt;/h1&gt;
+&lt;p&gt;The year was 2015... Like most authors who revisit their previous works, I do &lt;strong&gt;NOT&lt;/strong&gt; super-enjoy reading much of what I wrote way back then. For the sake of contuity, however, I am compelled to regenerate and redeploy these past posts for posterity sakes.&lt;/p&gt;
+&lt;p&gt;Apologies/Congratulations.&lt;/p&gt;
+&lt;p&gt;Going forward, this site will serve as a vehicle to explore joining the new and exciting frontiers of the &lt;a target="_blank" href="https://indieweb.org"&gt;Indieweb&lt;/a&gt;, and the &lt;a target="_blank" href="https://en.wikipedia.org/wiki/Fediverse"&gt;Fediverse&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The IndieWeb resonating principle of "POSSE": &lt;a target="_blank" href="https://indieweb.org/POSSE"&gt;Publish On Your Own Site, Syndicate Everywhere&lt;/a&gt;.&lt;/p&gt;</description><guid>https://decau.se/blog/decause-posse/</guid><pubDate>Mon, 30 Dec 2024 20:48:29 GMT</pubDate></item><item><title>hackerhacked?</title><link>https://decau.se/blog/hackerhacked/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img width="15%" src="https://decau.se/blog/hackerhacked/hackerhacked.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://openclipart.org/image/300px/svg_to_png/216484/1427445449.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+
+&lt;p&gt;This post is in response to the article &lt;em&gt;"The Hacker Hacked"&lt;/em&gt; by &lt;a target="_blank" href="https://twitter.com/suitpossum"&gt;Brett Scott&lt;/a&gt;: &lt;/p&gt;&lt;h4&gt;&lt;a target="_blank" href="http://aeon.co/magazine/technology/how-yuppies-hacked-the-original-hacker-ethos/"&gt;http://aeon.co/magazine/technology/how-yuppies-hacked-the-original-hacker-ethos/&lt;/a&gt;&lt;/h4&gt;
+
+
+&lt;blockquote&gt;
+"In this context, the hacker ethic is hollowed out and subsumed into the ideology of solutionism, to use a term coined by the Belarusian-born tech critic Evgeny Morozov. It describes the tech-industry vision of the world as a series of problems waiting for (profitable) solutions."
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+I have mixed feels about this one. Brett's article is a good one, and has some key pieces of history, and proper shout-outs to the giants who's shoulders we stand on. Props Brett. I, however, think I'm just super biased and jaded, and all like &lt;em&gt;"uh, yeah, obvs, duh."&lt;/em&gt; I'm a Hackademic, and perhaps a lil bit &lt;em&gt;too&lt;/em&gt; familiar with much of this. At the same time, I'm &lt;strong&gt;*very*&lt;/strong&gt; excited for the mainstreaming of hackery, and defanging the old "ski mask" tropes about hackers. I don't see this as a bad thing, or a risk, because of the fail-safe (we hope) of transparency. When SV startups think they are "disrupting" or "saving the world" by creating yet-another-shitty-app, they are going to get the "validation" they deserve when no one buys their product or contributes to their community. From what I can tell, Hackers don't want to solve other people's problems that don't need solving, they want to make progress.
+&lt;/p&gt;
+
+&lt;p&gt;
+I think we're seeing a super influx of &lt;em&gt;/potential/&lt;/em&gt; legit hackers, and as much as I love a good retelling of &lt;a target="_blank" href="https://en.wikipedia.org/wiki/The_Story_of_Mel"&gt;the story of Mel&lt;/a&gt; as the next guy, the old-guard elitism needs to leave room for the next gen to learn, even if they are starting from a softer more sterile place than the copper-age hackers did. I think that the thing that makes a hacker a hacker is that curiosity, to see how far the rabbit hole really goes, and to be unafraid to trace a thread all the way down the stack to see where it starts. Everyone has to start somewhere, and with the right exposure, even the "yuppiest" of webdevs can find their way to the core of empowerment. The transformation happens not because of the movies, or job prospects, or gadgets, but because of the &lt;em&gt;autonomy&lt;/em&gt;. Learning to solve your own problems is a compounding virtuous cycle that ultimately causes you to question every other cycle not focused on rapid iterative improvement. You can get into that cycle whether you are building shitty-apps, or world changing FOSS code, the &lt;em&gt;production process&lt;/em&gt; requires openness, and honesty. The important things are that the infrastructure remain neutral, and that copyleft licensing remain the standard.
+&lt;/p&gt;
+
+&lt;p&gt;
+We'll look back on IP policy of today the same way that the people who used looms to create textiles look back on hand-stitching, or the way that proponents of the locomotive regarded critics who said that speeds above 30 MPH would cause bodily harm. These machines and processes too, were at a time, a threat to the status quo, and subversive, and unnatural, and, and, and... but at some point they became the new standard, which is the era I reckon we are approaching--exemplified by recent developments like the Open Sourcing of certain closely held programming languages and environments, and bottom-line concerned organizations like Wal-mart and Capital One embracing open development practices, and even contributing back upstream in some cases. "Gentrification" and "appropriation" are great &lt;strike&gt;sensationalization&lt;/strike&gt; SEO words, but words like "synthesis", and "merge commit" are more what comes to my mind when talking about the mainstreaming of hacking. Perhaps I'm not being romantic enough?
+&lt;/p&gt;
+
+&lt;p&gt;
+I'm not afraid that all the "real"* hackers are going to be displaced or that there is no longer a place for merry pranksters. When the source is open, and the platform accessible, and the pipes neutral, and the power transparent, tricking someone into doing something against their own interests is much more difficult. When resources are not allocated in an optimal fashion, it can be made clear, and whether you a suit or a rabble-rouser, waste is in no one's best interests.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;em&gt;(*: regular readers will recall &lt;a target="_blank" href="http://blog-decause.rhcloud.com/posts/more-harm-than-good-svpino.html"&gt;my opinions on dictating hacker identity&lt;/a&gt;, and my heavy use of quotation marks here--you are a "real" hacker the moment you pop the hood and pick up the wrench, not when someone else tells you you are)&lt;/em&gt; 
+&lt;/p&gt;</description><guid>https://decau.se/blog/hackerhacked/</guid><pubDate>Mon, 17 Aug 2015 20:41:46 GMT</pubDate></item><item><title>FLOCKchesterSurvey</title><link>https://decau.se/blog/flockchestersurvey/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img src="https://badges.fedoraproject.org/pngs/flock-2015-attendee.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://badges.fedoraproject.org/pngs/flock-2015-attendee.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+
+
+&lt;p&gt;
+It's finally done, and I've half-way caught up on all the sleep I didn't get during the past week ;) I had a ball seeing all you Fedorans strolling around my regular haunts, and cannot wait to see you all again soon. May your travels home be safe and expedient!&lt;/p&gt;
+
+&lt;p&gt;Please be patient with me for the next day or so as catch up on my inbox and all the administrivia and loop-closing that comes along with hosting a conference in your hometown. Once that is taken care of, I'll be spinning up a proper recap and redux blog post for &lt;a target="_blank" href="http://www.flocktofedora.org"&gt;FLOCK 2015&lt;/a&gt; (aka FLOCKchester). 
+&lt;/p&gt;
+
+&lt;p&gt;
+While we wait for that, if you did attend the conference this year, you should &lt;a target="_blank" href="https://docs.google.com/forms/d/1XJyvQkv7Je-F1L9okHHxJAVIeJsxT2edv3-2qPLpgFQ/viewform?usp=send_form"&gt;&lt;h4&gt;&lt;strong&gt;&lt;em&gt;totally fill out the official survey with your feedback thoughts and suggestions&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;&lt;/a&gt;.
+&lt;/p&gt;</description><guid>https://decau.se/blog/flockchestersurvey/</guid><pubDate>Mon, 17 Aug 2015 18:56:40 GMT</pubDate></item><item><title>Fedora.pkgs.all()</title><link>https://decau.se/blog/fedorapkgsall/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img src="https://badges.fedoraproject.org/pngs/proven-packager.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://badges.fedoraproject.org/pngs/proven-packager.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;
+Another treasure trove discovered this week! Last time, it was &lt;a target="_blank" href="http://decausemaker.org/posts/fedorafromfiftythousandfeet.html"&gt;all the tasks required to release Fedora&lt;/a&gt;. This time, it is the master list of &lt;strong&gt;&lt;u&gt;all the packages in Fedora!!eleven!&lt;/u&gt;&lt;/strong&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;&lt;a target="_blank" href="http://pkgs.fedoraproject.org/cgit/"&gt;http://pkgs.fedoraproject.org/cgit/&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;
+I still cannot get over how cool it is for my $DAYJOB to be in a community that
+ships an entire operating system, and the stupendously grand scale on which
+that type of development occurs... &lt;em&gt;Totally ridiculoustown...&lt;/em&gt;&lt;/p&gt;</description><guid>https://decau.se/blog/fedorapkgsall/</guid><pubDate>Fri, 07 Aug 2015 16:50:14 GMT</pubDate></item><item><title>FedoraFromFiftyThousandFeet</title><link>https://decau.se/blog/fedorafromfiftythousandfeet/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img src="https://openclipart.org/image/300px/svg_to_png/223140/1437199221.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://openclipart.org/image/300px/svg_to_png/223140/1437199221.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since I got here, I've been doing my best to create a mental map of all the
+&lt;em&gt;parts&lt;/em&gt; of Fedora. From what I've gathered thusfar, there are &lt;a target="_blank" href="https://fedoraproject.org/wiki/Overview"&gt;13&lt;/a&gt;
+subprojects (See: wiki sidebar), along with a number of web properties, and a
+slew of upstream communities that Fedorans are tapped into. But even after
+getting the broadest sense of how many moving parts there are, that still
+doesn't explain &lt;em&gt;HOW&lt;/em&gt;, only who. I've said to myself "Gee whiz, if
+only there were a list of all the things that needed to be done to ship a
+release..." Today, thanks to &lt;a target="_blank" href="https://fedoraproject.org/wiki/User:Jzb"&gt;jzb&lt;/a&gt;, I have found the
+&lt;strong&gt;HOLY GRAIL&lt;/strong&gt; of "how a Fedora becomes a release" and I'm here to
+share it with you too!&lt;/p&gt;
+
+&lt;h2&gt;&lt;a target="_blank" href="https://fedorapeople.org/groups/schedule/f-23/f-23-all-tasks.html"&gt;https://fedorapeople.org/groups/schedule/f-23/f-23-all-tasks.html&lt;/a&gt;&lt;/h2&gt;</description><guid>https://decau.se/blog/fedorafromfiftythousandfeet/</guid><pubDate>Mon, 03 Aug 2015 20:26:33 GMT</pubDate></item><item><title>TheFreedomToCloseIsNotAFreedom</title><link>https://decau.se/blog/thefreedomtocloseisnotafreedom/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img src="https://openclipart.org/image/300px/svg_to_png/223287/Come-In-Were-Closed.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://openclipart.org/image/300px/svg_to_png/223287/Come-In-Were-Closed.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;I am a license pluralist. I think Author and contributor choice of
+distribution is important, and we need to have as diverse a toolbox of legal
+instruments as possible, to fit as varied a field of softwares as we can
+conceive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+The "Freedom to close" is not a freedom. 
+&lt;/p&gt;
+&lt;p&gt;
+The "Freedom to exploit" is not a freedom.
+&lt;/p&gt;
+
+&lt;!--
+If someone said "I'd love to help you write a book, so long as I can take the
+manuscript and publish it on my own at any time, without giving you credit or
+compensation," would you be all like "that sounds someone who has
+&lt;em&gt;&lt;strong&gt;MY&lt;/strong&gt;&lt;/em&gt; best interests at heart!"
+--&gt;
+
+&lt;p&gt;
+Your organization not adopting copyleft software, is not a failing of copyleft,
+it is a failing of your organization to participate &lt;em&gt;authentically&lt;/em&gt; in
+an Open ecosystem of innovation. It is your organization saying &lt;em&gt;"I want to
+keep my options open, in case there is ever a time when it would be convenient
+to cut you out of the equation."&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Folks might say "Yeah, that is what doing business at arm's length is!" or "By
+nature, people are greedy and/or selfish!"
+&lt;/p&gt;
+
+&lt;p&gt;
+And that is exactly why we have contracts and licenses! We use them all the
+time in non-copyleft contexts to ensure that both parties hold up their end of
+a clearly defined agreement.
+&lt;/p&gt;
+
+&lt;p&gt;
+So why-oh-why is there some sort of &lt;strong&gt;&lt;em&gt;virtue&lt;/em&gt;&lt;/strong&gt; in
+entering into an agreement that would allow the other party to renege? The
+freedom to break a social or business contract whenever it is convenient,
+implies that you think you can outmanoeuvre the other party, and that your
+strategy's real strength is subterfuge, not what you bring to the table.
+&lt;/p&gt;
+
+&lt;p&gt;
+That is not what genuine collaboration is. It is an okey doke, and contributors
+are falling for it left and right against their own interests.
+&lt;/p&gt;
+
+&lt;!--
+We all are moving the field forward, by building up on the progress of others.
+Mathematics and Science move forward because of the accountability that comes
+from peer review. 
+
+https://en.wikipedia.org/wiki/The_Little_Red_Hen
+
+https://en.wikipedia.org/wiki/The_Ant_and_the_Grasshopper
+
+Did the Little Red Hen let any of the animals who didn't do the work eat the
+bread? 
+
+(Well, really this is a parable about free riders and coattailing, which
+doesn't lend itself quite as well to FOSS, because those things actually
+generate value when done properly. If bread didn't take any* material inputs,
+and the feedback of the animals about the bread could be utilized to make
+future iterations better...)
+
+*: any meaning material inputs that have a marginal reproduction cost that
+asymptotically approaches zero
+
+You can ad hominem RMS all you'd like.
+
+You can point to the historically counter-culture of position of copyleft in
+the FOSS Movement; but Copyleft *is* the strongest protection for your IP, and
+though it is not more popular than copyright, it is mainstream now.
+
+There *are* times when using the GPL is inadvisable. I have heard only
+&lt;em&gt;ONE&lt;/em&gt; business case for a security and exploit aggregation framework
+that collects all the holes in your system. Someone could make a request for
+your source under the GPL (in theory) to get a list of all those holes. The
+project choose to permissively license the data file definitions and
+configuration files that describe the security holes. That is the only viable
+use-case I have ever heard. I'm *constantly* looking for others.
+--&gt;</description><guid>https://decau.se/blog/thefreedomtocloseisnotafreedom/</guid><pubDate>Tue, 21 Jul 2015 19:01:30 GMT</pubDate></item><item><title>CommOps Toolbox</title><link>https://decau.se/blog/commops-toolbox/</link><dc:creator>decause</dc:creator><description>&lt;figure&gt;
+    &lt;img src="https://openclipart.org/image/300px/svg_to_png/660/JicJac-Parts-Container.png"&gt;
+    &lt;em&gt;&lt;figcaption&gt;src: https://openclipart.org/image/300px/svg_to_png/660/JicJac-Parts-Container.png&lt;/figcaption&gt;&lt;/em&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I &lt;em&gt;can&lt;/em&gt; build, but I am certainly not the &lt;em&gt;fastest&lt;/em&gt;. Slowly but surely, with help
+from &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt; and &lt;a target="_blank" href="http://threebean.org"&gt;threebean&lt;/a&gt; and &lt;a target="_blank" href="http://linkybook.com"&gt;qalthos&lt;/a&gt;, I've been
+loading up the &lt;a target="_blank" href="http://decausemaker.org/posts/proposal-commops-for-fedora.html"&gt;Commops&lt;/a&gt; toolbox.&lt;/p&gt;
+
+&lt;h2&gt;CommOps Tools in the Box&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a target="_blank" href="http://github.com/decause/cardsite"&gt;cardsite&lt;/a&gt;&lt;/h3&gt;
+    &lt;p&gt;One of the first data visualizations I worked on after being hired, this was one of the fruits of the &lt;a target="_blank" href="http://us.pycon.org/2015"&gt;PyCon 2015 Sprints&lt;/a&gt;. Cardsite displays fedmsg activity as a 3 part grid, with the top pane being messages, the middle pane being users, and the bottom pane being packages. It creates the cell if the message is new and hasn't been seen before, or, if it has been seen, updates the message count, and does a fancy animation. It is a proof of concept, and not what I would call "complete," but it has a number of &lt;strong&gt;merits&lt;/strong&gt;:&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;Inspired by the &lt;a target="_blank" href="http://emojitracker.com"&gt;EmojiTracker&lt;/a&gt; project, that shows real-time usage of Emoji on Twitter&lt;/li&gt;
+        &lt;li&gt;&lt;a target="_blank" href="http://gulpjs.com"&gt;Gulp&lt;/a&gt;/&lt;a target="_blank" href="http://bower.io"&gt;Bower&lt;/a&gt; to install JavaScript/CSS dependencies in a programmatic way&lt;/li&gt;
+        &lt;li&gt;Deployed to &lt;a target="_blank" href="http://GitHub.com"&gt;GitHub&lt;/a&gt; via &lt;a target="_blank" href="http://github.com/decause/cardsite"&gt;gh-pages&lt;/a&gt; branch: &lt;a target="_blank" href="http://decause.github.io/cardsite"&gt;http://decause.github.io/cardsite&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;Uses Websockets to provide real-time &lt;a target="_blank" href="http://fedmsg.com"&gt;fedmsg&lt;/a&gt; updates to the page&lt;/li&gt;
+        &lt;li&gt;Uses the &lt;a target="_blank" href="http://semantic-ui.com"&gt;semantic-ui&lt;/a&gt; framework for the front-end&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;h3&gt;&lt;a target="_blank" href="http://github.com/decause/feedcloud"&gt;feedcloud&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The idea is, take an RSS feed, or a list of RSS feeds, and generate a
+word_cloud for each feed, and the aggregate content from all the feeds, like
+so: &lt;br&gt;&lt;br&gt;&lt;code&gt;python gencloud.py config.json&lt;/code&gt;&lt;br&gt;&lt;br&gt;with config files that look
+like this:
+&lt;/p&gt;&lt;pre&gt;
+{
+    "feeds": [
+        "http://blog-decause.rhcloud.com/rss.xml",
+        "http://nathanielca.se/feeds/all.atom.xml"
+    ],
+    "mask_filename": "fossboxlogo-mono.png",
+    "output_dir": "feedcloud",
+    "output_image": "feedcloud.png",
+    "stop_words": ["http", "https"],
+    "each_corpi": true,
+    "max_words": 1000
+}
+&lt;/pre&gt; 
+&lt;strong&gt;Merits&lt;/strong&gt;:
+    &lt;ol&gt;
+        &lt;li&gt;Individual word_clouds for each rss feed AND the aggregate cloud of all posts combined!&lt;/li&gt;
+        &lt;li&gt;Uses a config file written in json for easy parsing&lt;/li&gt;
+        &lt;li&gt;Once it is set up, it is very easy to create multiple configurations to create many visualizations with ease.&lt;/li&gt;
+        &lt;li&gt;easy to use blacklist within config file for easy tweaking.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Demerits&lt;/strong&gt;:
+    &lt;/p&gt;&lt;ol&gt;
+        &lt;li&gt;word_cloud is a very powerful, but also very &lt;strong&gt;heavy-weight&lt;/strong&gt; stack to stand up and run. After many attempts, I finally got my first virtualenv working, and I've been using the same one ever since in all my word_cloud related projects :/&lt;/li&gt;
+    &lt;/ol&gt;
+
+&lt;h3&gt;&lt;a target="_blank" href="https://github.com/decause/wordcloudbot"&gt;wordcloudbot&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Arguably the most complete of the tools in the box, it builds upon the work of &lt;a target="_blank" href="http://github.com/decause/feedcloud"&gt;feedcloud&lt;/a&gt; and &lt;a target="_blank" href="http://github.com/amueller/word_cloud"&gt;word_cloud&lt;/a&gt; to deliver fancy wordcloud visualizations via Twitter each time an IRC meeting ends and sends the logs message across the fedmsg bus! This tool is "deployed" on my machine locally as a systemd service, but will hopefully be deployed to Fedora Infrastructure in the near-ish future (packaging the word_cloud stack for Fedora is low on the priority totem pole for me personally, but def a goal I'd like to deliver on in the next 120 days (but probably not the next 30/60/90.) You can glance the fruits of wordcloudbot's cycles on the &lt;a target="_blank" href="http://twitter.com/fedobot"&gt;Fedobot&lt;/a&gt; twitter account.&lt;/p&gt;
+
+
+&lt;h3&gt;&lt;a target="_blank" href="http://github.com/ralphbean/fedora-stats-tools"&gt;fedora-stats-tools&lt;/a&gt;&lt;/h3&gt; 
+&lt;p&gt;fedora-stats-tools is a breeding ground for interesting one-off scripts and tools. It is the default place where various CommOps experiments are being pushed to, before they end up in their own repositories. Here is what we've got in there so far:&lt;/p&gt;
+&lt;ul style="list-style-type:none"&gt;
+    &lt;h4&gt;&lt;a target="_blank" href="https://github.com/ralph&amp;gt;ean/fedora-stats-tools/blob/develop/annualgrepper.py"&gt;annualgrepper&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This is a very basic script that uses the &lt;a target="_blank" href="http://docs.python-requests.org/en/latest/"&gt;requests&lt;/a&gt; library to get the raw json for fedmsgs over the past year, and pulls out the final field of that raw json response, which includes a total number of messages.&lt;/p&gt;
+    &lt;h4&gt;&lt;a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/meetbot-fedmsg-activity.py"&gt;meetbot-fedmsg-activity&lt;/a&gt;&lt;/h4&gt;
+    &lt;p&gt;A jinja2 template that creates links to meetbot activities for each subproject. This is an "artisinal" solution we're using to aggregate datagrepper information prior to the completion of hubs. The challenge is to *not* engineer something, but write as light-weight of a tool as possible to give us raw data. There is also a cronjob running locally on threebean infrastructure to send me a daily reminder to compile the stats from the information gathered by this template.&lt;/p&gt;
+    &lt;h4&gt;&lt;a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/daily-briefing.py"&gt;daily-briefing&lt;/a&gt;&lt;/h4&gt;
+    &lt;p&gt;A descendant of meetbot-fedmsg-activity, this jinja2 template takes lists of URLs, if they are not empty, and generates a "daily briefing" with things like action items and links generated by meetings and captured by &lt;a target="_blank" href="https://github.com/fedora-infra/supybot-fedora"&gt;zodbot&lt;/a&gt;. Ideally, these lists will be compiled by using BeautifulSoup in the near future, so that every day, the briefing can be shipped without human interaction (and perhaps tweeted by fedobot, but that is another project for another time.)&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Long-tail&lt;/h3&gt;
+&lt;p&gt;This particular tool and its purposes was covered at length already in a previous post: &lt;a target="_blank" href="http://decausemaker.org/posts/grokkingfedmsg.html"&gt;http://decausemaker.org/posts/grokkingfedmsg.html&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;h2&gt;Why a toolbox?&lt;/h2&gt;
+&lt;p&gt;Well, I wanted to include a bit of this in my last post, but for now, here is the gist: The position of Fedora Community Lead has not existed before I had the privilege of filling the slot. There are *many* duties and responsibilities, defined by many stakeholders, and right now, I'm a one-man army looking to deliver on each of them. "Linus does not scale" and neither does decause. I'm working on making each of my contributions "autonomous" so that they do not block on a single person, and can invest the labor needed to deliver on these metrics &lt;strong&gt;once&lt;/strong&gt;, and the deploy/redeploy multiple times as needed. It has been somewhat slow going, but it is my hope that each of these tools can help each problem space or bucket within the CommOps ecosystem of initiatives (see: &lt;a target="_blank" href="http://decausemaker.org/posts/proposal-commops-for-fedora.html"&gt;http://decausemaker.org/posts/proposal-commops-for-fedora.html&lt;/a&gt; for the full proposal, and/or contribute your thoughts on the wiki here, &lt;a target="_blank" href="https://fedoraproject.org/wiki/CommOps"&gt;https://fedoraproject.org/wiki/CommOps)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Halp!&lt;/h2&gt;
+&lt;p&gt;Metrics is where we've started. It has been a small core of folks working, but the &lt;strong&gt;&lt;em&gt;spirit&lt;/em&gt;&lt;/strong&gt; of the Community Operations team should start to become more clear as these types of tools get built. I'm still learning my way around this &lt;strong&gt;massive&lt;/strong&gt; community of FOSS hackers that is Fedora. I still don't know where all of the corners are, or who all the people that make each of those legs gallop with the whole are, but I sure want to. Someday (150ish days from now) there will be &lt;a target="_blank" href="http://github.com/ralphbean/fedora-hubs/prototype"&gt;FedoraHubs&lt;/a&gt;, which is really the ultimate manifestation and incarnation of Community from the amazingly-sleek-and-powerful real-time infrastructure that is powered by the fedmsg ecosystem, but until then, things are going to have to be a bit more manual until we can get there. If you'd like to help tell the story of your particular corner of Fedora, or would like to help provide the &lt;em&gt;"10,000 foot view"&lt;/em&gt; on the project's contributor base, then by all means please reach out in IRC (#fedora-apps on freenode) and let me know. I'm here to help, but I sure could use some too :)&lt;/p&gt;</description><guid>https://decau.se/blog/commops-toolbox/</guid><pubDate>Thu, 25 Jun 2015 19:50:08 GMT</pubDate></item><item><title>RowRowRowTheBoat</title><link>https://decau.se/blog/rowrowrowtheboat/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;Hi There! It has been a busy couple of weeks! Thankfully I'm done travelling for a little while (and hopefully done with RedEye flights forever too... /me is getting too old for that bizz)&lt;/p&gt;
+
+&lt;h2&gt;RelEngFAD&lt;/h2&gt;
+&lt;p&gt;The Fedora Release Engineering FAD (RelEngFAD) gathered 15+ contributors from across a number of projects and teams to discuss the future of "shipping bits to users." As I am still new to this side of the project, I was able to learn more about how this ecosystem operates over those five &lt;strong&gt;days&lt;/strong&gt;, than I had osmosed over the past five &lt;strong&gt;years.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;a target="_blank" href="https://fedoraproject.org/wiki/FAD_Release_Tools_and_Infrastructure_2015"&gt;https://fedoraproject.org/wiki/FAD_Release_Tools_and_Infrastructure_2015&lt;/a&gt;
+&lt;a target="_blank" href="http://etherpad.osuosl.org/fedora-releng-060515"&gt;Etherpad Link&lt;/a&gt;
+
+&lt;p&gt;I've got a bunch of inbox and administrivia to catch up on for now, so stay tuned for more granular updates to come!&lt;/p&gt;</description><guid>https://decau.se/blog/rowrowrowtheboat/</guid><pubDate>Wed, 17 Jun 2015 17:24:29 GMT</pubDate></item><item><title>FixingSoundcloudBugs</title><link>https://decau.se/blog/fixingsoundcloudbugs/</link><dc:creator>decause</dc:creator><description>&lt;div height="20%"&gt;
+&lt;img width="20%" src="https://upload.wikimedia.org/wikipedia/fr/b/bb/SoundCloud_logo.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+After upgrading to &lt;a target="_blank" href="https://fedoraproject.org"&gt;Fedora22&lt;/a&gt; last week, I've had to sand down a few rough corners. One of them which has cropped up was that some of the tracks on &lt;a target="_blank" href="http://soundcloud.com"&gt;Soundcloud&lt;/a&gt; just would not play while I was in &lt;a target="_blank" href="https://mozilla.org/firefox"&gt;Firefox&lt;/a&gt;. I thought it was likely because user-generated content is often prone to take-downs, spurious or not, and just kinda shrugged it off. But after trying to play a few particularly popular tracks from confirmed accounts, I decided something must be amiss. I popped open the code inspector, enabled the console, and right off the bat was greeted with a clever recruiting message from Soundcloud:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+    "You like to look under the hood? Why not help us build the engine? http://soundcloud.com/jobs"
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thereafter, I would get &lt;code&gt;"Media resource could not be decoded"&lt;/code&gt; error messages followed by long strings representing the tracks.&lt;/p&gt;
+
+&lt;p&gt;
+Through some search-engine-foo, I was able to dig up this ticket: &lt;a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=964032"&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=964032&lt;/a&gt;.
+In it, it is explained that there was likely an issue with codecs not being
+installed, with Ubuntu specific instructions. After originally enabling the RPM
+Fusion repos, I was able to search for and install
+&lt;code&gt;gstreamer1-libav&lt;/code&gt; codec, restart Firefox, and play the broken tracks.
+&lt;/p&gt;</description><guid>https://decau.se/blog/fixingsoundcloudbugs/</guid><pubDate>Tue, 02 Jun 2015 16:42:06 GMT</pubDate></item><item><title>FPLdoesAMAonReddit</title><link>https://decau.se/blog/fpldoesamaonreddit/</link><dc:creator>decause</dc:creator><description>&lt;img src="https://www.redditstatic.com/icon.png"&gt;
+
+&lt;p&gt;
+Happening right now, mattdm is doing an AMA on &lt;a target="_blank" href="http://reddit.com/r/linux"&gt;reddit.com/r/linux&lt;/a&gt; which can be found here: &lt;a target="_blank" href="https://decau.se/blog/fpldoesamaonreddit/"&gt;https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;I got name dropped a couple times (this is still pretty surreal :P), and here is my response to one of the comment threads on Metrics/New Contributors: &lt;a target="_blank" href="https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/crnk7zs"&gt;https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/crnk7zs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is one of the things that we hired Remy D to work on&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hi there &lt;a href="https://decau.se/r/linux" rel="nofollow"&gt;/r/linux&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;This is a great question, and one that members of the Fedora-Infra team
+have spent the past year building tools and gathering data to answer. The &lt;a href="http://www.fedmsg.com/en/latest/" rel="nofollow"&gt;fedmsg&lt;/a&gt; project,
+along with tools like &lt;a href="https://apps.fedoraproject.org/datagrepper/" rel="nofollow"&gt;datagrepper&lt;/a&gt;, have been collecting stats on developer and
+community contributions within Fedora, and feeding those stats into &lt;a href="https://badges.fedoraproject.org/" rel="nofollow"&gt;Fedora Badges&lt;/a&gt; to
+quantify, recognize, and promote activity. Everything from git commits, wiki
+edits, IRC meetings, blog posts, package builds (and fails), conference/event
+participation, all kinds of public activity is being published in
+&lt;em&gt;real-time&lt;/em&gt; on the fedmsg bus! I even have a &lt;a href="https://apps.fedoraproject.org/packages/fedmsg-notify" rel="nofollow"&gt;GNOME Shell extension&lt;/a&gt; installed pops-up desktop
+notifications whenever messages related to my favorite hackers or packages go
+over the wire :)&lt;/p&gt;
+
+&lt;p&gt;From this fire-hose of data we can surface correlations between types of
+messages, and message patterns as they relate to specific phases of the
+release cycle (or other timelines for that matter) to make informed decisions
+of how best to prioritize and publicize action.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where do new contributors come from?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I'm pretty new to this role in Fedora, but I've been studying and
+organizing FOSS communities as a Hackademic for some time now. Here is my
+(wholly unoriginal) take on this: It starts with the task, then the people,
+then the idea. &lt;/p&gt;
+
+&lt;p&gt;This model for organizational development doesn't just play out in FOSS,
+but in all types of communities of practice. At first you show up because you
+need to accomplish something. You have an itch to scratch. In the case of a
+work-for-hire relationship, that itch may be "I need to pay my bills," but in
+FOSS it is usually, "I need a tool to do a task," paid or not.&lt;/p&gt;
+
+&lt;p&gt;You start there, maybe from scratch, or more likely by taking something
+that works and adjusting it to fit your use-case, with help from people who
+came before you. Those who helped you are likely people solving problems you
+are interested in solving, and the more you work together, the faster you can
+complete the tasks you set out to accomplish. You help them, they help you,
+and the virtuous cycle is off and running :)&lt;/p&gt;
+
+&lt;p&gt;Once you've established a working relationship with the people, you are now
+part of something larger. That larger something--whether it is a company, or a
+hackerspace, or a common goal or cause or idea--is the thing that eventually
+motivates you to stay and continue contributing.&lt;/p&gt;
+
+&lt;p&gt;New contributors come for the task, but stay for the community.&lt;/p&gt;
+
+&lt;p&gt;Our problem is there is so much more work than there is people who can do
+that work. New contributors don't emerge from the womb ready to start hacking.
+We (Fedora and FOSS-at-large) must support and cultivate an entirely new
+base.&lt;/p&gt;
+
+&lt;p&gt;I've helped a decent amount of new contributors get started through my work
+at RIT, which has mostly been about equipping them with tools in their
+toolbelt to do certain tasks. Once a new contributor feels the empowerment
+that comes from solving their own problems, they usually find their way to
+people and places where those types of  problems are getting solved, FLOSSophy
+or not.&lt;/p&gt;
+
+&lt;p&gt;From what I've seen, new contributors come not just from working with the
+best tools for the job, but from having a positive place to experiment and
+learn (and teach!) about using them.&lt;/p&gt;</description><guid>https://decau.se/blog/fpldoesamaonreddit/</guid><pubDate>Thu, 28 May 2015 19:09:54 GMT</pubDate></item><item><title>FedoraCloudWat</title><link>https://decau.se/blog/fedoracloudwat/</link><dc:creator>decause</dc:creator><description>&lt;img src="https://getfedora.org/static/images/smalllogo-color-cloud.png"&gt;
+
+&lt;p&gt;
+Someone posted to the Fedora-Join list this week with questions about Fedora
+Cloud, and cloud in general (see: &lt;a target="_blank" href="https://lists.fedoraproject.org/pipermail/fedora-join/2015-May/000333.html"&gt;https://lists.fedoraproject.org/pipermail/fedora-join/2015-May/000333.html&lt;/a&gt;).
+Mattdm, Fedora Project Lead, wrote a *fantastic* response that I think warrants
+resharing below.
+&lt;/p&gt;
+
+&lt;pre&gt;
+Your confusion is understandable, because "cloud" has become a
+marketing buzzword and is often applied to the things you've described.
+But that's not quite what we mean here.
+
+"Cloud computing" is the idea of providing the fundamental compute
+resources — cpu cycles, storage, and memory — as a service. In this
+model, rather than having these things on-site in a server room, you
+pay a metered price to a utility company. "The cloud" in this sense is
+like the grid from which we draw electric power.
+
+Instead of energy companies, the providers are Amazon (EC2), Google
+(Compute Engine), Microsoft (Azure), Digital Ocean, and others. And
+this isn't science fiction — if you have a startup (especially one
+where you want to try new things and may need to scale up (_and down_!)
+quickly, this is how things are done now. And, it's appealing to large
+companies as well, where an on-premises cloud based on something like
+(open source!) OpenStack lets your IT department become an in-house
+utility provider to your developers.
+
+So: Fedora Cloud is simply an instance of Fedora optimized to run in
+this environment. If you go to https://getfedora.org/en/cloud/download/
+and click on one of the Amazon EC2 images at the bottom of the page,
+you can launch a new remote Fedora system in minutes. And, you can use
+this as a sort of self-service hosting provider, if you like, but the
+important thing is that you can actually also access all control of the
+machine via an API, which means you can build systems that
+automatically scale up (and again, down) as needed.
+
+But, at this point, Fedora Cloud is just that basic building block, and
+doesn't actually provide any cloud-based _services_. For that, one
+approach is to use popular container technology Docker on top of Fedora
+Cloud — read more in this recent Fedora Magazine article:
+&lt;http:&gt;&lt;/http:&gt;
+and take a look at &lt;https:&gt;
+for practical examples, which includes among other things OwnCloud (a
+remote storage solution) and Wordpress (the blogging software, of
+course).
+
+
+-- 
+Matthew Miller
+&lt;mattdm&gt;
+Fedora Project Leader
+&lt;/mattdm&gt;&lt;/https:&gt;&lt;/pre&gt;</description><guid>https://decau.se/blog/fedoracloudwat/</guid><pubDate>Thu, 28 May 2015 13:46:27 GMT</pubDate></item><item><title>UNICEF Innovation Centre and Fund Launch</title><link>https://decau.se/blog/unicef-innovation-centre-and-fund-launch/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;The raw-but-full transcript from my recent visit to the United Nations for
+the Launch of the UN Innovation Centre &amp;amp; Fund can be found in my &lt;a target="_blank" href="http://github.com/decause/raw"&gt;decause/raw&lt;/a&gt; repo
+on GitHub, but here are a few choice quotes, and a rough word_cloud mask.&lt;/p&gt;
+
+
+&lt;blockquote&gt;When I first started 16 years ago, I asked one of my colleagues,
+how does it work? Innovate, Demonstrate, replicate, advocate. I've followed
+that ever since. You can't do it just once, you gotta do it all the
+time.&lt;br&gt;David Morely, President &amp;amp; CEO, UNICEF Canada&lt;/blockquote&gt; 
+
+&lt;blockquote&gt;"If you give voice to the common people, they will share their
+ideas generally. Much more knowledge exists in Open Source... Children are
+not a sink of resources, but a source of innovation.&lt;br&gt;~Prof. Anil Gupta,
+Founder of Honeybee Network&lt;/blockquote&gt;
+
+&lt;blockquote&gt;There is a saying that You can count the seeds in an apple, but you
+cannot count the apples in a seed. We're hoping to build tens of millions of
+apples in the future.&lt;br&gt;~Ambassador HAHN Choong-hee, Deputy Permanent
+Representative of the Republic of Korea to the UN in New York.&lt;/blockquote&gt;
+
+
+&lt;img width="100%" src="https://decau.se/blog/unicef-wordcloud-circle-blue.png"&gt;</description><guid>https://decau.se/blog/unicef-innovation-centre-and-fund-launch/</guid><pubDate>Sun, 10 May 2015 09:37:26 GMT</pubDate></item><item><title>More Harm than Good svpino</title><link>https://decau.se/blog/more-harm-than-good-svpino%20/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;
+This blogpost has been making the rounds on the Social Medias as of late:
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a target="_blank" href="https://blog.svpino.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour"&gt;https://blog.svpino.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+I'm sure many of my hacker peeps read this article and thought to themselves
+"YASSS! This guy is so totally right!!1! Why n00bs gotta n00b! RTFM, Br0!"
+&lt;/p&gt;
+
+&lt;p&gt;
+This stuff is &lt;strong&gt;toxic&lt;/strong&gt;, will not help onboard new devs, or
+improve the habits of careless devs. I feel your pain, but this isn't going to
+actually solve your problem, but conflate it by creating a hostile environment.
+This is a classic case of &lt;strong&gt;#doingitwrong&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+I understand that the author is frustrated with sub-par candidates applying for
+positions they are not qualified for, but this kind of: "You are not allowed to
+even identify as a ________ until you meet my list of arbitrary requirements"
+is dangerous.
+&lt;/p&gt;
+
+&lt;p&gt;
+Yes, it would be nice if everyone applying to your open position could solve
+these problems, but that group of people you are bemoaning here, those who are
+irreverently spamming their resumes everywhere, are not going to care about
+this post, or what you think qualifies them. They are just playing the
+job-lottery...
+&lt;/p&gt;
+
+&lt;p&gt;
+You know who &lt;strong&gt;will&lt;/strong&gt; care and take it very seriously? All the
+aspiring programmers and software engineers, who you just told were not good
+enough to even &lt;em&gt;call themselves&lt;/em&gt; or even &lt;em&gt;think of themselves&lt;/em&gt; as
+a programmer... Why would you want to work with people who don't think you are
+good enough or worth it?
+&lt;/p&gt;
+
+&lt;p&gt;
+You can say someone is not qualified for a position, but &lt;em&gt;please&lt;/em&gt; don't
+try to tell someone who they are, or how they should think about themselves.
+Everyone has to start somewhere. Programmers do not emerge fully-formed from
+the womb--they learn from others, and from failure.
+&lt;/p&gt;</description><guid>https://decau.se/blog/more-harm-than-good-svpino%20/</guid><pubDate>Sat, 09 May 2015 21:27:22 GMT</pubDate></item><item><title>That Rugged Raw</title><link>https://decau.se/blog/that-rugged-raw/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;
+It has been a more-busy-than-usual week on campus, and I've had a pretty packed conference schedule. I've been much too far behind on New Year's Resolution:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+Ship Copy.
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+So, in it's most-purest most-rawest most-honest form, you can find a number of raw transcripts in the new  repo: &lt;a target="_blank" href="http://github.com/decause/raw"&gt;&lt;strong&gt;decause/raw&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+So, What does &lt;em&gt;that&lt;/em&gt; look like?
+&lt;/p&gt;
+
+&lt;pre&gt;
+.
+├── libreplanet
+│   └── 2015
+│       ├── closingkeynote-libreplanet-karensandler.txt
+│       ├── debnicholson-friday.txt
+│       ├── freesoftwareawards.txt
+│       └── highpriorityprojs-libreplanet-friday.txt
+├── pycon
+│   └── 2015
+│       ├── ninapresofeedback.txt
+│       ├── pycon-day2-keynotes.txt
+│       ├── pyconedusummit2015.txt
+│       └── scherer-pycon-ansible-day2.txt
+└── RIT
+    └── 2015
+        ├── biella-astra-raw.txt
+        ├── biella-molly-guest-lecture.txt
+        └── molly-sauter-where-is-the-digital-street.txt
+
+6 directories, 13 files
+
+$ wc -w libreplanet/2015/*.txt
+ 2287 libreplanet/2015/closingkeynote-libreplanet-karensandler.txt
+  139 libreplanet/2015/debnicholson-friday.txt
+  586 libreplanet/2015/freesoftwareawards.txt
+ 2297 libreplanet/2015/highpriorityprojs-libreplanet-friday.txt
+5309 total
+
+$ wc -w pycon/2015/*.txt
+  106 pycon/2015/ninapresofeedback.txt
+ 2233 pycon/2015/pycon-day2-keynotes.txt
+ 1844 pycon/2015/pyconedusummit2015.txt
+   63 pycon/2015/scherer-pycon-ansible-day2.txt
+4246 total
+
+$ wc -w RIT/2015/*.txt
+ 4521 RIT/2015/biella-astra-raw.txt
+ 2489 RIT/2015/biella-molly-guest-lecture.txt
+ 1964 RIT/2015/molly-sauter-where-is-the-digital-street.txt
+8974 total
+
+&lt;strong&gt;18529 total total&lt;/strong&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;18,529 words, or, just over 41 pages total of raw text.&lt;/p&gt;
+
+&lt;p&gt;There is a flaw in my workflow. Though there is some utility in a raw transcript, really it is mostly when delivered in real-time. After the fact, there is much post-production work to be done, like spell checking. Even after, if there is a video, then the transcript is partial, and incomplete. This is bothersome to many potential downstream consumers of raw text. So where does that leave us?&lt;/p&gt;
+
+&lt;h2&gt;Word Clouds&lt;/h2&gt;
+
+&lt;img width="100%" src="https://decau.se/blog/biellamollyastragrey.png"&gt;
+
+&lt;img width="100%" src="https://decau.se/blog/pycon_grey.png"&gt;
+
+&lt;p&gt;I've played with &lt;code&gt;word_cloud&lt;/code&gt; before within my &lt;a target="_blank" href="http://github.com/decause/presinaug"&gt;decause/presignaug&lt;/a&gt; for building
+presidential inauguration visualizations last year. Since then, word_cloud has
+gotten &lt;strong&gt;much&lt;/strong&gt; more sophisticated--now using scikitlearn, and numpy, and providing the ability to fit word clouds within images!&lt;/p&gt;
+
+&lt;h3&gt;List of Issues/Fixes&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;you'll need to &lt;code&gt;pip install cython&lt;/code&gt; first&lt;/li&gt;
+    &lt;li&gt;&lt;strike&gt;You'll need to &lt;code&gt;sudo yum install freetype-devel&lt;/code&gt; (probably not necessary, since this is alleviated by pointing at a diff &lt;code&gt;.ttf&lt;/code&gt; typeface...)&lt;/strike&gt;&lt;/li&gt;
+    &lt;li&gt;you'll have to edit your &lt;code&gt;FONT_PATH&lt;/code&gt; within word_cloud.py&lt;/li&gt;
+    &lt;li&gt;image masks *must* be saved as greyscale, not rgb images (this was a biggie, and I wouldn't have figured it out if &lt;code&gt;GIMP&lt;/code&gt; didn't display the color encoding in the file statusbar when you opened things :) )&lt;/li&gt;
+&lt;/ul&gt;
+
+I went ahead and uploaded the changes I made to my fork on GitHub: &lt;a target="_blank" href="http://github.com/decause/word_cloud"&gt;http://github.com/decause/word_cloud&lt;/a&gt; if you'd like to see them. The important files are &lt;code&gt;pycon.py&lt;/code&gt; and &lt;code&gt;pycon-greys.py&lt;/code&gt;.</description><guid>https://decau.se/blog/that-rugged-raw/</guid><pubDate>Sat, 25 Apr 2015 04:23:46 GMT</pubDate></item><item><title>Hackademics on Campus</title><link>https://decau.se/blog/hackademics-on-campus/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;I'd love to give a proper reckoning of the past 48 hours, but it would take a not-so-insignificant feat of editing... 
+
+&lt;/p&gt;&lt;pre&gt;
+[decause@chapeauxrouge story []]$ wc -w biella-*
+ 4521 biella-astra-raw.txt
+ 2486 biella-molly-guest-lecture.txt
+ 7007 total
+&lt;/pre&gt;
+
+7007 words total</description><guid>https://decau.se/blog/hackademics-on-campus/</guid><pubDate>Wed, 22 Apr 2015 20:38:48 GMT</pubDate></item><item><title>Enter the Soylent</title><link>https://decau.se/blog/enter-the-soylent/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;
+Thank you everyone for your input and advice on my previous post about Soylent.
+Folks seem pretty divided on this particular lifehack, and now I have a much
+better idea of why, and what the shortcomings of Soylent's current formula are. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Though there is much to be desired in the 1.4 version of Soylent, it is better
+than the 1.0 version of Drive-Thru nutrition that I've been apt to subsist upon
+as of late. 
+&lt;/p&gt;
+
+&lt;p&gt;
+I've only got enough for a couple of days, but that should be enough to know
+whether or not I can stomach it. So far, I've lucked out and I don't hate the
+taste, though I did wait until I was *rilly* hungry before "eating" to trick my
+body into enjoying it more ;)
+&lt;/p&gt;
+
+&lt;p&gt;
+Meal #1 was a success, and I'm bringing Meal #2 with me today to campus.
+&lt;/p&gt;
+
+&lt;a target="_blank" href="http://soylent.me"&gt;http://soylent.me&lt;/a&gt;</description><guid>https://decau.se/blog/enter-the-soylent/</guid><pubDate>Wed, 22 Apr 2015 15:58:44 GMT</pubDate></item><item><title>SalutPyCon</title><link>https://decau.se/blog/salutpycon/</link><dc:creator>decause</dc:creator><description>&lt;a target="_blank" href="http://us.pycon.org/2015"&gt;http://us.pycon.org/2015&lt;/a&gt;</description><guid>https://decau.se/blog/salutpycon/</guid><pubDate>Sat, 11 Apr 2015 13:02:36 GMT</pubDate></item><item><title>NewContributorWat</title><link>https://decau.se/blog/newcontributorwat/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;One of my students tagged me in an issue on GitHub about helping new contributors during the National Day of Civic Hacking. After spending some time writing the comment, I decided to repost it here :)&lt;/p&gt;
+
+&lt;p&gt;Orig thread here: &lt;a target="_blank" href="https://github.com/18F/18f.gsa.gov/issues/668#issuecomment-90155612"&gt;https://github.com/18F/18f.gsa.gov/issues/668&lt;/a&gt; reply here: &lt;a target="_blank" href="https://github.com/18F/18f.gsa.gov/issues/668#issuecomment-90155612"&gt;https://github.com/18F/18f.gsa.gov/issues/668#issuecomment-90155612&lt;/a&gt;
+
+&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;
+In the past, many local event organizers have had agencies reach out to them directly and offer to partner on specific projects and initiatives (our local events in Rochester have featured challenges and speakers from the EPA, for example.) I would recommend reaching out to the national organizers, and seeing if you can get a list of cities/events that are not already partnered with a federal agency, or see if they will put your projects out on blast during the next organizer's call.
+&lt;/p&gt;
+
+&lt;p&gt;
+Either way, the most important thing for getting new contributions, IMHO, is to be sure you have *clear* action items, that are surmountable in the time of the event, with *dedicated* upstream mentors ready to synchronously provide feedback. That sounded kinda buzzword-y, so:
+&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Clear action item(s) (FIX #1337: CSS Bug on http://github.com/18f/18f.gsa.gov/issues/668)&lt;/li&gt;
+    &lt;li&gt;Clear documentation (README with instructions for getting stack up and running, styleguides, etc...)&lt;/li&gt;
+    &lt;li&gt;Person in IRC/Chat actively answering questions from contributors, and ideally hacking with them.&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;p&gt; SecondMuse historically does a great job vetting the "problems" that
+agencies come up with, so working with them will likely help with that first
+bullet point. &lt;/p&gt;
+
+ &lt;p&gt; There is *nothing* worse than spending an entire hackathon trying to get
+"to the starting blocks" and failing to get a stack just up and running. It is
+demoralizing, and makes new contributors very discouraged. Be sure that
+whatever contributions you are looking to garner have stacks that can be
+trivially installed on Linux/Mac/Windows. (i.e. - shipping a
+&lt;code&gt;requirements.txt&lt;/code&gt; or &lt;code&gt;setup.py&lt;/code&gt; with your python
+project, or even better, distributing to http://pypi.python.org for easy
+installation.) &lt;/p&gt;
+
+ &lt;p&gt; Having that mentor available to kick down blockers and vgrep tracebacks is
+the difference between a new contributor spending 3 hours hunting down an
+error, or a mentor providing that
+'obvious-to-them-seen-it-a-million-times-one-liner-fix' in 3 minutes. If you
+can get mentor that can commit to the *entire* event, that is a super amazing
+morale boost for new contributors. There is a certain magic in looking in
+channel or around room and seeing upstream hacking right alongside you in the
+trenches deep into the wee hours of the morning. &lt;/p&gt;
+&lt;/blockquote&gt;</description><guid>https://decau.se/blog/newcontributorwat/</guid><pubDate>Mon, 06 Apr 2015 16:55:31 GMT</pubDate></item><item><title>HelloWorldClock</title><link>https://decau.se/blog/helloworldclock/</link><dc:creator>decause</dc:creator><description>&lt;h2&gt;Displaying Clocks of the World&lt;/h2&gt;
+&lt;p&gt;My default calendar is now in UTC, but my brain does not think in UTC. To help with this, I've installed the wonderfully useful &lt;a target="_blank" href="https://extensions.gnome.org/extension/697/panel-world-clock/"&gt;Panel World Clock&lt;/a&gt; GNOME Shell Extension.&lt;/p&gt;
+
+&lt;img width="100%" src="https://decau.se/blog/helloworldclock/worldclockpanel.png"&gt;</description><guid>https://decau.se/blog/helloworldclock/</guid><pubDate>Mon, 06 Apr 2015 16:03:23 GMT</pubDate></item><item><title>newfangledjstoolschains: Part I</title><link>https://decau.se/blog/newfangledjstoolschains/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;I stumbled upon semantic-ui whilst surfing, and immediately became
+intrigued. It made sense, and it looked great! I had to try it for my new
+static blog!&lt;/p&gt;
+
+&lt;p&gt;Sure, I could just generate the source for the widgets and css I wanted from
+their docs, and hand-copied it into my various &lt;code&gt;static&lt;/code&gt; folders, but
+instead, I wanted to attempt to employ the power of build. It has been a long
+while, but I'm slowly remembering how to wield themtharnewfangledjstoolschains,
+aka Gulp, and bower, and npm.&lt;/p&gt;
+
+&lt;p&gt;Gulp and bower in particular are quite useful. Bower is like &lt;code&gt;pip
+install&lt;/code&gt; for javascript-y libraries. But before using bower, we gotta
+install node. If there is one thing that I know I love, it is installing random
+javascript code from the internet onto my machine globally. Everytime I see
+things like this in a README file, I get very very sad:
+&lt;/p&gt;
+
+&lt;code&gt;$ sudo npm install -g totally_legit_js_library&lt;/code&gt;
+&lt;br&gt;
+&lt;code&gt;$ sudo pip install totally_legit_python_library&lt;/code&gt;
+
+&lt;p&gt;
+Please, don't sudo install the things, and certainly not globally, without
+taking a moment to think if that is desirable or necessary. Don't get me wrong,
+I sure don't grok all the way to the bottom of every stack I deploy, but this
+is &lt;em&gt;exactly&lt;/em&gt; why I try not to give any-ole stack the ability to run as
+root.
+&lt;/p&gt;
+
+&lt;p&gt;
+On top of that, I've been taught you should *almost* always use a virtualenv,
+or other safe and somewhat isolated micro-universe far away from your system
+packages.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are a number of solutions, but my favorite one thusfar has been
+installing into a python virtualenv! One time at a hackathon, I blindly trusted
+a teamate who encouraged me to just &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;./&lt;/code&gt; some
+shell script off of a website somewhere to get &lt;code&gt;nvm&lt;/code&gt; set up, which I
+begrudgingly did, but have since discontinued the practice of. Here is what
+I've been doing instead:
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a target="_blank" href="https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/"&gt;https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+Yes, it takes longer, but there is something so satisfying about building from
+source. I found that after I got node installed, I could &lt;code&gt;npm install -g
+all-the-things&lt;/code&gt; that I needed, and those would be conveniently located within
+a python virtualenv that I'd likely be using to server up the static content
+anways.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a target="_blank" href="http://bower.io"&gt;bower.io&lt;/a&gt;
+&lt;br&gt;
+&lt;a target="_blank" href="http://gulpjs.com"&gt;gulpjs.com&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;So far, so good! I've got a working js toolchain, with my desired deps
+installed! You can find the initial commits here: &lt;a target="_blank" href="https://github.com/decause/cardsite"&gt;https://github.com/decause/cardsite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Part II Goals&lt;/h2&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;&lt;strike&gt;Get node and npm install on my local machine without requiring root&lt;/strike&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strike&gt;Get a working &lt;code&gt;bower.json&lt;/code&gt; package to install the things &lt;/strike&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strike&gt;Get a working &lt;code&gt;gulpfile.js&lt;/code&gt; package to move the installed things&lt;/strike&gt;&lt;/li&gt;
+    &lt;li&gt;Get a working &lt;code&gt;nikola deploy&lt;/code&gt; workflow to run the gulpfile in addition to building the site!&lt;/li&gt;
+    &lt;li&gt;Incorporate semantic-ui cards into &lt;code&gt;fedmsg&lt;/code&gt; feed, and possibly other aspects of site.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Stay tuned for Part II!&lt;/p&gt;</description><guid>https://decau.se/blog/newfangledjstoolschains/</guid><pubDate>Sun, 05 Apr 2015 08:20:38 GMT</pubDate></item><item><title>HelloWorld</title><link>https://decau.se/blog/helloworld/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;Welcome to the world of static blogs! I've been neckdeep in a seemingly stable and wonderful project called &lt;a target="_blank" href="http://getnikola.com"&gt;nikola&lt;/a&gt;, that allows for some pretty fantastic python static site generation.&lt;/p&gt;
+
+&lt;p&gt;I've been using &lt;a target="_blank" href="http://flask.pocoo.org"&gt;flask&lt;/a&gt; for all my "deploying a quick webapp to openshift" needs, which has worked out splendidly, but after experimenting with &lt;a target="_blank" href="http://thisweekinfedora.org"&gt;http://thisweekinfedora.org&lt;/a&gt; I felt like I had to dive in head first and see what all the hubub was about.&lt;/p&gt;
+
+&lt;p&gt;Some 4-ish hours later, here we are!&lt;/p&gt;
+
+&lt;p&gt;Some caveats:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;The amazing themes listed at &lt;a target="_blank" href="http://bootswatch.com"&gt;bootswatch.com&lt;/a&gt; are unvailable to me...
+    &lt;script src="https://gist.github.com/decause/8a1e31728f7ac3e81b9c.js"&gt;&lt;/script&gt;
+    &lt;/li&gt;
+    &lt;li&gt;I don't even know what I don't know I'm doing wrong yet ;)&lt;/li&gt;
+    &lt;li&gt;I'm &lt;code&gt;git push -f openshift master&lt;/code&gt; to a fresh php5.4 cartridge&lt;/li&gt;
+    &lt;li&gt;Scratch that, I'm no longer force-pushing to production! (but I'm not sure why &lt;code&gt;nikola deploy rsync --delete&lt;/code&gt; started allofasudden blowing away .git/ after I had been deploying in such a way for hours this evening...)&lt;/li&gt;
+    &lt;li&gt;I've added my Opensource.com articles to my blog via the &lt;code&gt;feed_import&lt;/code&gt; plugin!!!
+    &lt;/li&gt;&lt;li&gt;I've added my decause.github.io articles to my blog via &lt;code&gt;hand copying&lt;/code&gt; the source! Def not as exciting, but still cool.
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;BUT!&lt;/p&gt;
+&lt;p&gt;I'm &lt;strong&gt;SUPER&lt;/strong&gt; excited to play around more with programmatically generating static content with the power of python.&lt;/p&gt;
+&lt;p&gt;Shout-out &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="http://threebean.org"&gt;threebean&lt;/a&gt;, and &lt;a target="_blank" href="http://rsb.io"&gt;ryansb&lt;/a&gt; for their wizardry and patience.&lt;/p&gt;</description><guid>https://decau.se/blog/helloworld/</guid><pubDate>Wed, 01 Apr 2015 04:21:00 GMT</pubDate></item><item><title>grokkingfedmsg</title><link>https://decau.se/blog/grokkingfedmsg/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;This is a raw dump of brainstormery had during a hacksession with &lt;a target="_blank" href="http://threebean.org"&gt;Threebean&lt;/a&gt;.
+
+&lt;/p&gt;&lt;h2&gt;Deps&lt;/h2&gt;
+&lt;code&gt;$ sudo yum install python-fedmsg-meta-fedora-infrastructure&lt;/code&gt;
+&lt;code&gt;$ hub clone ralphbean/fedora-stats-tools&lt;/code&gt;
+
+
+&lt;h2&gt;The Longtail Metric&lt;/h2&gt;
+&lt;p&gt;Though this was only about 90 minutes of cycling, it is the part that is
+burned most into my brain. This metric is all about Helping identify how "flat"
+the message distributions are, to avoid uneven burnout mode... aka, take the
+agent that is generating the most messages within a time frame (the "Head"),
+and the agent generating the least number of messages in that timeframe(the
+"Tail"), and come up with a line drawn between them. The more "flat" that line
+is, the more even the number of generated messages is amongst all contributors.
+Still unclear? Me too ;) Here's some python instead:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;Logtail.analyze at &lt;a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/longtail-gather.py"&gt;longtail-gather.py&lt;/a&gt;&lt;/h1&gt;
+&lt;code&gt;
+&lt;pre&gt;
+    import collections
+    import json
+    import pprint
+    import time
+
+    import requests
+
+    import fedmsg.config
+    import fedmsg.meta
+
+    config = fedmsg.config.load_config()
+    fedmsg.meta.make_processors(**config)
+
+    start = time.time()
+    one_day = 1 * 24 * 60 * 60
+    whole_range = one_day
+    N = 50
+
+
+    def get_page(page, end, delta):
+        url = 'https://apps.fedoraproject.org/datagrepper/raw'
+        response = requests.get(url, params=dict(
+            delta=delta,
+            page=page,
+            end=end,
+            rows_per_page=100,
+        ))
+        data = response.json()
+        return data
+
+
+    results = {}
+    now = time.time()
+
+    for iteration, end in enumerate(range(*map(int, (now - whole_range, now, whole_range / N)))):
+        results[end] = collections.defaultdict(int)
+        data = get_page(1, end, whole_range)
+        pages = data['pages']
+
+        for page in range(1, pages + 1):
+            print "* (", iteration, ") getting page", page, "of", data['pages'], "with end", end, "and delta", whole_range
+            data = get_page(page, end, whole_range)
+            messages = data['raw_messages']
+
+            for message in messages:
+                users = fedmsg.meta.msg2usernames(message, **config)
+                for user in users:
+                    results[end][user] += 1
+
+        #pprint.pprint(dict(results))
+
+    with open('foo.json', 'w') as f:
+        f.write(json.dumps(results))
+&lt;/pre&gt;&lt;/code&gt;
+
+
+&lt;h1&gt;Logtail.analyze at &lt;a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/longtail-analyze.py"&gt;longtail-analyze.py&lt;/a&gt;&lt;/h1&gt;
+&lt;pre&gt;
+&lt;code&gt;
+import json
+
+comparator = lambda item: item[1]
+
+with open('foo.json', 'r') as f:
+    all_data = json.loads(f.read())
+
+for timestamp, data in all_data.items():
+    for username, value in data.items():
+        all_data[timestamp][username] = float(value)
+
+timestamp_getter = lambda item: item[0]
+
+sorted_data = sorted(all_data.items(), key=timestamp_getter)
+
+results = {}
+
+for timestamp, data in sorted_data:
+    head = max(data.items(), key=comparator)
+    tail = min(data.items(), key=comparator)
+
+    x1, y1 = 0, head[1]
+    x2, y2 = len(data), tail[1]
+
+    slope = (y2 - y1) / (x2 - x1)
+    intercept = y1
+
+    metric = 0
+
+    data_tuples = sorted(data.items(), key=comparator, reverse=True)
+
+    for index, item in enumerate(data_tuples):
+        username, actual = item
+        # line formula is y = slope * x + intercept
+        ideal = slope * index + intercept
+        diff = ideal - actual
+        metric = metric + diff
+
+    print "%s, %f" % (timestamp, metric / len(data))
+    results[timestamp] = metric / len(data)
+
+
+import pygal
+chart = pygal.Line()
+chart.title = 'lol'
+chart.x_labels = [stamp for stamp, blob in sorted_data]
+chart.add('Metric', [results[stamp] for stamp, blob in sorted_data])
+chart.render_in_browser()
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;hr&gt;
+
+&lt;h1&gt;Stuff to build/consider next?&lt;/h1&gt;
+
+&lt;h2&gt;Radar Charts&lt;/h2&gt;
+
+&lt;p&gt;
+We must be concerned with normalizing the data, because koji will always have
+highest magnitude of messages. This is done by:
+
+&lt;/p&gt;&lt;ol&gt;
+    &lt;li&gt;querying all messages of a type, get the total&lt;/li&gt;
+    &lt;li&gt;querying just messages for that user, in that type&lt;/li&gt;
+    &lt;li&gt;divide usermessages/totalmessages&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+    &lt;dl&gt;
+        &lt;dt&gt;Daily +/-&lt;/dt&gt;
+        &lt;dd&gt;just the diff of topic counts&lt;/dd&gt;
+    &lt;/dl&gt;
+
+    &lt;dl&gt;
+        &lt;dt&gt;weekly +/-&lt;/dt&gt;
+        &lt;dd&gt;just the diff of topic counts&lt;/dd&gt;
+        
+    &lt;/dl&gt;
+
+
+&lt;h2&gt;Real-time?&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;barchart with bar for each message topic?&lt;/li&gt;
+    &lt;li&gt;array of "lights" that blink each time a message comes across the bus&lt;/li&gt;
+    &lt;li&gt;revisit the live-gource of fedmsg :)&lt;/li&gt;
+&lt;/ul&gt;</description><guid>https://decau.se/blog/grokkingfedmsg/</guid><pubDate>Tue, 31 Mar 2015 17:06:30 GMT</pubDate></item><item><title>interview-pamela-fox-curriculum-engineer-khan-academy</title><link>https://decau.se/blog/interview-pamela-fox-curriculum-engineer-khan-academy/</link><dc:creator>decause</dc:creator><description>&lt;h3&gt;Where are you from?&lt;/h3&gt;
+&lt;p&gt;I was born in Los Angeles, grew up in upstate New York. My dad is a computer science professor at Syracuse University. My mom is a rocket science programmer. My dad is launching a "big data" MOOC, so we're both very interested in this field.&lt;/p&gt;
+&lt;h3&gt;Where are you now?&lt;/h3&gt;
+&lt;p&gt;Now, I work for Khan Academy in Mountainview California and live in San Francisco. I went back to the west coast as soon as I could and joined Google after graduation from University of Southern California in Los Angeles. I went to Australia, then got back to bay area three years ago. I was working on Google Maps API in Developer Relations, writing articles and demos, which is basically what I do now, but for non-proprietary technology.&lt;/p&gt;
+&lt;p&gt;I first learned HTML in the 7th grade. Within a year, I made a website that taught HTML to other people called "htmlforkids" or something (even though I was a kid too.) That was probably my first "official" educational content. After that I was a computer camp counseler. In college, I organized workshops around 3D programming (started a SIGGRAPH chapter). I use Khan Academy to get better at math now.&lt;/p&gt;
+&lt;h3&gt;Why free and open source software?&lt;/h3&gt;
+&lt;p&gt;I really enjoy teaching, and I enjoy trying to figure out how to teach something. I find it fascinating when I put out new course, I read the comments and say, "Wow, I forgot what it was like not to know." I'm interested in humans, I read a lot about how humans work, and behavioral science. There is a lot of that in teaching people, is all about learning. I'm just learning.&lt;/p&gt;
+&lt;p&gt;I'm generally a fan of open source, and that is another reason why I'm at Khan Academy, where we do that. As a web developer, I shouldn't have to reinvent the wheel. Often I say, "Really... really? I gotta solve this problem? I'm the only one that has ever tried to do this?" No, it's just someone didn't share it. Many of these components should be open source. Some people may say, "Well, we don't have jobs if we don't have to rewrite it." I don't want to believe that we live that way. I have friends with open source projects, who have tried to make money on it, doing enterprise versions, and getting paid for support. I'm always interested in the different ways of monetizing code. I feel like that part is still has open questions.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;I think we should encourage sharing, kids are used to the idea of "cheating." Someone copies your code, and they say, "Hey, that's cheating" and we have to tell them, "No, it's MIT Licensed, and it is open source."&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We have to teach them that sharing is OK. We have to do a better job of teaching open source and sharing, counter to what they may see in school. I'm upset there is no representation from the coding academies here at SIGCSE. They are trying to figure out how to get people ready for programming jobs in 12 weeks. I feel like I'm here representing that industry. Half engineer, half educator. I feel like I'm representing the "meritocracy" getting a real job thing too.&lt;/p&gt;
+&lt;h3&gt;What can we do to improve computer education?&lt;/h3&gt;
+&lt;p&gt;Coding academies are formed by people who learned alternatively, or didn't do well in college, and they are figuring out how to teach based on industry, and their good and bad experiences in college. They have good things to say about career oriented computer science education. They should be here (at SIGCSE) too. Girl Develop It, Women Who Code, they are all doing similar work, and they are disconnected from this world. I'm not just trying to do women-friendly hackathons but newbie-friendly hackathons too. More women are newbies than men right now, so if you fix things for newbies—people who are intimidated, who don't think of themselves as superstars—you fix it not only for women, but for men that have that same situation. Right now, we have to say "this is for women/girls" but the lines are getting increasingly blurred, and maybe we won't have to worry someday, but for now, we have to bring stuff up to parity good stuff.&lt;/p&gt;
+&lt;p&gt;I'm quite interested in how we can prepare the next generation for the world with it's concerns about security and privacy. I like reading books like Little Brother by Cory Doctorow, which is a YA book that forces kids to think about these issues. I want to find a way to introduce the next generation to these issues and be relevant. If anyone has ideas on how to do that, I'd like to know.&lt;/p&gt;
+&lt;div class="field field-name-field-lead-image field-type-image field-label-above"&gt;&lt;div class="field-label"&gt;Lead Image: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:contenturl"&gt;&lt;img alt="Share" height="292" src="http://opensource.com/sites/default/files/images/education/EDU_share_code_520x292_ma.png" title="Share" width="520"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-rating field-type-fivestar field-label-above"&gt;&lt;div class="field-label"&gt;Rating: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;form accept-charset="UTF-8" action="http://opensource.com/user/10833/feed" class="fivestar-widget" id="fivestar-custom-widget" method="post"&gt;&lt;div&gt;&lt;div class="clearfix fivestar-average-text fivestar-average-stars fivestar-form-item fivestar-craft"&gt;&lt;div class="form-item form-type-fivestar form-item-vote"&gt;
+ &lt;div class="form-item form-type-select form-item-vote"&gt;
+ &lt;select class="form-select" id="edit-vote--2" name="vote"&gt;&lt;option value="-"&gt;Select rating&lt;/option&gt;&lt;option value="20"&gt;Give it 1/5&lt;/option&gt;&lt;option value="40"&gt;Give it 2/5&lt;/option&gt;&lt;option value="60"&gt;Give it 3/5&lt;/option&gt;&lt;option value="80"&gt;Give it 4/5&lt;/option&gt;&lt;option selected value="100"&gt;Give it 5/5&lt;/option&gt;&lt;/select&gt;
+&lt;div class="description"&gt;&lt;div class="fivestar-summary fivestar-summary-average-count"&gt; &lt;span class="total-votes"&gt;(&lt;span&gt;8&lt;/span&gt; votes)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;input class="fivestar-submit form-submit" id="edit-fivestar-submit" name="op" type="submit" value="Rate"&gt;&lt;input name="form_build_id" type="hidden" value="form-zzUZGpMV4zC0P08Mefc-HLgbFysZUV8BcKFQRkejciY"&gt;
+&lt;input name="form_id" type="hidden" value="fivestar_custom_widget"&gt;
+&lt;/div&gt;&lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Tags: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/interview"&gt;interview&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/khan-academy"&gt;Khan Academy&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/sigcse"&gt;SIGCSE&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/computer-science"&gt;computer science&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/education"&gt;education&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-add-this field-type-addthis field-label-above"&gt;&lt;div class="field-label"&gt;Add This: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;div class="addthis_toolbox addthis_default_style  "&gt;&lt;a class="addthis_button_twitter" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_reddit" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_stumbleupon" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_facebook" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_google_plusone" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-channel field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Channel: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:articlesection"&gt;&lt;a href="http://opensource.com/education"&gt;Education&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-article-type field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Article Type: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:learningresourcetype"&gt;&lt;a href="http://opensource.com/article-type/article"&gt;Article&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-default-license field-type-text field-label-above"&gt;&lt;div class="field-label"&gt;Default CC License: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"&gt;
+        &lt;img alt="Creative Commons License" src="http://opensource.com/sites/all/themes/opensource/images/cc-by-sa-4.png" style="border-width: 0;" title="This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License."&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="rdf-meta" rel="schema:url"&gt;&lt;/span&gt;&lt;span class="rdf-meta"&gt;&lt;/span&gt;</description><category>odsc</category><guid>https://decau.se/blog/interview-pamela-fox-curriculum-engineer-khan-academy/</guid><pubDate>Fri, 06 Mar 2015 19:09:54 GMT</pubDate></item><item><title>jim-whitehurst-inspiration-open-source</title><link>https://decau.se/blog/jim-whitehurst-inspiration-open-source/</link><dc:creator>decause</dc:creator><description>&lt;input class="fivestar-submit form-submit" id="edit-fivestar-submit--4" name="op" type="submit" value="Rate"&gt;&lt;input name="form_build_id" type="hidden" value="form-bVqb6F_3IYo3y-tbxZPQNJBGbjBk-Md6cBAIXqBFH7E"&gt;
+&lt;input name="form_id" type="hidden" value="fivestar_custom_widget"&gt;
+&lt;div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Tags: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/open-source-business"&gt;open source business&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/community-moderators"&gt;community moderators&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/opensourcecom"&gt;opensource.com&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/jim-whitehurst"&gt;Jim Whitehurst&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/red-hat"&gt;red hat&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/company"&gt;company&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/all-things-open"&gt;all things open&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/meeting"&gt;meeting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-add-this field-type-addthis field-label-above"&gt;&lt;div class="field-label"&gt;Add This: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;div class="addthis_toolbox addthis_default_style  "&gt;&lt;a class="addthis_button_twitter" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_reddit" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_stumbleupon" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_facebook" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_google_plusone" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-channel field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Channel: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:articlesection"&gt;&lt;a href="http://opensource.com/business"&gt;Business&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-article-type field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Article Type: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:learningresourcetype"&gt;&lt;a href="http://opensource.com/article-type/article"&gt;Article&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-default-license field-type-text field-label-above"&gt;&lt;div class="field-label"&gt;Default CC License: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"&gt;
+        &lt;img alt="Creative Commons License" src="http://opensource.com/sites/all/themes/opensource/images/cc-by-sa-4.png" style="border-width: 0;" title="This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License."&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="rdf-meta" rel="schema:url"&gt;&lt;/span&gt;&lt;span class="rdf-meta"&gt;&lt;/span&gt;</description><category>odsc</category><guid>https://decau.se/blog/jim-whitehurst-inspiration-open-source/</guid><pubDate>Tue, 09 Dec 2014 19:09:54 GMT</pubDate></item><item><title>interview-kyle-simpson-javascript</title><link>https://decau.se/blog/interview-kyle-simpson-javascript/</link><dc:creator>decause</dc:creator><description>&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden"&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;In this interview, I take a deep dive into the life and motivations of &lt;a href="http://twitter.com/getify" target="_blank"&gt;Kyle Simpson&lt;/a&gt;, an open web evangelist and the author of the book on javascript, &lt;em&gt;&lt;a href="https://www.kickstarter.com/projects/getify/you-dont-know-js-book-series" target="_blank"&gt;You Don't Know JS&lt;/a&gt;&lt;/em&gt;. Find him &lt;a href="http://GitHub.com/getify" target="_blank"&gt;on GitHub&lt;/a&gt; and see his many projects and posts on &lt;a href="http://getify.me" target="_blank"&gt;Getify.me&lt;/a&gt;.&lt;/p&gt;
+&lt;!--break--&gt;&lt;p&gt;&lt;img alt="" class="media-element file-default" height="88" src="http://opensource.com/sites/default/files/images/life/Interview%20banner%20Q%26A.png" title="" width="520"&gt;&lt;/p&gt;
+&lt;h3&gt;Where are you from?&lt;/h3&gt;
+&lt;p&gt;Oklahoma City, born and raised. Started school in Oklahoma, but now based in Austin, Texas—since mid-way through college. I live there with &lt;a href="http://twitter.com/mrsgetify" target="_blank"&gt;my wife&lt;/a&gt; and two kids. I moved to Austin because there wasn't much of a tech community in Oklahoma back in the 90s, and Austin was the nearest big tech hub. Now, I go back to Oklahoma to visit and see they have a &lt;a href="http://okcjs.com/" target="_blank"&gt;fantastic community&lt;/a&gt; there, and I'm jealous! It's great to see!&lt;/p&gt;
+&lt;h3&gt;Where did you go to school?&lt;/h3&gt;
+&lt;p&gt;I started at &lt;a href="https://www.ou.edu/" target="_blank"&gt;University of Oklahoma&lt;/a&gt;, then transferred to and graduated from &lt;a href="http://www.txstate.edu/" target="_blank"&gt;Texas State University&lt;/a&gt; with a B.S. in the engineering track of Computer Science.&lt;/p&gt;
+&lt;h3&gt;What is your day-to-day like?&lt;/h3&gt;
+&lt;p&gt;I have two different kinds of days; days where I speak/teach, and days where I do FOSS development. On teaching days, I'm connecting with community, and teaching JS to make a living—mostly in a corporate workshop environment, or public workshops associated with conferences. Those days I stand all day, and teach, and lecture, and walk people through exercises.&lt;/p&gt;
+&lt;p&gt;When not on the road doing that, I'm participating in the FOSS community—writing code, or writing blogs, or books. I spend lots of time doing that, constantly on GitHub with commits and pull-requests flying everywhere. I currently have a &lt;a href="http://GitHub.com/getify" target="_blank"&gt;300+ day streak&lt;/a&gt; going on GitHub—not to show off—but to inspire others to do more, and more regularly, with FOSS contributions. If my streak can encourage one person do one extra contribution, that's what it's all about.&lt;/p&gt;
+&lt;p&gt;The best way to describe it: 50% of my time I spend teaching to pay bills, and 50% donating time to the FOSS community, to build awareness around the web platform and its technology with the theory of "all boats rise with the tide." The more people who learn and appreciate web tech, the more people will hire me to teach it to them. I'm an avid learner of things, and the best way to learn is to teach others. I think "how can I make this make sense to others?" As soon as I learn something, I write code to explain it, find a book or post to describe it in, and if I find something I didn't understand, branch off, and learn more, then start the cycle again. It just gets deeper and deeper and deeper.&lt;/p&gt;
+&lt;p&gt;I said a while back that, "I think it is important for developers, especially those breaking into industry, find &lt;strong&gt;ONE&lt;/strong&gt; thing you love to learn, and master it." It may not be the one thing you write all the rest of your code with, but &lt;em&gt;it is the process of sticking with something to mastery that is valuable&lt;/em&gt;. Don't just jump from thing to thing to thing. While you may get a good paycheck doing that, there is something missing from the art of deeply understanding something. Once you've accomplished that, and you know what there is to know, then branching out to try things is great! Be looking while you branch for that next thing you want to master, rinse, and repeat. Constant jumping around as a "jack-of-all-trades-master-of-none" was more relevant 5-10 years ago. What is missing now is people who &lt;strong&gt;really&lt;/strong&gt; know what they are doing.&lt;/p&gt;
+&lt;p&gt;Our industry currently rewards "flexibility" and working at the whim of someone else. "Yesterday, we wrote everything in &lt;a href="http://angularjs.org" target="_blank"&gt;Angular&lt;/a&gt;, and today, we're going to rewrite everything in &lt;a href="https://facebook.github.io/react/" target="_blank"&gt;React&lt;/a&gt;..." After enough of those inflections, you "become" a senior developer, but you miss out on appreciating a technology in the way it really deserves with deep understanding.&lt;/p&gt;
+&lt;h3&gt;Mastery? How?&lt;/h3&gt;
+&lt;p&gt;Well, specific answers are variable. Angular will be much different than &lt;a href="http://nodejs.org" target="_blank"&gt;Node&lt;/a&gt;. In general, the important skill is the curiosity and desire to learn. Don't just read a line of code and say, "I guess that is just how it works..." Keep reading, and keep following the rabbit hole down until you can say you understand every part of that line of code. I tell my workshop attendees that I don't expect you'll write your own framework, but that you &lt;em&gt;could&lt;/em&gt;. Don't treat frameworks as black-boxes—you need to understand them intimately. If you choose something, know how it works but also &lt;strong&gt;WHY&lt;/strong&gt;. Knowing &lt;em&gt;when&lt;/em&gt; to change comes from understanding why—not because there is a great book, or how many "stars" the repo has. Those are poor signals. Beyond understanding of the open source community, your own understanding is the strongest signal.&lt;/p&gt;
+&lt;p&gt;You don't have to reinvent the wheel, but you should understand how the wheel rolls before you decide to bolt it onto the car you're building.&lt;/p&gt;
+&lt;h3&gt;How did you get started in FOSS?&lt;/h3&gt;
+&lt;p&gt;I was working for a company, not as a developer, but as a "User Experience (UX) Architect." I worked in project management team prototyping User Interfaces (UIs), and handing them off to the dev team. Inevitably, everything I wrote was just put into production, or adapted slightly. I was working on a project in 2008 that needed to make cross domain &lt;a href="https://en.wikipedia.org/wiki/Ajax_%28programming%29" target="_blank"&gt;Ajax&lt;/a&gt; requests, and back then it was a real pain. I needed a solution to prove out my concept for the app, and I said, "I know some Flash, and I know that it can do that." So I built a JS API wrapper around an invisible flash file, with the same API as the XMLHttpRequest (Ajax) object, and I called the project &lt;a href="https://github.com/flensed/flXHR" target="_blank"&gt;flXHR&lt;/a&gt; (flash based XHR).&lt;/p&gt;
+&lt;p&gt;Once I got it working, I thought, "Maybe other people will find it useful?" so, I released my code as open source. Back then, open source was pre-GitHub, so source was all on my website, and I pointed people at it from blog posts, etc. I also put code on &lt;a href="http://code.google.com" target="_blank"&gt;Google Code&lt;/a&gt; too, but there wasn't as much of a community back then either. In early 2009, I wanted to get into conference scene. 2009 was the first big JavaScript-specific conference, &lt;a href="http://jsconf.com/" target="_blank"&gt;JSConf&lt;/a&gt;, and so I decided to go and speak about &lt;a href="https://code.google.com/p/swfobject/" target="_blank"&gt;SWFObject&lt;/a&gt; (one of the most downloaded projects on the web at the time), which I was using heavily in flXHR. I was a core dev for SWFObject and gave a "B track" talk at the conference. Only like three people showed up to my first talk, but I fell in love with the idea that I could speak to call attention to open source code and inspire others to help make it better!&lt;/p&gt;
+&lt;p&gt;The fullness of my open source perspective came later that year, in November of 2009. I released the project I'm probably most known for: &lt;a href="http://labjs.com/" target="_blank"&gt;LABjs&lt;/a&gt; (a performance-optimized dynamic script loader). I gave &lt;a href="http://lanyrd.com/2009/jsconfeu/scchq/" target="_blank"&gt;a talk&lt;/a&gt; at &lt;a href="http://2014.jsconf.eu/" target="_blank"&gt;JSConfEU&lt;/a&gt; in Berlin Germany about script loading. Two hours before going on stage, I was overhearing lots of people talking about this new site called GitHub, so I went and signed up while I was sitting &lt;em&gt;in&lt;/em&gt; the audience. I pushed all my LABjs code there, and that was my first official: "I am in the FOSS community" moment.&lt;/p&gt;
+&lt;h3&gt;One thing you wish undergrads would be exposed to before the leave school?&lt;/h3&gt;
+&lt;p&gt;Unquestionably, "&lt;a href="http://www.infoq.com/presentations/Simple-Made-Easy" target="_blank"&gt;Simple Made Easy&lt;/a&gt;," a conference talk by &lt;a href="http://twitter.com/richhickey" target="_blank"&gt;Rich Hickey&lt;/a&gt;, who works at &lt;a href="http://www.cognitect.com/" target="_blank"&gt;Cognitect&lt;/a&gt; on the &lt;a href="http://www.datomic.com/" target="_blank"&gt;Datomic&lt;/a&gt; database as well as the &lt;a href="http://clojure.org/" target="_blank"&gt;Clojure&lt;/a&gt; language. He's a completely brilliant dude. The talk is so important to me, I don't have just have it in a bookmark, but on my &lt;em&gt;toolbar&lt;/em&gt; and reference it practically daily. The premise is, there are two terms that people conflate: "simple" and "easy." He actually compares "complex" versus "hard." The root word for complex comes from "complected," as in strands of rope being braided together. Highly braided code is complex, and harder to maintain and refactor. Software developers, when building, they focus on building "easy" software—that is easy to install and use, and does a lot for you. That pursuit often results in complex software.&lt;/p&gt;
+&lt;p&gt;If developers go after modular simple (non-complex), non-braided software, they can often end up with easy software too. If you go after easy, you usually end up with complex, but if you go after simple you can also achieve easy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://nodejs.org" target="_blank"&gt;Node.js&lt;/a&gt; is my example. I was trying to install it on a Virtual Machine, and had the operating system (OS) requirements, but couldn't install it because the OS didn't have the proper version of &lt;a href="http://python.org" target="_blank"&gt;Python&lt;/a&gt;. Node, a JavaScript framework, uses &lt;em&gt;Python&lt;/em&gt; for its installer? Why do I need Python to install Node??? The answer was because writing a cross-platform installer in Python was &lt;em&gt;easier&lt;/em&gt;... but when you add additional braiding, you can also make it more complex to implement and maintain.&lt;/p&gt;
+&lt;p&gt;Nearly every framework on the planet claims to be modular, but most are not. Modular, to me, means that a piece could be removed, and the framework would still be able to be used. "Separate files" does not a modular framework make, if all those pieces are required for the framework to work! My goal, my desire, is that developers go after simple modular design, and that be the most important ethic. What comes from that then, is proper design that can be made easy for people to use. We need to stop worrying as much about creating pretty-looking, "easy" interfaces, and instead worry a lot more about making &lt;em&gt;simple&lt;/em&gt; software.&lt;/p&gt;
+&lt;h3&gt;What is your toolchain?&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.sublimetext.com/" target="_blank"&gt;Sublime&lt;/a&gt; is my text editor. In principle, I love browser-based editing, but I run the nightly versions of my browsers, to find bugs early while I still have a chance to get them fixed. I can't handle browser crashing and uncertainty for when I'm writing code.&lt;/p&gt;
+&lt;p&gt;Sublime has so many &lt;a href="https://sublime.wbond.net/" target="_blank"&gt;plugins&lt;/a&gt; you can use for whatever you want. Though I don't use many, other people like the "intellisense" plugins, and many other plugins that are part of a great ecosystem they've built.&lt;/p&gt;
+&lt;p&gt;My other main tools are the browser developers tools in Firefox and &lt;a href="http://google.com/chrome" target="_blank"&gt;Chrome&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My other mission critical tool is the &lt;a href="http://git-scm.com/" target="_blank"&gt;Git&lt;/a&gt; command-line tool. GitHub is my graphical git client, because it effectively augments my usage of the git CLI.&lt;/p&gt;
+&lt;h3&gt;Git. How do &lt;em&gt;you&lt;/em&gt; use it?&lt;/h3&gt;
+&lt;p&gt;I don't have a lot of fancy process, it depends on whether I'm writing a book or writing code. For books, when I make a change, I want to write a coherent section, and make one commit per section. In the writing of one section, I may add to the Table of Contents, or clarify another section, or add another. Whenever I have a logical series of changes, I &lt;code&gt;git add&lt;/code&gt; each individual file, (files written in &lt;a href="https://en.wikipedia.org/wiki/Markdown" target="_blank"&gt;markdown&lt;/a&gt; BTW), and &lt;code&gt;git commit -m&lt;/code&gt;. In the commit message, I list which book the commit portrays to, which chapter(s), and a quick description of what it was about. The commit history of the book series really tells a story in and of itself, of how over months I figured out how to write them, section by section, reorganization by reorganization!&lt;/p&gt;
+&lt;p&gt;I typically use &lt;code&gt;git commit -m ".." &amp;amp;&amp;amp; git push&lt;/code&gt;, so that I push right after committing.&lt;/p&gt;
+&lt;p&gt;It is not often I do batch committing, usually only when I've been on an airplane without wifi for awhile, in which case I'll push 5-8 commits at a time once I get back online. Usually, I try to push right after I finish the section I'm working on.&lt;/p&gt;
+&lt;p&gt;For code, I have two different strategies. If it is a "big" feature, I create a feature branch, and I put several commits into the feature branch. The goal isn't to finish the feature and do a massive merge, but to &lt;em&gt;regularly merge&lt;/em&gt;. I like to develop in stable batches, merge regularly, and don't do harm to master. If I do make a bugfix on master while developing a feature, I rebase the feature branch to get that fix in. I don't necessarily do short lived branches, but I do short lived differences. :)&lt;/p&gt;
+&lt;p&gt;Many devs do squash merges, and want to appear to have "Dreamed up this perfect feature and written it perfectly all at once." I don't want that. I want to preserve the history. In rare cases with a pull-request that has lots of individual commits that are all logically connected, I'll do a squash-merge.&lt;/p&gt;
+&lt;p&gt;In cases where I have a simple bug fix to make, I'll generally just add and commit directly to master. Regardless, Every time I'm doing the final commit, I'm committing both the docs and tests. I Firmly believe that it isn't &lt;strong&gt;DONE&lt;/strong&gt; until it has docs and tests. I don't really do Test Driven Development (TDD), but Test-oriented or Test-informed development. I have a set of tests, and sometimes they are written ahead, but the typical plan is "I don't know how it should behave" when I fix something with a new feature--it will take me working through implementation to know. I develop the tests along with the code--code &lt;em&gt;and&lt;/em&gt; test--rather than writing code after tests or the other way around.&lt;/p&gt;
+&lt;p&gt;I'm much more formal when working on other peoples' projects, or as a bigger team. I try to stay away from scenarios where I need the complicated cherry-picking or interactive rebasing features of Git. I've done those things only a few times in my career. I use GitHub for most of those things, and it handles those cases pretty well. A pull-request with 2-3 commits, whatever their process was, is something that is useful to preserve in the history, so I'll usually just merge it as-is.&lt;/p&gt;
+&lt;h3&gt;What are you currently working on?&lt;/h3&gt;
+&lt;p&gt;Other than my books, I have three main areas of project interest I cycle through on any given week.&lt;/p&gt;
+&lt;p&gt;Number 1 that gets most of my interest is asynchronous ("async") programming patterns (promises and generators, that sort of thing). I have a library called &lt;a href="https://github.com/getify/asynquence" target="_blank"&gt;asynquence&lt;/a&gt;, a promises-style asynchronous library. It can also handle generators, reactive sequences, and even CSP. (see: &lt;a href="https://en.wikipedia.org/wiki/Tony_Hoare" target="_blank"&gt;Hoare's&lt;/a&gt; seminal book "Communication Sequential Processes") with these higher-level patterns layered on top of the basic "sequence" abstraction. Most other libraries have just one flavor of async programming, but I've built one that can handle all the major patterns. I think async is one of the most important things that JS devs need to get up to speed on. I've got several conference talks and projects about that topic.&lt;/p&gt;
+&lt;p&gt;We're recognizing more and more that sophisticated programs need more well-planned and capable async functionality. Callbacks alone don't really cut it anymore.&lt;/p&gt;
+&lt;p&gt;[Remy Decausemaker: Yes, I reckon this jives well with &lt;a href="https://www.python.org/" target="_blank"&gt;Python&lt;/a&gt; incorporating &lt;a href="https://en.wikipedia.org/wiki/Tulip_%28python_project%29" target="_blank"&gt;Tulip&lt;/a&gt; and features from &lt;a href="https://twistedmatrix.com/trac" target="_blank"&gt;Twisted&lt;/a&gt; into the core library&lt;a href="http://legacy.python.org/dev/peps/pep-3156/" target="_blank"&gt;starting with Python 3.3&lt;/a&gt;.]&lt;/p&gt;
+&lt;p&gt;Number 2 is in the same vein as the "compile to" languages for JS. Experimentation is important for the language. Taking that to it's extreme, I have a set of tools to define custom JS syntax and transpile to standard JS—basically, standard JS + custom syntax. I'm working on tools that do "little" transformations on your code. The bigger picture is "inversible transforms" or able to transformed in both directions, non-lossy transformations. If you can define them two-way, you can have your "view" for your own editor, and a "view" for the team repository. You check code in and out, and you can work on code the way &lt;em&gt;your&lt;/em&gt; brain works, and the team can work in the way their's does.&lt;/p&gt;
+&lt;p&gt;When you use CoffeScript for example, it is a lossy transformation, and an "all or nothing" decision. Everyone needs to work on it in this way, or not at all. The simple version of what my tools can do is simple stylistic things like spaces versus tabs. The tools can change that code style for you instead of just complaining with errors.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getify/esre" target="_blank"&gt;ESRE&lt;/a&gt; is one such tool I'm building for two-way code-style transformation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getify/let-er" target="_blank"&gt;let-er&lt;/a&gt; is another tool that transpiles a non-standard version of JS block-scoping into standard JS block-scoping. I have a series of in-progress prototypes of these various tools, and eventually I can go back and write the overall "meta" tool that drives them with the two-way transformations.&lt;/p&gt;
+&lt;p&gt;Number 3 is a crossover between JS/CSS. It is a project in the templating world. There are two extremes in templating; zero-logic templating or full programming language templating. Zero-logic templating includes projects like Mustache. We don't want business logic in the views, so we use no logic at all. But in practice, this creates very brittle controller code that's closely tied to the structure of the UI, and that brittle connection is precisely what we wanted to avoid by keeping the concerns separate.&lt;/p&gt;
+&lt;p&gt;The other extreme, is you have a full programming language in your templating. My metaphor is "if I hand you a pile of rope, I can teach you to build a rope-bridge, helpful, or a noose, which isn't quite so helpful." If you are in a "15-minute-must-do-feature crunch" you'll just drop in if-statements and function calls, and then put a TODO comment to fix it, but then you rarely do. That's how we unintentionally leak business logic into our views.&lt;/p&gt;
+&lt;p&gt;Neither extreme is good enough. We need something in the middle, that has enough logic for structural UI construction, but keeps out all the mechanisms that you can &lt;em&gt;abuse&lt;/em&gt; to do business logic.&lt;/p&gt;
+&lt;p&gt;For 4-5 years, I've experimented with a templating engine that is a happy medium, called &lt;a href="https://getify.github.io/grips/" target="_blank"&gt;grips&lt;/a&gt;. It has enough structural logic, but is restrained so that you can't do things like function calls, math, etc. It's mature enough that I use it in my projects and have rolled-out production websites with it. It is definitely a work-in-progress, but it is "stable enough" to be used. People still to bikeshed about the syntax for sure and may not like the choices I made. But I think I at least asked the right questions, like: What does a templating engine need or not need? I started with nothing and only added features when it was necessary to do structural stuff. You have basic looping and conditionals, but in limited fashion. I summarize that balance as, "if you find yourself unable to do something, it should be a signal that you don't need it in your templating engine."&lt;/p&gt;
+&lt;p&gt;Two years ago, I started watching the rise of &lt;a href="http://lesscss.org/" target="_blank"&gt;LESS&lt;/a&gt;, &lt;a href="http://sass-lang.com/" target="_blank"&gt;SASS&lt;/a&gt;, and other tools like &lt;a href="http://compass-style.org/" target="_blank"&gt;COMPASS&lt;/a&gt;. What struck me was how limited they were in solving the problems I thought were important in &lt;a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"&gt;CSS&lt;/a&gt; world. Those tools require the CSS to be recompiled every time you make a change. "Compile a HTML template, re-render with external data" is a solved problem. For some bizarre reason, it didn't occur with CSS though.&lt;/p&gt;
+&lt;p&gt;So, I invented &lt;a href="https://github.com/getify/grips/tree/master/css#grips-css" target="_blank"&gt;grips-css&lt;/a&gt;, a CSS templating syntax similar to LESS, on top of the core grips templating engine. Most importantly with grips-css: data is external (i.e. CSS variables), which means all the data operations that projects like SASS are inventing declaritive syntax &lt;em&gt;inside&lt;/em&gt; of CSS to handle, instead you can and should do those data operations outside of CSS, producing new data and then just re-rendering the template.&lt;/p&gt;
+&lt;p&gt;If I wanted to change "blue" to "red," I don't need to recompile all my CSS, I can take my pre-compiled CSS, and just re-render it with the different variable data.&lt;/p&gt;
+&lt;p&gt;The compiled CSS template is basic JS, which means you have the option of re-rendering CSS dynamically in the browser on the fly, for example responding to changing conditions with CSS. It's much cleaner to simply re-render a snippet of CSS and inject it into the page than to use brittle JS code to change CSS style properties. Of course, you can also run grips-css on the server much like you currently do with current preprocesors. The point is you have both options with grips-css, instead of being limited to server-only and inefficient total recompilation. What I'm trying to do is suggest that the spirit of what SASS and the others are going for is &lt;strong&gt;good&lt;/strong&gt;, but the &lt;em&gt;way&lt;/em&gt; they are going about it is limited and not terribly healthy for the future of CSS.&lt;/p&gt;
+&lt;p&gt;CSS templating is, I think, a much cleaner and more robust way to push CSS tooling capability forward.&lt;/p&gt;
+&lt;h3&gt;You mentioned important problems to solve in CSS? What are they as far as you are concerned?&lt;/h3&gt;
+&lt;p&gt;Three main things were solved in LESS. &lt;em&gt;Variable data&lt;/em&gt;, that can be changed and reused, structural things like mixins to achieve &lt;a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank"&gt;DRY&lt;/a&gt; coding. And, &lt;em&gt;extends&lt;/em&gt;, which is a light version of polymorphism to override pieces of templates. We needed to solve those things, and they did, but as I said, we solved this in text templating years ago, and we should apply those same principles from HTML/text templating to the world of CSS. There's no reason CSS needs to invent its own solutions for these problems.&lt;/p&gt;
+&lt;h3&gt;So, what is next?&lt;/h3&gt;
+&lt;p&gt;Putting on the "prognosticator hat," what do I think we'll see in the next 3-5 years?&lt;/p&gt;
+&lt;p&gt;Applications are going to become "UI Optional." The new &lt;a href="https://www.apple.com/watch/" target="_blank"&gt;Apple Watch&lt;/a&gt; has a pretty limited display, and some apps won't show anything at all. Things like &lt;a href="https://www.google.com/glass/start/" target="_blank"&gt;Google Glass&lt;/a&gt;, or &lt;a href="http://www.oculus.com/" target="_blank"&gt;Oculus&lt;/a&gt;, you'll have apps that don't have &lt;strong&gt;any&lt;/strong&gt; visual representation at all. This is what I call the coming "APIs-as-Apps" era. Your "app" might be nothing more than a piece of code that can send and receive data—a distributed API. We have some companies that build apps that care &lt;strong&gt;greatly&lt;/strong&gt; about branding. &lt;a href="http://twitter.com" target="_blank"&gt;Twitter&lt;/a&gt; wanted you to experience their app the way &lt;em&gt;they&lt;/em&gt; wanted. &lt;a href="http://facebook.com" target="_blank"&gt;Facebook&lt;/a&gt; wanted you to experience the Facebook app the way &lt;em&gt;they&lt;/em&gt; wanted. But there is a reality that people will experience apps without your UI at all. Companies must give up control of the presentation, as our devices and interactions with them diversify from purely visual to audible or tactile interactions.&lt;/p&gt;
+&lt;p&gt;My watch may read things to me without UI, and that is nothing more than a data operation. Facebook should provide the text for my watch to read to me. The UI doesn't necessarily go away, but it becomes an optional add-on to apps. In the longer term, I'd like to stress the decoupling more. We see people building single-page, complex, front-end driven apps. Most of the app is in the front-end. &lt;a href="http://mail.google.com" target="_blank"&gt;Gmail&lt;/a&gt; is cool to use, sure, but I don't think they are very flexible in that new optional-UI trend. It will be hard to separate &lt;em&gt;Gmail the App&lt;/em&gt; from &lt;em&gt;Gmail the UI&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Developers are making assumptions about access to unlimited, fast bandwidth with every retina image served up... We're not designing things in layers the way we know we should be. For all the people on slow connections it's just, "Meh, they'll get better access eventually." We need to give users tools in the browser to choose what is important to them. I should be able to say, "No, I don't want a huge single page Gmail app, I need a simple post-in-page mobile version." This is much more than just expecting a "mobile site." We need layered sites.&lt;/p&gt;
+&lt;p&gt;We need to take a serious look at how much we assume that UIs and data bandwidth usage are an &lt;em&gt;unlimited resource&lt;/em&gt;. This could be like "responsive 2.0"—responsive not just to screen layout, but to network conditions too. The app should figure out that I am roaming and not shove everything at me it possibly can. UI needs to be decoupled, simplified, layered, and more focused on portable apps.&lt;/p&gt;
+&lt;p&gt;I heard a conference talk years ago from &lt;a href="https://twitter.com/ppk" target="_blank"&gt;PPK&lt;/a&gt; (Peter Paul-Koch). He suggested, "Why is it I can't send a text to share an app with you? Why do you have to buy it from an app store?" He proposed that monetization would shift from the app to the data. He believes apps should be self-contained portable pieces of code that can be freely shared around regardless of device. JS is great for this because it is ubiquitous. For instance, if &lt;a href="http://facebook.com" target="_blank"&gt;Facebook&lt;/a&gt; wanted to charge me for data, because there was no UI on my device within which to serve ads to me, I should be able to decide if I want to pay them for the data of my updates.&lt;/p&gt;
+&lt;p&gt;I hope that kind of thing represents the future of the web and the usage and consumption of apps.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-lead-image field-type-image field-label-above"&gt;&lt;div class="field-label"&gt;Lead Image: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:contenturl"&gt;&lt;img alt="Open source code for a better food system, code with grass image" height="292" src="http://opensource.com/sites/default/files/images/life/code_open_food_lead.jpg" title="Open source code for a better food system, code with grass image" width="520"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-rating field-type-fivestar field-label-above"&gt;&lt;div class="field-label"&gt;Rating: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;form accept-charset="UTF-8" action="http://opensource.com/user/10833/feed" class="fivestar-widget" id="fivestar-custom-widget--3" method="post"&gt;&lt;div&gt;&lt;div class="clearfix fivestar-average-text fivestar-average-stars fivestar-form-item fivestar-craft"&gt;&lt;div class="form-item form-type-fivestar form-item-vote"&gt;
+ &lt;div class="form-item form-type-select form-item-vote"&gt;
+ &lt;select class="form-select" id="edit-vote--6" name="vote"&gt;&lt;option value="-"&gt;Select rating&lt;/option&gt;&lt;option value="20"&gt;Give it 1/5&lt;/option&gt;&lt;option value="40"&gt;Give it 2/5&lt;/option&gt;&lt;option value="60"&gt;Give it 3/5&lt;/option&gt;&lt;option value="80"&gt;Give it 4/5&lt;/option&gt;&lt;option selected value="100"&gt;Give it 5/5&lt;/option&gt;&lt;/select&gt;
+&lt;div class="description"&gt;&lt;div class="fivestar-summary fivestar-summary-average-count"&gt; &lt;span class="total-votes"&gt;(&lt;span&gt;9&lt;/span&gt; votes)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;input class="fivestar-submit form-submit" id="edit-fivestar-submit--3" name="op" type="submit" value="Rate"&gt;&lt;input name="form_build_id" type="hidden" value="form-I46C3PAiMdKgPtPfrs6ReG3Vh2qaylocJeaXgm4DOZM"&gt;
+&lt;input name="form_id" type="hidden" value="fivestar_custom_widget"&gt;
+&lt;/div&gt;&lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Tags: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/open-source-software"&gt;open source software&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/programming"&gt;programming&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/language"&gt;language&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/javascript"&gt;Javascript&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/js"&gt;js&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-add-this field-type-addthis field-label-above"&gt;&lt;div class="field-label"&gt;Add This: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;div class="addthis_toolbox addthis_default_style  "&gt;&lt;a class="addthis_button_twitter" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_reddit" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_stumbleupon" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_facebook" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_google_plusone" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-channel field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Channel: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:articlesection"&gt;&lt;a href="http://opensource.com/business"&gt;Business&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-article-type field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Article Type: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:learningresourcetype"&gt;&lt;a href="http://opensource.com/article-type/article"&gt;Article&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-default-license field-type-text field-label-above"&gt;&lt;div class="field-label"&gt;Default CC License: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"&gt;
+        &lt;img alt="Creative Commons License" src="http://opensource.com/sites/all/themes/opensource/images/cc-by-sa-4.png" style="border-width: 0;" title="This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License."&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="rdf-meta" rel="schema:url"&gt;&lt;/span&gt;&lt;span class="rdf-meta"&gt;&lt;/span&gt;</description><category>odsc</category><guid>https://decau.se/blog/interview-kyle-simpson-javascript/</guid><pubDate>Wed, 12 Nov 2014 19:09:54 GMT</pubDate></item><item><title>head-of-open-source-facebook-oscon</title><link>https://decau.se/blog/head-of-open-source-facebook-oscon/</link><dc:creator>decause</dc:creator><description>&lt;input class="fivestar-submit form-submit" id="edit-fivestar-submit--7" name="op" type="submit" value="Rate"&gt;&lt;input name="form_build_id" type="hidden" value="form-LJSsnl3l8a8D6Ql_vvaDmESupZmfeS6yu7pBrnYeQag"&gt;
+&lt;input name="form_id" type="hidden" value="fivestar_custom_widget"&gt;
+&lt;div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Tags: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/open-source-software"&gt;open source software&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/facebook"&gt;facebook&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/oscon"&gt;OSCON&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/conference"&gt;conference&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item even" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/presentations"&gt;presentations&lt;/a&gt;&lt;/div&gt;&lt;div class="field-item odd" rel="schema:keywords"&gt;&lt;a href="http://opensource.com/tags/james-pearce"&gt;james pearce&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-add-this field-type-addthis field-label-above"&gt;&lt;div class="field-label"&gt;Add This: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;div class="addthis_toolbox addthis_default_style  "&gt;&lt;a class="addthis_button_twitter" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_reddit" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_stumbleupon" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_facebook" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;a class="addthis_button_google_plusone" href="http://www.addthis.com/bookmark.php?v=300"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-channel field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Channel: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:articlesection"&gt;&lt;a href="http://opensource.com/business"&gt;Business&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-article-type field-type-taxonomy-term-reference field-label-above"&gt;&lt;div class="field-label"&gt;Article Type: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" rel="schema:learningresourcetype"&gt;&lt;a href="http://opensource.com/article-type/article"&gt;Article&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-default-license field-type-text field-label-above"&gt;&lt;div class="field-label"&gt;Default CC License: &lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"&gt;
+        &lt;img alt="Creative Commons License" src="http://opensource.com/sites/all/themes/opensource/images/cc-by-sa-4.png" style="border-width: 0;" title="This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License."&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="rdf-meta" rel="schema:url"&gt;&lt;/span&gt;&lt;span class="rdf-meta"&gt;&lt;/span&gt;</description><category>odsc</category><guid>https://decau.se/blog/head-of-open-source-facebook-oscon/</guid><pubDate>Wed, 22 Oct 2014 19:09:54 GMT</pubDate></item><item><title>atributetofairuse</title><link>https://decau.se/blog/atributetofairuse/</link><dc:creator>decause</dc:creator><description>&lt;div class="container"&gt;
+      &lt;section id="main_content"&gt;
+&lt;h1&gt;&lt;a style="color:purple"&gt;A&lt;/a&gt; &lt;a style="color:blue"&gt;T&lt;/a&gt;&lt;a style="color:orchid"&gt;r&lt;/a&gt;&lt;a style="color:olive"&gt;i&lt;/a&gt;&lt;a style="color:red"&gt;b&lt;/a&gt;&lt;a style="color:navy"&gt;u&lt;/a&gt;&lt;a style="color:orange"&gt;t&lt;/a&gt;&lt;a style="color:chocolate"&gt;e&lt;/a&gt; &lt;a style="color:black"&gt;t&lt;/a&gt;&lt;a style="color:sienna"&gt;o&lt;/a&gt; &lt;a style="color:goldenrod"&gt;F&lt;/a&gt;&lt;a style="color:green"&gt;a&lt;/a&gt;&lt;a style="color:grey"&gt;i&lt;/a&gt;&lt;a style="color:indigo"&gt;r&lt;/a&gt; &lt;a style="color:aqua"&gt;U&lt;/a&gt;&lt;a style="color:violet"&gt;s&lt;/a&gt;&lt;a style="color:darkgoldenrod"&gt;e&lt;/a&gt;&lt;/h1&gt;
+
+&lt;a id="seusstext" href="https://decau.se/blog/atributetofairuse/#seuss" style="color:purple;"&gt;
+&lt;abbr title="Dr. Seuss, The Lorax, (1904 - 1991)"&gt;
+Unless someone like you cares a whole awful lot, nothing is going to get
+better. It's not.
+&lt;/abbr&gt;
+&lt;/a&gt;
+
+&lt;a id="Reagan1text" href="https://decau.se/blog/atributetofairuse/#Reagan1" style="color:blue"&gt;
+&lt;abbr title="Ronald Reagan, California Gubernatorial Inauguration Speech (5 January 1967)"&gt;
+Freedom is never more than one generation away from extinction. It is not ours
+by inheritance; it must be fought for and defended constantly by each
+generation.&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="Reagan2text" href="https://decau.se/blog/atributetofairuse/#Reagan2" style="color:blue"&gt;
+&lt;abbr title="Ronald Reagan, Republican National Convention Annual Gala (3 February 1994)"&gt;
+Freedom is the right to question and change the established way of doing
+things. It is the continuous revolution of the marketplace. It is the
+understanding that allows [us] to recognize shortcomings and seek solutions.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="jfk1text" href="https://decau.se/blog/atributetofairuse/#jfk1" style="color:orchid"&gt;
+&lt;abbr title="John F. Kennedy, Inaugural address, Washington D.C. (20 January 1961)"&gt;
+In the long history of the world, only a few generations have been granted the
+role of defending freedom in its hour of maximum danger... I do not believe
+that any of us would exchange places with any other people or any other
+generation. The energy, the faith, the devotion which we bring to this endeavor
+will light our country and all who serve it — and the glow from that fire can
+truly light the world.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="jeffersontext" href="https://decau.se/blog/atributetofairuse/#jefferson" style="color:navy"&gt;
+&lt;abbr title="Thomas Jefferson, Letter to Isaac McPherson (13 August 1813)"&gt;
+He who lights his candle at mine, receives light without darkening me
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="buddhatext" href="https://decau.se/blog/atributetofairuse/#buddha" style="color:olive"&gt;
+&lt;abbr title="Siddhartha Gautama Buddha (c. 563 – c. 483 BC)"&gt;
+and the life of the candle will not be shortened. Happiness never decreases by
+being shared.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="matthew5:16text" href="https://decau.se/blog/atributetofairuse/#matthew5:16" style="color:red"&gt;
+&lt;abbr title="Matthew 5:16"&gt;
+Let your light shine before men, that they may see your good deeds.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="Reagan3text" href="https://decau.se/blog/atributetofairuse/#Reagan3" style="color:blue"&gt;
+&lt;abbr title="Ronald Reagan, A Time for Choosing (27 October 1964)"&gt;
+You and I have a rendezvous with destiny. We will preserve for our children
+this, the last best hope of man on Earth, or we will sentence them to take the
+last step into a thousand years of darkness.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="as2text" href="https://decau.se/blog/atributetofairuse/#as2" style="color:orange"&gt;
+&lt;abbr title="Aaron Swartz, F2C:Freedom to Connect 2012. Washington, D.C. (21 May 2012)"&gt;
+There’s a battle going on right now, a battle to define everything that happens
+on the Internet in terms of traditional things that the law understands. New
+technology, instead of bringing us greater freedom, would have snuffed out
+fundamental rights we had always taken for granted.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="lincolntext" href="https://decau.se/blog/atributetofairuse/#lincoln" style="color:chocolate"&gt;
+&lt;abbr title="Abraham Lincoln, Second Inaugural Address, (4 March 1865)"&gt;
+With malice toward none, with charity for all ... let us strive on to finish
+the work we are in, to bind up the nation's wounds ... to do all which may
+achieve and cherish a just and lasting peace among ourselves and with all
+nations.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="as1text" href="https://decau.se/blog/atributetofairuse/#as1" style="color:orange"&gt;
+&lt;abbr title="Aaron Swartz, Guerilla Open Access Manifesto (July 2008)"&gt;
+Information is power. But like all power, there are those who want to keep it
+for themselves. The world’s entire scientific and cultural heritage, published
+over centuries in books and journals, is increasingly being digitized and
+locked up.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="moglen1text" href="https://decau.se/blog/atributetofairuse/#moglen1" style="color:black"&gt;
+&lt;abbr title="Eben Moglen, Plenary session at Nonprofit Technology Conference in San Francisco, (28 April 2009)"&gt;
+You can’t share it, because your best way of making money from it is to own it,
+and to keep other people from it. That may be okay [for] real estate, but is it
+okay [for] knowledge? That may be okay [for] diamonds, but is it okay [for]
+culture? That may be all right when what it means is that the poor don’t have
+Lexus, but is it okay when it means the poor don’t have physics?
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="douglasstext" href="https://decau.se/blog/atributetofairuse/#douglass" style="color:sienna"&gt;
+&lt;abbr title="Frederick Douglass, Speech at Civil Rights Mass Meeting, Washington, D.C. (22 October 1883)"&gt;
+No man can put a chain about the ankle of his fellow man without at last
+finding the other end fastened about his own neck.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="machiavellitext" href="https://decau.se/blog/atributetofairuse/#machiavelli" style="color:goldenrod"&gt;
+&lt;abbr title="Niccolo Machiavelli, The Prince, (1469 - 1527)"&gt;
+For it is the common good and not private gain that makes cities great.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="gal5:13text" href="https://decau.se/blog/atributetofairuse/#gal5:13" style="color:red"&gt;
+&lt;abbr title="Galatians 5:13"&gt;
+Do not use your freedom as an opportunity for the flesh, but through love serve
+one another.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="col3:12text" href="https://decau.se/blog/atributetofairuse/#col3:12" style="color:red"&gt;
+&lt;abbr title="Colossians 3:12"&gt;
+Clothe yourselves with compassion, kindness, humility, gentleness and patience.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="rmstext" href="https://decau.se/blog/atributetofairuse/#rms" style="color:green"&gt;
+&lt;abbr title="Richard Stallman, Znet Inteview (18 December 2005)"&gt;
+Things like freedom and the expansion of knowledge are beyond success, beyond
+the personal. Personal success is not wrong, but it is limited in importance,
+and once you have enough of it it is a shame to keep striving for that, instead
+of for truth, beauty, or justice.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="as3text" href="https://decau.se/blog/atributetofairuse/#as3" style="color:orange"&gt;
+&lt;abbr title="Aaron Swartz, UTI interview, (23 January 2004)"&gt;
+Think deeply about things. Don’t just go along because that’s the way things
+are or that’s what your friends say. Consider the effects, consider the
+alternatives, but most importantly, just think.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="phil4:8text" href="https://decau.se/blog/atributetofairuse/#phil4:8" style="color:red"&gt;
+&lt;abbr title="Philistines 4:8"&gt;
+Whatever is true ... noble ... right ... pure ... lovely, ... admirable
+excellent, or praiseworthy—think about such things.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="rom12:2text" href="https://decau.se/blog/atributetofairuse/#rom12:2" style="color:red"&gt;
+&lt;abbr title="Romans 12:2"&gt;
+Do not conform any longer to the pattern of this world, but be transformed by
+the renewing of your mind. 
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a id="malcomtext" href="https://decau.se/blog/atributetofairuse/#malcom" style="color:grey"&gt;
+&lt;abbr title="Malcom X, Speech at the Congress for Racial Equality, in Detroit, Michigan (12 April 1964)"&gt;
+Once you change your philosophy, you change your thought pattern. Once you
+change your thought pattern, you change ... your attitude. Once you change
+your attitude, it changes your behavior pattern and then you go on into some
+action.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="whitfordtext" href="https://decau.se/blog/atributetofairuse/#whitford" style="color:indigo"&gt;
+&lt;abbr title="Bradley Whitford, Spring Commencement at University of Wisconsin, (15 May 2004)"&gt;
+Action is the antidote to apathy and cynicism and despair. You will inevitably
+make mistakes. Learn what you can and move on. At the end of your days, you
+will be judged by your gallop, not by your stumble. 
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="Reagan4text" href="https://decau.se/blog/atributetofairuse/#Reagan4" style="color:blue"&gt;
+&lt;abbr title="Ronald Reagan, Speech about the Space Shuttle disaster (28 January 1986)"&gt;
+It’s all part of the process of exploration and discovery. It’s all part of
+taking a chance and expanding man’s horizons. The future doesn’t belong to the
+fainthearted; it belongs to the brave.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="churchilltext" href="https://decau.se/blog/atributetofairuse/#churchill" style="color:aqua"&gt;
+&lt;abbr title="Winston Churchill, Harrow School, (29 October 1941)"&gt;
+Never, never, never, never - in nothing, great or small, large or petty - never
+give in, except to convictions of honor and good sense.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="sagantext" href="https://decau.se/blog/atributetofairuse/#sagan" style="color:violet"&gt;
+&lt;abbr title="Carl Sagan, Cosmos: A Personal Voyage (1990 Update)"&gt;
+We have the power to decide the fate of our planet and ourselves. This is a
+time of great danger, but our species is young, and curious, and brave. It
+shows much promise.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="machiavelli2text" href="https://decau.se/blog/atributetofairuse/#machiavelli2" style="color:goldenrod"&gt;
+&lt;abbr title="Niccolo Machiavelli, The Prince, (1469 - 1527)"&gt;
+It ought to be remembered that there is nothing more difficult to take in hand,
+more perilous to conduct, or more uncertain in its success, than to take the
+lead in the introduction of a new order of things.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="col3:23text" href="https://decau.se/blog/atributetofairuse/#col3:23" style="color:red"&gt;
+&lt;abbr title="Colossians 3:23"&gt;
+Whatever you do, work at it with all your heart.
+&lt;/abbr&gt;&lt;/a&gt;
+
+&lt;a id="solotext" href="https://decau.se/blog/atributetofairuse/#solo" style="color:darkgoldenrod"&gt;
+&lt;abbr title="Han Solo, Star Wars, 1977"&gt;
+May the Force be with you.
+&lt;/abbr&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;h1&gt;The Tributed&lt;/h1&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#seusstext" id="seuss" style="color:purple"&gt;
+Dr. Seuss, The Lorax, (1904 - 1991)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#Reagan1text" id="Reagan1" style="color:blue"&gt;
+Ronald Reagan, California Gubernatorial Inauguration Speech (5 January 1967)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#Reagan2text" id="Reagan2" style="color:blue"&gt;
+Ronald Reagan, Republican National Convention Annual Gala (3 February 1994)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#jfk1text" id="jfk1" style="color:orchid"&gt;
+John F. Kennedy, Inaugural address, Washington D.C. (20 January 1961)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#jeffersontext" id="jefferson" style="color:navy"&gt;
+Thomas Jefferson, Letter to Isaac McPherson (13 August 1813)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#buddhatext" id="buddha" style="color:olive"&gt;
+Siddhartha Gautama Buddha (c. 563 – c. 483 BC)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#matthew5:16text" id="matthew5:16" style="color:red"&gt;
+Matthew 5:16
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#Reagan3text" id="Reagan3" style="color:blue"&gt;
+Ronald Reagan, A Time for Choosing (27 October 1964)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#as2text" id="as2" style="color:orange"&gt;
+Aaron Swartz, F2C:Freedom to Connect 2012. Washington, D.C. (21 May 2012)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#lincolntext" id="lincoln" style="color:chocolate"&gt;
+Abraham Lincoln, Second Inaugural Address, (4 March 1865)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#as1text" id="as1" style="color:orange"&gt;
+Aaron Swartz, Guerilla Open Access Manifesto (July 2008)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#moglen1text" id="moglen1" style="color:black"&gt;
+Eben Moglen, Plenary session at Nonprofit Technology Conference in San Francisco, (28 April 2009)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#douglasstext" id="douglass" style="color:sienna"&gt;
+Frederick Douglass, Speech at Civil Rights Mass Meeting, Washington, D.C. (22 October 1883)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#machiavellitext" id="machiavelli" style="color:goldenrod"&gt;
+Niccolo Machiavelli, The Prince, (1469 - 1527)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#gal5:13text" id="gal5:13" style="color:red"&gt;
+Galatians 5:13
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#col3:12text" id="col3:12" style="color:red"&gt;
+Colossians 3:12
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#rmstext" id="rms" style="color:green"&gt;
+Richard Stallman, Znet Inteview (18 December 2005)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#as3text" id="as3" style="color:orange"&gt;
+Aaron Swartz, UTI interview, (23 January 2004)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#phil4:8text" id="phil4:8" style="color:red"&gt;
+Philistines 4:8
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#rom12:2text" id="rom12:2" style="color:red"&gt;
+Romans 12:2
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#malcomtext" id="malcom" style="color:grey"&gt;
+Malcom X, Speech at the Congress for Racial Equality, in Detroit, Michigan (12 April 1964)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#whitfordtext" id="whitford" style="color:indigo"&gt;
+Bradley Whitford, Spring Commencement at University of Wisconsin, (15 May 2004)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#Reagan4text" id="Reagan4" style="color:blue"&gt;
+Ronald Reagan, Speech about the Space Shuttle disaster (28 January 1986)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#churchilltext" id="churchill" style="color:aqua"&gt;
+Winston Churchill, Harrow School, (29 October 1941)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#sagantext" id="sagan" style="color:violet"&gt;
+Carl Sagan, Cosmos: A Personal Voyage (1990 Update)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#machiavelli2text" id="machiavelli2" style="color:goldenrod"&gt;
+Niccolo Machiavelli, The Prince, (1469 - 1527)
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#col3:23text" id="col3:23" style="color:red"&gt;
+Colossians 3:23
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;a href="https://decau.se/blog/atributetofairuse/#solotext" id="solo" style="color:darkgoldenrod"&gt;
+Han Solo, Star Wars, 1977
+&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/section&gt;&lt;/div&gt;</description><guid>https://decau.se/blog/atributetofairuse/</guid><pubDate>Mon, 13 Oct 2014 04:21:00 GMT</pubDate></item><item><title>swimmingupstream</title><link>https://decau.se/blog/swimmingupstream/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;This role has many aspects (see: &lt;a target="_blank" href="http://fedoramagazine.org/fedora-community-action-and-impact-job-opening-red-hat-osas/"&gt;Job
+Description&lt;/a&gt;), and I look forward to finding out more about it during my
+orientation at HQ in Raleigh.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, I've had &lt;strong&gt;a lot&lt;/strong&gt; of folks asking me
+&lt;strong&gt;a lot&lt;/strong&gt; of the same questions, so I've put together this handy
+FAQ.&lt;/p&gt;
+
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2&gt;FAQ&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a id="two" href="https://decau.se/blog/swimmingupstream/#two"&gt;Q: Will you be leaving RIT?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In some ways, yes, in some ways, not entirely (at least not yet.) I will be
+resigning from my staff position with the MAGIC Center effective immediately,
+but I will finish out this semester teaching the &lt;a target="_blank" href="http://hfoss-ritigm.rhcloud.com"&gt;Humanitarian FOSS Development&lt;/a&gt; and &lt;a target="_blank" href="http://bizlegfoss-ritigm.rhcloud.com"&gt;Business/Legal
+Environment of Free/Open Source Software&lt;/a&gt; courses. My time on campus will be
+limited to scheduled class time and office hours until the end of Spring
+Semester (May 20th is my last final exam.) As the team I am joining at Red Hat
+includes University Relations, and I have a unique perspective on this
+first-of-its-kind academic program, I will &lt;em&gt;very likely&lt;/em&gt; be kept in the
+loop on both the RIT-side, and the Red Hat-side.&lt;/p&gt;
+
+&lt;!--RIT will no
+longer be my primary concern, but there are many opportunities to engage with
+local FOSS folks on my new primary concern, Fedora Users and Developers.&lt;/p&gt;
+--&gt;
+
+&lt;h3&gt;&lt;a id="one" href="https://decau.se/blog/swimmingupstream/#one"&gt;Q: Will you be leaving Rochester?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;No, not for the foreseeable future. The FCL position is a remote position,
+and will require travel, but I do not anticipate even &lt;em&gt;considering&lt;/em&gt;
+relocation until after &lt;a target="_blank" href="http://fedoramagazine.org/flock-2015-rochester-institute-of-technology/"&gt;FLOCK
+2015&lt;/a&gt; at the absolute earliest.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a id="three" href="https://decau.se/blog/swimmingupstream/#three"&gt;Q: ZOMG! Does this mean the end of
+the FOSSBox?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Certainly Not! Prof. Stephen Jacobs and a larger-than-ever core of students
+will keep the wheels on the wagon until a Remy-replacement arrives.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a id="four" href="https://decau.se/blog/swimmingupstream/#four"&gt;Q: So... when &lt;em&gt;does&lt;/em&gt; the cavalry arrive?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Great question! This is an opportunity for MAGIC to reevaluate their needs,
+and hire a person (or persons I hope) who can support the FOSS initiative,
+infrastructure, and general operations. I'm hopeful there'll be a job listing
+in the next couple of weeks, and the process can begin asap. Hopefully we'll
+see some hiring(s) before the end of the semester, but certainly by fall of
+next year. MAGIC will move as quickly as the RIT HR process will allow I'm
+sure.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a id="six" href="https://decau.se/blog/swimmingupstream/#six"&gt;Q: So, what happens to the FOSS minor? It isn't
+going to go away is it?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Nope! The minor can't be undone now that &lt;a target="_blank" href="https://www.rit.edu/gccis/igm/sites/rit.edu.gccis.igm/files/docs/foss-mn_semesters.pdf"&gt;it
+is official and on the books&lt;/a&gt;. In fact, we're hoping to
+&lt;strong&gt;&lt;underline&gt;&lt;em&gt;double&lt;/em&gt;&lt;/underline&gt;&lt;/strong&gt; the number of enrolled
+students by the end of the academic year. When(if?) I vacate my role as an
+instructor, The IGM department and SJ will make a list of eligible degree
+holding individuals qualified and interested in teaching these courses at RIT,
+and will know how best to fill that role. So far as content and instruction, it
+is my impression that the pedagogical and instructional model of course
+delivery we've developed with the help of Professors Jacobs, Shein, Sherrill,
+Bean, and many students/alumni (shout-out &lt;a target="_blank" href="http://gearchicken.com/wordpress/"&gt;loothelion&lt;/a&gt;, &lt;a target="_blank" href="http://rsb.io"&gt;ryansb&lt;/a&gt;) will remain at the core of minor. As a
+Hackademic &lt;a target="_blank" href="http://github.com/fossrit/ofcourse"&gt;and
+upstream developer of educational software&lt;/a&gt; I plan to continue promoting
+Free/Open alternatives to the &lt;s&gt;wasteland of predatory Academic Software and LMS's&lt;/s&gt; variety of quality
+Academic Software and LMS's I've seen during my time as a student and
+instructor.&lt;/p&gt;
+
+&lt;!--
+&lt;h3 id="four" href="#four"&gt;Q: So, can you get me Red Hat/Fedora Swag then, right?&lt;/h3&gt;
+&lt;p&gt;Sort of. I can help, but you gotta adhere to protocol and &lt;a target="_blanK"
+href="https://fedoraproject.org/wiki/Fedora_Ambassadors_North_America_%28FAMNA%29#Get_SWAG_for_Your_Event"&gt;
+file a ticket on the Trac&lt;/a&gt;.
+--&gt;
+
+&lt;h3&gt;&lt;a id="five" href="https://decau.se/blog/swimmingupstream/#five"&gt;Q: So obviously now you can totally get me free RHEL, right?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;No... See: &lt;a target="_blank" href="https://fedoraproject.org/wiki/Red_Hat_Enterprise_Linux"&gt;https://fedoraproject.org/wiki/Red_Hat_Enterprise_Linux&lt;/a&gt;
+
+&lt;/p&gt;&lt;h3&gt;&lt;a id="seven" href="https://decau.se/blog/swimmingupstream/#seven"&gt;Q: So, you're going to stop hanging out in #rit-foss?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;No way! It just means you'll also be able to find me in
+#fedora-{devel,design,meeting,fedmsg,*...}&lt;/p&gt;
+
+&lt;h3&gt;&lt;a id="eight" href="https://decau.se/blog/swimmingupstream/#eight"&gt;Q: So, you can totally get me a job at Red Hat, right?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Maybe. If you find a position listed on &lt;a target="_blank" href="http://jobs.redhat.com"&gt;http://jobs.redhat.com&lt;/a&gt; and send me a link to
+the listing, I can at least help you begin the process. From what I know about
+FOSS driven organizations, they seem more likely to hire active
+contributors and community members, so I would highly recommend diving
+head-first into whatever stack or project you are most passionate about, and
+applying thereafter. Here is a good place to start: &lt;a target="_blank" href="http://whatcanidoforfedora.org/"&gt;http://whatcanidoforfedora.org/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&amp;lt;/IvoryTower&amp;gt;&lt;/h2&gt;
+&lt;p&gt;It was over &lt;strong&gt;five&lt;/strong&gt; long years ago when I returned to RIT for the
+first time after my undergraduate studies with &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="https://twitter.com/gregdek"&gt;GregDek&lt;/a&gt;, and &lt;a target="_blank" href="http://blog.melchua.com/"&gt;Mel Chua&lt;/a&gt;, to meet with SJ for the first
+time. SJ had orchestrated a jam-packed schedule for everyone to meet with
+Deans, and Department Heads, and IT Administrators of all stripes. We resolved
+after that visit to create the first ever Academic Minor in Free/Open Source
+Software at a university in the United States, and by golly-gosh we did it! &lt;a target="_blank" href="http://www.rit.edu/news/story.php?id=51172"&gt;It was even
+the #1 News Story published by RIT University News Services in 2014&lt;/a&gt;! It
+took a village, and a whole network of villages outside of that village, to
+make the FOSS minor a reality, and now it is done. I've seen full life-cycles
+of academic careers, from Freshmen to Graduate, start to finish. Every time
+another student gets a grade in my course, or lands their first internship in
+FOSS, or gets their first job after graduation, I think of this quote:&lt;/p&gt;
+
+&lt;strong&gt;
+    &lt;em&gt;
+        &lt;blockquote&gt;
+            If your plan is for one year plant rice. &lt;br&gt;
+            If your plan is for ten years plant trees. &lt;br&gt;
+            If your plan is for one hundred years educate children.&lt;br&gt;
+            --Confucius 
+        &lt;/blockquote&gt;
+    &lt;/em&gt;
+&lt;/strong&gt;
+
+&lt;p&gt;As a Hacktivist, I have always felt that Technological Literacy was the most
+viable long-term strategy. It won't be fast, it won't be easy, it may not even
+be cheap, but it will be Free. We've got a model now, one that I hope can be
+replicated in other academic programs, iterated upon, and improved. It took us
+a while, but for the first time I can say that I can safely walk away. RIT and
+MAGIC can take the ball from here.&lt;/p&gt;
+
+&lt;p&gt;I will be ever-thankful for the opportunities that have been afforded to me
+in Rochester, and the amazing community that has supported our work and our
+students. Perhaps most of all, I am thankful for my grey-bearded mentor Steve
+Jacobs, who has always treated me like a colleague, and been willing to
+acclimate to the wildwest that FOSS communities can be. He's always been one to
+bring everyone to the table, and without him, none of this would have been
+possible. If there were one Steve Jacobs at every university, Open Education
+would be a solved problem. Much Love SJ.&lt;/p&gt;
+
+&lt;p&gt;Students, you know that I'm not leaving as much as I'm swimming upstream, so
+I don't need to say "goodbye" to any of you ;)&lt;/p&gt;
+
+&lt;h2&gt;&amp;lt;Fedora&amp;gt;&lt;/h2&gt;
+&lt;p&gt;Fedorans, I have been a user and advocate for years, and it is my privilege
+to represent and serve you. Fedora, for years now, has been the bedrock upon
+which my portal to the digital realm is affixed (I've been installing,
+preupgrading and fedup-ing since Leonidas.) The prospect of taking the
+community development, advocacy, and organizing skills I've been building here,
+and applying them to growing a community of &lt;em&gt;millions&lt;/em&gt; contributors and
+users in every timezone, for the leading enterprise Linux provider on the
+planet, is a humbling opportunity one can only dream of... Not all of you know
+me, and I certainly don't know all of you, but I want to. Your contributions
+have helped me all these years to get to where I am, and now it is my time to
+return the favor. I cannot wait to tell your stories, support your efforts, and
+hack alongside you. There is much to learn, and much to do, and I'm going to
+need all the help I can get.&lt;/p&gt;</description><guid>https://decau.se/blog/swimmingupstream/</guid><pubDate>Thu, 20 Feb 2014 04:21:00 GMT</pubDate></item><item><title>LibrePlanet2013 Keynote: RMS</title><link>https://decau.se/blog/libreplanet2013-keynote-rms/</link><dc:creator>decause</dc:creator><description>&lt;pre&gt;&lt;code&gt;Below you will find a rough transcription taken during the keynote
+address at LibrePlanet 2013: Commit Change. It includes RMS's remarks,
+as well as an incomplete transcription of remarks from the recipients
+of the Free Software Awards. THIS IS NOT A COMPLETE TRANSCRIPT!&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;p&gt;
+We've been at this for a long time. Now we're facing even harder challenges and
+threats than in the past. For a long time, pc arch was stable, and for a long
+time, ms-dos made it so much couldn't change. When it got perverted in the
+90's, still the things we couldn't handle were limited to fringes. We started
+seeing peripherals with proprietary drivers due to c-crypt.
+&lt;/p&gt;
+
+&lt;p&gt;
+Then the BIOS suddenly became something that could be replaced. It wasn't just
+a piece of circuit we could ignore.
+We had to start developing Free BIOS' like Coreboot.
+&lt;/p&gt;
+
+&lt;p&gt;
+Things got even worse around 10 years ago. Manufacturers started to refuse to
+tell us what we needed to know to make Coreboot run on our machines. This Had
+to do with Digital restrictions management.
+&lt;/p&gt;
+
+&lt;p&gt;
+Then it got worse.
+&lt;/p&gt;
+
+&lt;p&gt;
+Intel and AMD processors require micro-code blobs, so we discovered blobs. It
+might has well have been a circuit before. But then it changed to software
+installed, which we do have to care about.
+&lt;/p&gt;
+
+&lt;p&gt;
+In the PC world, most things, the problems were at the edges.
+Now with mobile computing, disaster is spreading everywhere, like the dam
+broke.
+There is nothing comparable.
+&lt;/p&gt;
+
+&lt;p&gt;
+What we find now, is that they are building systems on a chip, and the company
+that makes chip, doesn't have control of what is on chip, it licenses parts
+from different places.
+&lt;/p&gt;
+
+&lt;p&gt;
+How do we pressure the company that makes the computer, to get it to pressure
+the chip producers, to pressure the company that designs the piece of that
+chip, to make it work for Freedom? Or we do reverse engineering, which is
+probably what it comes down to.
+&lt;/p&gt;
+
+&lt;p&gt;
+I tell universities to teach reverse engineering, and have them do it for some
+important peripherals.
+&lt;/p&gt;
+
+&lt;p&gt;
+In addition, we see the disaster, we see a lot of tyrannical devices designed
+so users can't replace them. Some android devices, some apple, and others. This
+"Tivo-ization", was the first time we noticed. Hardware stopping users from
+running Free software. This led me to realize we had to change the GPL so that
+Freedom 1 was practical Freedom, and not just some fantasy.
+&lt;/p&gt;
+
+&lt;p&gt;
+We see nasty things happening in initialization software, like M$ restricted
+boot.
+&lt;/p&gt;
+
+&lt;p&gt;
+There is a similar problem in the RaspberryPi, and the only way to make it work
+is with a blob. It is even worse than that, it can't even boot without the
+blob. There are other such boards that don't have that problem. We need to
+inform the public about this choice.
+&lt;/p&gt;
+
+&lt;p&gt;
+Lots of people are focused on Rpi, so I asked someone to make a list of
+products [like RaspberryPi] that respect Freedom more.
+&lt;/p&gt;
+
+&lt;p&gt;
+None of those things can do the job that this does. We need to have laptops and
+servers that you can run.
+The Northbridge now requires a blob... people who saw his was the case, it
+didn't occur to them that this was a disaster.
+&lt;/p&gt;
+
+&lt;p&gt;
+Our reverse engineering task list is growing, and we don't find many people who
+want to do this work. &lt;strong&gt;If you want to make a tech contribution to our
+Freedom, this is where we need you most&lt;/strong&gt;. Please learn reverse
+engineering for the specs of peripherals, and help develop Free replacements,
+so we can use circuits without being under control.
+&lt;/p&gt;
+
+&lt;p&gt;
+I just got info about new mobile operating systems, like Firefox OS, which like
+android, uses non-Free software to talk to peripherals. It is not helping us,
+and won't enable us to get any closer to Freedom than we were without it. I'm
+afraid no such project will help us on that, they are not interested in
+addressing the hard problem of Freedom, they want success, and want to be
+popular, so they don' tackle the place where Freedom is being defeated, and
+replace the layers that we don't need to replace... they are not helping to
+reach the goal of Freedom.
+&lt;/p&gt;
+
+&lt;p&gt;
+I've found that the Chromebook is no better than anything else, but we still
+don't know about the ARM. It looks like, we are going to have to do something,
+to bring about the existence the computer you can run with a Free operating
+system. We could use all in the past, then some, and now and in the future,
+we're going to have to build and sell computers. We're going to have to raise
+money, and get into the habit of buying computers that were designed for Free
+software, instead of the old "liberate other user's computers." It used to be
+great to say 'bring your comp in, and we'll Free it.'
+&lt;/p&gt;
+
+&lt;p&gt;
+It is going to be a constant struggle to do that in the future.
+We can't put all of our eggs in that basket, we've got to push on the reverse
+engineering also. Once you can do it, teach others to do the same. We must do
+both efforts in parallel, and maybe one will be a success.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are some Free software developers who seem to have a hunger to get their
+software into the apple 'crap' store. It doesn't allow Free software of course,
+apple won't approve unless it is non-Free. They feel the temptation to build a
+non-Free executable to run on the 'iThings.' It is better to say 'jail break
+your iThing, and then install the Free executable.'
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are going to use an iThing, at least get out of the jail.
+&lt;/p&gt;
+
+&lt;p&gt;
+People are being tempted to fail to uphold the cause of Freedom, just to get
+more people to run their code. I think this is a poor choice of values. 
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;strong&gt;&lt;em&gt;What is more important, Freedom or being more
+popular?&lt;/em&gt;&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+We see people who want to have their Free program in the Apps store, but then
+they make another mistake, they think they should remove the Copyleft, which
+isn't necessary, since they can make executables. They don't need to change the
+license on the source. This is still a mistake, but a smaller mistake than
+changing their license on source code to a lax permissive license.
+&lt;/p&gt;
+
+&lt;p&gt;
+It's not just letting something through the wall, but taking the wall down
+entirely.
+&lt;/p&gt;
+
+&lt;p&gt;
+They will still use a Free software license, but abandon their attempts to take
+away Freedom. If you must cater to the crap store, you can release an
+executable without changing the license on the source-code. Better yet, release
+under GPL the executable, and jailbreak. The more things that require
+jailbreaks, the more incentive to install, and the bigger the fight will be
+against what Apple is doing. Remember the App store is really censorship,
+carried out for apple's biz interests. For society to make App store
+publication the standard, this is endorsing one company to make censorship a
+standard.
+&lt;/p&gt;
+
+&lt;p&gt;
+To convince people to stop using Copyleft is the most ironic horrible thing you
+can do in this area. I'll likely publish an article with more info later.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+There recently started a campaign to amend the DMCA to permit unlocking any
+device. The campaign is called 'fix the DMCA', we have to take issue with this
+because it is not enough to &lt;em&gt;fix&lt;/em&gt; it. The anti-circumvention provisions
+must be abolished. The digital handcuffs are nasty, and there should be no
+restriction on devices or using them to break handcuffs. That is not even
+enough. DRM should be illegal.
+&lt;/p&gt;
+
+&lt;p&gt;
+*applause*
+&lt;/p&gt;
+
+&lt;p&gt;
+Yes, that proposed change would be a step forward, but if we are going to
+endorse it, we have to be careful to repeat "this is not enough, just part of
+it". There is momentum in a campaign, and the people saying "help us" and you
+say "I should boost the campaign, and take the small change" instead of keeping
+pressure for the big change. Every time we say we're in favor, we need to say
+"but... we need more!"
+&lt;/p&gt;
+
+&lt;p&gt;
+Now, I should mention a bit more about portable phones. Nowadays, there will be
+2 computers [in a portable phone], a signal processor, where the program runs
+to handle radio communication with phone network, and the main computer to do
+most other things. If the software that controls the signal processor were
+fixed, we could consider it part of the circuitry, and ignore it. But it can be
+changed, without user's consent, remotely, back-door through phone network.
+That software can take control of the other machine, like sharing access to all
+the memory. The phone network can say 'overwrite the software in the main
+computer' You can install Replicant, but that doesn't give you control over
+your computing you can trust, it can be replaced anytime with something
+malicious.
+&lt;/p&gt;
+
+&lt;p&gt;
+We need to get a phone design such that the signal processor cannot control the
+main computer. This was the case with OpenMoko. The signal processor couldn't
+do anything to the main computer.
+&lt;/p&gt;
+
+&lt;p&gt;
+Or we need software in the signal processor. There is for one job, the voice
+protocol, GSM. There is a different protocol for data, which means starting
+completely from scratch. Now if we had a completely Free software cell phone,
+or one where the signal processor didn't have a chance to be malicious, would
+that make it a good thing to use? There is no way for the phone to talk with
+the phone network, without networks knowing where the phone is. 
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;strong&gt;This is Stalin's dream, and I won't own one.&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+If you had a parabolic antenna, then maybe you could point that at one
+particular tower, and maybe that would be the only tower that would get signal
+from you. Then you couldn't be triangulated. I don't know if this works in
+practice. There is no perfect directional antenna. Size makes a practical
+difference too. *laughter* It would be interesting to have someone try this
+out, someone who knows about antennas, and give it a try, or calculate what
+would happen.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are services that you can ask to tell you where you are. You can use this
+to find out if you can make a difference in practice. They'd still know you're
+in a particular city, but that is a lot less than knowing what block you are
+on.
+&lt;/p&gt;
+
+&lt;p&gt;
+Now it is time for the awards. First the award for contribution to Free
+software. This goes to a project, which is an interactive programming
+environment in Python, called IPython, to Fernando Perez. I want to say one
+thing: if you write a substantial program in python, app or package, please
+release under the GPL. It is extremely important to do this.
+&lt;/p&gt;
+
+&lt;h3&gt;Fernando Perez&lt;/h3&gt;
+
+&lt;p&gt;
+Thank you everyone, I'll be breif. I want to thank the FSF for the work you
+all have done to enable the stuff we do today, despite the threats we face
+today. When I worked on IPython, it wasn't clear it would be valuable, but
+that it would be a blackhole for time. *laughter* Those close to us, like
+my wife, pay the highest price, so I want to thank her for that. It is the
+project of a community, Brian Granger(sp), and Berkeley contributer [name
+lost].
+&lt;/p&gt;
+
+&lt;p&gt;
+People in the scientific python community, I spend time with scientists who
+are interested in software, Eric Jones helped in the beginning, and I want
+to thank him. Also thank you GVR, who created python. And finally UC
+Berkeley, who allows me to do work that straddles academic science.
+&lt;/p&gt;
+
+&lt;p&gt;
+We have some support form the Sloan foundation now thankfully. IPython
+started it's life as a shell, and has grown into a tool. It is not just a
+scientific project, code is everywhere, and this is about interaction.
+IPython is language agnostic by-and-large, but we want to appeal to other
+languages soon.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+This award is dedicated to author of Matplotlib author, John Hunter. He was
+like a brother, and we worked for 10 years together. This is for him.
+*applause*
+&lt;/p&gt;
+
+&lt;h3&gt;RMS&lt;/h3&gt;
+
+&lt;p&gt;
+The award for using Free software, or the spirit of Free software to make a
+better world, the social world, is OpenMRS.
+*applause*
+&lt;/p&gt;
+
+&lt;h3&gt;OpenMRS&lt;/h3&gt;
+
+&lt;p&gt;
+Thank you for this very important reward, nd recognition that have made MRS
+a success. Big thanks to RMS, the committee, and FSF.
+&lt;/p&gt;
+
+&lt;p&gt;
+MRS came together to solve a problem in healthcare for developing
+countries, providing access to health info, and make access and key issue.
+It was key to the project, people needed access to data, supply management,
+and X-rays. Free software was part of it from the beginning. The best way
+to empower people, particularly in developing countries, for their needs,
+is to use Free Software. We trained 30 programmers in Rwanda, and they can
+now implement themselves and have made a hospital using the software. For
+nearly a decade we've been doing this. Thank you Bill Tierney, and many
+other colleagues. Ben Wilk, key devs. Many of the programmers in Uganda,
+and around the world. Rockefeller foundation, and others.
+&lt;/p&gt;
+
+&lt;p&gt;
+US CDC, and the WHO. We've had strategic partners in Rwanda, and Kenya, and
+Haiti. I'd like to thank the FSF, I had an office next to Richard in the
+90's.
+&lt;/p&gt;
+
+&lt;p&gt;
+Free Software has 50 countries using our system.
+&lt;/p&gt;
+
+
+&lt;h3&gt;
+    RMS
+&lt;/h3&gt;
+
+&lt;p&gt;
+I made the suggestion that if they changed the name to LibreMRS, they'd do
+better.
+&lt;/p&gt;
+
+&lt;h3&gt;
+    Libby
+&lt;/h3&gt;
+
+&lt;p&gt;
+I want to thank everyone for being here, we start at 9am, and breffest at 8:15.
+We'll see you in the morning.
+&lt;/p&gt;</description><guid>https://decau.se/blog/libreplanet2013-keynote-rms/</guid><pubDate>Wed, 03 Apr 2013 04:21:00 GMT</pubDate></item></channel></rss>

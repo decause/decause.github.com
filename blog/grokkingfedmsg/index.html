@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>grokkingfedmsg | decau.se</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://decau.se/blog/grokkingfedmsg/">
+<link rel="icon" href="../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../icon_128x128.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="decause">
+<link rel="prev" href="../interview-pamela-fox-curriculum-engineer-khan-academy/" title="interview-pamela-fox-curriculum-engineer-khan-academy" type="text/html">
+<link rel="next" href="../helloworld/" title="HelloWorld" type="text/html">
+<meta property="og:site_name" content="decau.se">
+<meta property="og:title" content="grokkingfedmsg">
+<meta property="og:url" content="https://decau.se/blog/grokkingfedmsg/">
+<meta property="og:description" content="This is a raw dump of brainstormery had during a hacksession with Threebean.
+
+Deps
+$ sudo yum install python-fedmsg-meta-fedora-infrastructure
+$ hub clone ralphbean/fedora-stats-tools
+
+
+The Longtail M">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-03-31T17:06:30Z">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="../../" title="decau.se" rel="home">
+        <img src="https://avatars.githubusercontent.com/u/427420?v=4" alt="decau.se" id="logo"></a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cv.decau.se/">CV</a></li>
+                <li><a href="https://ig.decau.se/">IG</a></li>
+                <li><a href="https://twitter.decau.se/">TWT</a></li>
+                <li><a href="https://bsky.app/profile/decause.bsky.social">BSKY</a></li>
+                <li><a href="https://github.com/decause">GH</a></li>
+                <li><a href="../../blog">Blog</a></li>
+                <li><a href="../../archive.html">Archive</a></li>
+                <li><a href="../../galleries">Gallery</a></li>
+                <li><a href="../../rss.xml">RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">grokkingfedmsg</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    decause
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2015-03-31T17:06:30Z" itemprop="datePublished" title="2015-03-31 17:06">2015-03-31 17:06</time></a>
+            </p>
+            
+        <p class="sourceline"><a href="index.src.html" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    This is a raw dump of brainstormery had during a hacksession with <a target="_blank" href="http://threebean.org">Threebean</a>.
+
+<h2>Deps</h2>
+<code>$ sudo yum install python-fedmsg-meta-fedora-infrastructure</code>
+<code>$ hub clone ralphbean/fedora-stats-tools</code>
+
+
+<h2>The Longtail Metric</h2>
+<p>Though this was only about 90 minutes of cycling, it is the part that is
+burned most into my brain. This metric is all about Helping identify how "flat"
+the message distributions are, to avoid uneven burnout mode... aka, take the
+agent that is generating the most messages within a time frame (the "Head"),
+and the agent generating the least number of messages in that timeframe(the
+"Tail"), and come up with a line drawn between them. The more "flat" that line
+is, the more even the number of generated messages is amongst all contributors.
+Still unclear? Me too ;) Here's some python instead:</p>
+
+<hr>
+<h1>Logtail.analyze at <a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/longtail-gather.py">longtail-gather.py</a>
+</h1>
+<code>
+<pre>
+    import collections
+    import json
+    import pprint
+    import time
+
+    import requests
+
+    import fedmsg.config
+    import fedmsg.meta
+
+    config = fedmsg.config.load_config()
+    fedmsg.meta.make_processors(**config)
+
+    start = time.time()
+    one_day = 1 * 24 * 60 * 60
+    whole_range = one_day
+    N = 50
+
+
+    def get_page(page, end, delta):
+        url = 'https://apps.fedoraproject.org/datagrepper/raw'
+        response = requests.get(url, params=dict(
+            delta=delta,
+            page=page,
+            end=end,
+            rows_per_page=100,
+        ))
+        data = response.json()
+        return data
+
+
+    results = {}
+    now = time.time()
+
+    for iteration, end in enumerate(range(*map(int, (now - whole_range, now, whole_range / N)))):
+        results[end] = collections.defaultdict(int)
+        data = get_page(1, end, whole_range)
+        pages = data['pages']
+
+        for page in range(1, pages + 1):
+            print "* (", iteration, ") getting page", page, "of", data['pages'], "with end", end, "and delta", whole_range
+            data = get_page(page, end, whole_range)
+            messages = data['raw_messages']
+
+            for message in messages:
+                users = fedmsg.meta.msg2usernames(message, **config)
+                for user in users:
+                    results[end][user] += 1
+
+        #pprint.pprint(dict(results))
+
+    with open('foo.json', 'w') as f:
+        f.write(json.dumps(results))
+</pre></code>
+
+
+<h1>Logtail.analyze at <a target="_blank" href="https://github.com/ralphbean/fedora-stats-tools/blob/develop/longtail-analyze.py">longtail-analyze.py</a>
+</h1>
+<pre>
+<code>
+import json
+
+comparator = lambda item: item[1]
+
+with open('foo.json', 'r') as f:
+    all_data = json.loads(f.read())
+
+for timestamp, data in all_data.items():
+    for username, value in data.items():
+        all_data[timestamp][username] = float(value)
+
+timestamp_getter = lambda item: item[0]
+
+sorted_data = sorted(all_data.items(), key=timestamp_getter)
+
+results = {}
+
+for timestamp, data in sorted_data:
+    head = max(data.items(), key=comparator)
+    tail = min(data.items(), key=comparator)
+
+    x1, y1 = 0, head[1]
+    x2, y2 = len(data), tail[1]
+
+    slope = (y2 - y1) / (x2 - x1)
+    intercept = y1
+
+    metric = 0
+
+    data_tuples = sorted(data.items(), key=comparator, reverse=True)
+
+    for index, item in enumerate(data_tuples):
+        username, actual = item
+        # line formula is y = slope * x + intercept
+        ideal = slope * index + intercept
+        diff = ideal - actual
+        metric = metric + diff
+
+    print "%s, %f" % (timestamp, metric / len(data))
+    results[timestamp] = metric / len(data)
+
+
+import pygal
+chart = pygal.Line()
+chart.title = 'lol'
+chart.x_labels = [stamp for stamp, blob in sorted_data]
+chart.add('Metric', [results[stamp] for stamp, blob in sorted_data])
+chart.render_in_browser()
+</code>
+</pre>
+
+
+<hr>
+<h1>Stuff to build/consider next?</h1>
+
+<h2>Radar Charts</h2>
+
+<p>
+We must be concerned with normalizing the data, because koji will always have
+highest magnitude of messages. This is done by:
+
+</p>
+<ol>
+<li>querying all messages of a type, get the total</li>
+    <li>querying just messages for that user, in that type</li>
+    <li>divide usermessages/totalmessages</li>
+</ol>
+<dl>
+<dt>Daily +/-</dt>
+        <dd>just the diff of topic counts</dd>
+    </dl>
+<dl>
+<dt>weekly +/-</dt>
+        <dd>just the diff of topic counts</dd>
+        
+    </dl>
+<h2>Real-time?</h2>
+
+<ul>
+<li>barchart with bar for each message topic?</li>
+    <li>array of "lights" that blink each time a message comes across the bus</li>
+    <li>revisit the live-gource of fedmsg :)</li>
+</ul>
+</div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../interview-pamela-fox-curriculum-engineer-khan-academy/" rel="prev" title="interview-pamela-fox-curriculum-engineer-khan-academy">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../helloworld/" rel="next" title="HelloWorld">Next post</a>
+            </li>
+        </ul></nav></aside></article></main><footer id="footer"><p>Contents © 2024         <a href="mailto:decause@decau.se">decause</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a></p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
