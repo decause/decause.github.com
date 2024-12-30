@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://decau.se/</loc>
-  <lastmod>2024-12-30T18:11:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/2024/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://decau.se/archive.html</loc>
-  <lastmod>2024-12-30T18:35:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/helloworld/</loc>
@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://decau.se/categories.html</loc>
-  <lastmod>2024-12-30T17:53:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/</loc>
@@ -47,6 +47,6 @@
  </url>
  <url>
   <loc>https://decau.se/tags.html</loc>
-  <lastmod>2024-12-30T17:53:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </url>
 </urlset>

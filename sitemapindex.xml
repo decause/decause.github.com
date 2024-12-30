@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://decau.se/galleries/coins/rss.xml</loc>
-  <lastmod>2024-12-30T17:53:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://decau.se/galleries/rss.xml</loc>
-  <lastmod>2024-12-30T17:53:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://decau.se/rss.xml</loc>
@@ -19,6 +19,6 @@
  </sitemap>
  <sitemap>
   <loc>https://decau.se/sitemap.xml</loc>
-  <lastmod>2024-12-30T18:37:00Z</lastmod>
+  <lastmod>2024-12-30T18:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
