@@ -6,16 +6,16 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://decau.se/</loc>
-  <lastmod>2024-12-30T18:45:00Z</lastmod>
- </url>
- <url>
   <loc>https://decau.se/2024/</loc>
   <lastmod>2024-12-22T18:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/archive.html</loc>
-  <lastmod>2024-12-30T18:45:00Z</lastmod>
+  <lastmod>2024-12-30T19:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/</loc>
+  <lastmod>2024-12-30T19:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/helloworld/</loc>
@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://decau.se/categories.html</loc>
-  <lastmod>2024-12-30T18:45:00Z</lastmod>
+  <lastmod>2024-12-30T19:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/</loc>
@@ -42,11 +42,7 @@
   <lastmod>2024-12-30T15:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://decau.se/pages/album1/</loc>
-  <lastmod>2024-12-30T15:32:00Z</lastmod>
- </url>
- <url>
   <loc>https://decau.se/tags.html</loc>
-  <lastmod>2024-12-30T18:45:00Z</lastmod>
+  <lastmod>2024-12-30T19:01:00Z</lastmod>
  </url>
 </urlset>
