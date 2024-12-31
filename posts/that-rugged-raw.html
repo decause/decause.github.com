@@ -1,0 +1,97 @@
+<!--
+.. title: That Rugged Raw
+.. slug: that-rugged-raw
+.. date: 2015-04-25 04:23:46 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. LICENSE: CC-BY-SA-4.0
+-->
+
+<p>
+It has been a more-busy-than-usual week on campus, and I've had a pretty packed conference schedule. I've been much too far behind on New Year's Resolution:
+</p>
+
+<blockquote>
+Ship Copy.
+</blockquote>
+
+<p>
+So, in it's most-purest most-rawest most-honest form, you can find a number of raw transcripts in the new  repo: <a target="_blank" href="http://github.com/decause/raw"><strong>decause/raw</strong></a></p>
+
+<p>
+So, What does <em>that</em> look like?
+</p>
+
+<pre>
+.
+├── libreplanet
+│   └── 2015
+│       ├── closingkeynote-libreplanet-karensandler.txt
+│       ├── debnicholson-friday.txt
+│       ├── freesoftwareawards.txt
+│       └── highpriorityprojs-libreplanet-friday.txt
+├── pycon
+│   └── 2015
+│       ├── ninapresofeedback.txt
+│       ├── pycon-day2-keynotes.txt
+│       ├── pyconedusummit2015.txt
+│       └── scherer-pycon-ansible-day2.txt
+└── RIT
+    └── 2015
+        ├── biella-astra-raw.txt
+        ├── biella-molly-guest-lecture.txt
+        └── molly-sauter-where-is-the-digital-street.txt
+
+6 directories, 13 files
+
+$ wc -w libreplanet/2015/*.txt
+ 2287 libreplanet/2015/closingkeynote-libreplanet-karensandler.txt
+  139 libreplanet/2015/debnicholson-friday.txt
+  586 libreplanet/2015/freesoftwareawards.txt
+ 2297 libreplanet/2015/highpriorityprojs-libreplanet-friday.txt
+5309 total
+
+$ wc -w pycon/2015/*.txt
+  106 pycon/2015/ninapresofeedback.txt
+ 2233 pycon/2015/pycon-day2-keynotes.txt
+ 1844 pycon/2015/pyconedusummit2015.txt
+   63 pycon/2015/scherer-pycon-ansible-day2.txt
+4246 total
+
+$ wc -w RIT/2015/*.txt
+ 4521 RIT/2015/biella-astra-raw.txt
+ 2489 RIT/2015/biella-molly-guest-lecture.txt
+ 1964 RIT/2015/molly-sauter-where-is-the-digital-street.txt
+8974 total
+
+<strong>18529 total total</strong>
+</pre>
+
+<p>18,529 words, or, just over 41 pages total of raw text.</p>
+
+<p>There is a flaw in my workflow. Though there is some utility in a raw transcript, really it is mostly when delivered in real-time. After the fact, there is much post-production work to be done, like spell checking. Even after, if there is a video, then the transcript is partial, and incomplete. This is bothersome to many potential downstream consumers of raw text. So where does that leave us?</p>
+
+<h2>Word Clouds</h2>
+
+<img width="100%" src="/biellamollyastragrey.png" />
+
+<img width="100%" src="/pycon_grey.png" />
+
+<p>I've played with <code>word_cloud</code> before within my <a target="_blank"
+href="http://github.com/decause/presinaug">decause/presignaug</a> for building
+presidential inauguration visualizations last year. Since then, word_cloud has
+gotten <strong>much</strong> more sophisticated--now using scikitlearn, and numpy, and providing the ability to fit word clouds within images!</p>
+
+<h3>List of Issues/Fixes</h3>
+<ul>
+    <li>you'll need to <code>pip install cython</code> first</li>
+    <li><strike>You'll need to <code>sudo yum install freetype-devel</code> (probably not necessary, since this is alleviated by pointing at a diff <code>.ttf</code> typeface...)</strike></li>
+    <li>you'll have to edit your <code>FONT_PATH</code> within word_cloud.py</li>
+    <li>image masks *must* be saved as greyscale, not rgb images (this was a biggie, and I wouldn't have figured it out if <code>GIMP</code> didn't display the color encoding in the file statusbar when you opened things :) )</li>
+</ul>
+
+I went ahead and uploaded the changes I made to my fork on GitHub: <a target="_blank"
+    href="http://github.com/decause/word_cloud">http://github.com/decause/word_cloud</a> if you'd like to see them. The important files are <code>pycon.py</code> and <code>pycon-greys.py</code>.

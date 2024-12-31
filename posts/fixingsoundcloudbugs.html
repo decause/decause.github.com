@@ -1,0 +1,35 @@
+<!--
+.. title: FixingSoundcloudBugs
+.. slug: fixingsoundcloudbugs
+.. date: 2015-06-02 16:42:06 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. LICENSE: CC-BY-SA-4.0
+-->
+
+<div height="20%">
+<img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Soundcloud_logo.svg/640px-Soundcloud_logo.svg.png"/>
+</div>
+
+<p>
+After upgrading to <a target="_blank" href="https://fedoraproject.org">Fedora22</a> last week, I've had to sand down a few rough corners. One of them which has cropped up was that some of the tracks on <a target="_blank" href="http://soundcloud.com">Soundcloud</a> just would not play while I was in <a target="_blank" href="https://mozilla.org/firefox">Firefox</a>. I thought it was likely because user-generated content is often prone to take-downs, spurious or not, and just kinda shrugged it off. But after trying to play a few particularly popular tracks from confirmed accounts, I decided something must be amiss. I popped open the code inspector, enabled the console, and right off the bat was greeted with a clever recruiting message from Soundcloud:
+</p>
+
+<blockquote>
+    "You like to look under the hood? Why not help us build the engine? http://soundcloud.com/jobs"
+</blockquote>
+
+<p>Thereafter, I would get <code>"Media resource could not be decoded"</code> error messages followed by long strings representing the tracks.</p>
+
+<p>
+Through some search-engine-foo, I was able to dig up this ticket: <a
+target="_blank"
+href="https://bugzilla.mozilla.org/show_bug.cgi?id=964032">https://bugzilla.mozilla.org/show_bug.cgi?id=964032</a>.
+In it, it is explained that there was likely an issue with codecs not being
+installed, with Ubuntu specific instructions. After originally enabling the RPM
+Fusion repos, I was able to search for and install
+<code>gstreamer1-libav</code> codec, restart Firefox, and play the broken tracks.
+</p>

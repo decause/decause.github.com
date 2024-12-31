@@ -1,0 +1,12 @@
+[Core]
+Name = import_feed
+Module = import_feed
+
+[Nikola]
+PluginCategory = Command
+
+[Documentation]
+Author = Grzegorz Śliwiński
+Version = 0.2.1
+Website = http://www.fizyk.net.pl/
+Description = Import a blog posts from a RSS/Atom feed

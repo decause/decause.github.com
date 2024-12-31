@@ -1,0 +1,67 @@
+<!--
+.. title: FedoraCloudWat
+.. slug: fedoracloudwat
+.. date: 2015-05-28 13:46:27 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. LICENSE: CC-BY-SA-4.0
+-->
+
+<img src="https://fedoraproject.org/assets/images/cloud-logo-dark.png" />
+
+<P>
+Someone posted to the Fedora-Join list this week with questions about Fedora
+Cloud, and cloud in general (see: <a target="_blank"
+    href="https://lists.fedoraproject.org/pipermail/fedora-join/2015-May/000333.html">https://lists.fedoraproject.org/pipermail/fedora-join/2015-May/000333.html</a>).
+Mattdm, Fedora Project Lead, wrote a *fantastic* response that I think warrants
+resharing below.
+</P>
+
+<pre>
+Your confusion is understandable, because "cloud" has become a
+marketing buzzword and is often applied to the things you've described.
+But that's not quite what we mean here.
+
+"Cloud computing" is the idea of providing the fundamental compute
+resources — cpu cycles, storage, and memory — as a service. In this
+model, rather than having these things on-site in a server room, you
+pay a metered price to a utility company. "The cloud" in this sense is
+like the grid from which we draw electric power.
+
+Instead of energy companies, the providers are Amazon (EC2), Google
+(Compute Engine), Microsoft (Azure), Digital Ocean, and others. And
+this isn't science fiction — if you have a startup (especially one
+where you want to try new things and may need to scale up (_and down_!)
+quickly, this is how things are done now. And, it's appealing to large
+companies as well, where an on-premises cloud based on something like
+(open source!) OpenStack lets your IT department become an in-house
+utility provider to your developers.
+
+So: Fedora Cloud is simply an instance of Fedora optimized to run in
+this environment. If you go to https://getfedora.org/en/cloud/download/
+and click on one of the Amazon EC2 images at the bottom of the page,
+you can launch a new remote Fedora system in minutes. And, you can use
+this as a sort of self-service hosting provider, if you like, but the
+important thing is that you can actually also access all control of the
+machine via an API, which means you can build systems that
+automatically scale up (and again, down) as needed.
+
+But, at this point, Fedora Cloud is just that basic building block, and
+doesn't actually provide any cloud-based _services_. For that, one
+approach is to use popular container technology Docker on top of Fedora
+Cloud — read more in this recent Fedora Magazine article:
+<http://fedoramagazine.org/quick-containers-with-fedora-dockerfiles/>
+and take a look at <https://github.com/fedora-cloud/Fedora-Dockerfiles>
+for practical examples, which includes among other things OwnCloud (a
+remote storage solution) and Wordpress (the blogging software, of
+course).
+
+
+-- 
+Matthew Miller
+<mattdm@fedoraproject.org>
+Fedora Project Leader
+</pre>

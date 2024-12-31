@@ -1,0 +1,89 @@
+<!--
+.. title: newfangledjstoolschains: Part I
+.. slug: newfangledjstoolschains
+.. date: 2015-04-05 08:20:38 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+.. LICENSE: CC-BY-SA-4.0
+-->
+
+<p>I stumbled upon semantic-ui whilst surfing, and immediately became
+intrigued. It made sense, and it looked great! I had to try it for my new
+static blog!</p>
+
+<p>Sure, I could just generate the source for the widgets and css I wanted from
+their docs, and hand-copied it into my various <code>static</code> folders, but
+instead, I wanted to attempt to employ the power of build. It has been a long
+while, but I'm slowly remembering how to wield themtharnewfangledjstoolschains,
+aka Gulp, and bower, and npm.</p>
+
+<p>Gulp and bower in particular are quite useful. Bower is like <code>pip
+install</code> for javascript-y libraries. But before using bower, we gotta
+install node. If there is one thing that I know I love, it is installing random
+javascript code from the internet onto my machine globally. Everytime I see
+things like this in a README file, I get very very sad:
+</p>
+
+<code>$ sudo npm install -g totally_legit_js_library</code>
+<br/>
+<code>$ sudo pip install totally_legit_python_library</code>
+
+<p>
+Please, don't sudo install the things, and certainly not globally, without
+taking a moment to think if that is desirable or necessary. Don't get me wrong,
+I sure don't grok all the way to the bottom of every stack I deploy, but this
+is <em>exactly</em> why I try not to give any-ole stack the ability to run as
+root.
+</p>
+
+<p>
+On top of that, I've been taught you should *almost* always use a virtualenv,
+or other safe and somewhat isolated micro-universe far away from your system
+packages.
+</p>
+
+<p>
+There are a number of solutions, but my favorite one thusfar has been
+installing into a python virtualenv! One time at a hackathon, I blindly trusted
+a teamate who encouraged me to just <code>curl</code> and <code>./</code> some
+shell script off of a website somewhere to get <code>nvm</code> set up, which I
+begrudgingly did, but have since discontinued the practice of. Here is what
+I've been doing instead:
+</p>
+
+
+<p><a target="_blank" href="https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/">https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/</a></p>
+
+<p>
+Yes, it takes longer, but there is something so satisfying about building from
+source. I found that after I got node installed, I could <code>npm install -g
+all-the-things</code> that I needed, and those would be conveniently located within
+a python virtualenv that I'd likely be using to server up the static content
+anways.
+</p>
+
+<p>
+<a target="_blank" href="http://bower.io">bower.io</a>
+<br/>
+<a target="_blank" href="http://gulpjs.com">gulpjs.com</a>
+</p>
+
+<p>So far, so good! I've got a working js toolchain, with my desired deps
+installed! You can find the initial commits here: <a target="_blank"
+href="https://github.com/decause/cardsite">https://github.com/decause/cardsite</a></p>
+
+<h2>Part II Goals</h2>
+
+<ol>
+    <li><strike>Get node and npm install on my local machine without requiring root</strike></li>
+    <li><strike>Get a working <code>bower.json</code> package to install the things </strike></li>
+    <li><strike>Get a working <code>gulpfile.js</code> package to move the installed things</strike></li>
+    <li>Get a working <code>nikola deploy</code> workflow to run the gulpfile in addition to building the site!</li>
+    <li>Incorporate semantic-ui cards into <code>fedmsg</code> feed, and possibly other aspects of site.</li>
+</ol>
+
+
+<p>Stay tuned for Part II!</p>
