@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="decau.se">
+<meta name="viewport" content="width=device-width">
+<title>decau.se (old posts, page 16) | decau.se</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://decau.se/index-16.html">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<link rel="icon" href="icon_128x128.png" sizes="128x128">
+<link rel="prev" href="index-17.html" type="text/html">
+<link rel="next" href="index-15.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="decau.se" rel="home">
+        <img src="https://avatars.githubusercontent.com/u/427420?v=4" alt="decau.se" id="logo"></a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cv.decau.se/">CV</a></li>
+                <li><a href="https://ig.decau.se/">IG</a></li>
+                <li><a href="https://twitter.decau.se/">TWT</a></li>
+                <li><a href="https://bsky.app/profile/decause.bsky.social">BSKY</a></li>
+                <li><a href="https://github.com/decause">GH</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="galleries">Gallery</a></li>
+                <li><a href="rss.xml">RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/that-rugged-raw/" class="u-url">That Rugged Raw</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                decause
+            </span></p>
+            <p class="dateline">
+            <a href="blog/that-rugged-raw/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-04-25T04:23:46Z" itemprop="datePublished" title="2015-04-25 04:23">2015-04-25 04:23</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>
+It has been a more-busy-than-usual week on campus, and I've had a pretty packed conference schedule. I've been much too far behind on New Year's Resolution:
+</p>
+
+<blockquote>
+Ship Copy.
+</blockquote>
+
+<p>
+So, in it's most-purest most-rawest most-honest form, you can find a number of raw transcripts in the new  repo: <a target="_blank" href="http://github.com/decause/raw"><strong>decause/raw</strong></a></p>
+
+<p>
+So, What does <em>that</em> look like?
+</p>
+
+<pre>
+.
+├── libreplanet
+│   └── 2015
+│       ├── closingkeynote-libreplanet-karensandler.txt
+│       ├── debnicholson-friday.txt
+│       ├── freesoftwareawards.txt
+│       └── highpriorityprojs-libreplanet-friday.txt
+├── pycon
+│   └── 2015
+│       ├── ninapresofeedback.txt
+│       ├── pycon-day2-keynotes.txt
+│       ├── pyconedusummit2015.txt
+│       └── scherer-pycon-ansible-day2.txt
+└── RIT
+    └── 2015
+        ├── biella-astra-raw.txt
+        ├── biella-molly-guest-lecture.txt
+        └── molly-sauter-where-is-the-digital-street.txt
+
+6 directories, 13 files
+
+$ wc -w libreplanet/2015/*.txt
+ 2287 libreplanet/2015/closingkeynote-libreplanet-karensandler.txt
+  139 libreplanet/2015/debnicholson-friday.txt
+  586 libreplanet/2015/freesoftwareawards.txt
+ 2297 libreplanet/2015/highpriorityprojs-libreplanet-friday.txt
+5309 total
+
+$ wc -w pycon/2015/*.txt
+  106 pycon/2015/ninapresofeedback.txt
+ 2233 pycon/2015/pycon-day2-keynotes.txt
+ 1844 pycon/2015/pyconedusummit2015.txt
+   63 pycon/2015/scherer-pycon-ansible-day2.txt
+4246 total
+
+$ wc -w RIT/2015/*.txt
+ 4521 RIT/2015/biella-astra-raw.txt
+ 2489 RIT/2015/biella-molly-guest-lecture.txt
+ 1964 RIT/2015/molly-sauter-where-is-the-digital-street.txt
+8974 total
+
+<strong>18529 total total</strong>
+</pre>
+
+<p>18,529 words, or, just over 41 pages total of raw text.</p>
+
+<p>There is a flaw in my workflow. Though there is some utility in a raw transcript, really it is mostly when delivered in real-time. After the fact, there is much post-production work to be done, like spell checking. Even after, if there is a video, then the transcript is partial, and incomplete. This is bothersome to many potential downstream consumers of raw text. So where does that leave us?</p>
+
+<h2>Word Clouds</h2>
+
+<img width="100%" src="biellamollyastragrey.png"><img width="100%" src="pycon_grey.png"><p>I've played with <code>word_cloud</code> before within my <a target="_blank" href="http://github.com/decause/presinaug">decause/presignaug</a> for building
+presidential inauguration visualizations last year. Since then, word_cloud has
+gotten <strong>much</strong> more sophisticated--now using scikitlearn, and numpy, and providing the ability to fit word clouds within images!</p>
+
+<h3>List of Issues/Fixes</h3>
+<ul>
+<li>you'll need to <code>pip install cython</code> first</li>
+    <li><strike>You'll need to <code>sudo yum install freetype-devel</code> (probably not necessary, since this is alleviated by pointing at a diff <code>.ttf</code> typeface...)</strike></li>
+    <li>you'll have to edit your <code>FONT_PATH</code> within word_cloud.py</li>
+    <li>image masks *must* be saved as greyscale, not rgb images (this was a biggie, and I wouldn't have figured it out if <code>GIMP</code> didn't display the color encoding in the file statusbar when you opened things :) )</li>
+</ul>
+
+I went ahead and uploaded the changes I made to my fork on GitHub: <a target="_blank" href="http://github.com/decause/word_cloud">http://github.com/decause/word_cloud</a> if you'd like to see them. The important files are <code>pycon.py</code> and <code>pycon-greys.py</code>.
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="index-17.html" rel="prev">Newer posts</a>
+            </li>
+            <li class="next">
+                <a href="index-15.html" rel="next">Older posts</a>
+            </li>
+        </ul></nav></main><footer id="footer"><p>Contents © 2024         <a href="mailto:decause@decau.se">decause</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a></p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

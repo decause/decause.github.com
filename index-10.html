@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="decau.se">
+<meta name="viewport" content="width=device-width">
+<title>decau.se (old posts, page 10) | decau.se</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://decau.se/index-10.html">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<link rel="icon" href="icon_128x128.png" sizes="128x128">
+<link rel="prev" href="index-11.html" type="text/html">
+<link rel="next" href="index-9.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="decau.se" rel="home">
+        <img src="https://avatars.githubusercontent.com/u/427420?v=4" alt="decau.se" id="logo"></a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cv.decau.se/">CV</a></li>
+                <li><a href="https://ig.decau.se/">IG</a></li>
+                <li><a href="https://twitter.decau.se/">TWT</a></li>
+                <li><a href="https://bsky.app/profile/decause.bsky.social">BSKY</a></li>
+                <li><a href="https://github.com/decause">GH</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="galleries">Gallery</a></li>
+                <li><a href="rss.xml">RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/newfangledjstoolschains/" class="u-url">newfangledjstoolschains: Part I</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                decause
+            </span></p>
+            <p class="dateline">
+            <a href="blog/newfangledjstoolschains/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-04-05T08:20:38Z" itemprop="datePublished" title="2015-04-05 08:20">2015-04-05 08:20</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>I stumbled upon semantic-ui whilst surfing, and immediately became
+intrigued. It made sense, and it looked great! I had to try it for my new
+static blog!</p>
+
+<p>Sure, I could just generate the source for the widgets and css I wanted from
+their docs, and hand-copied it into my various <code>static</code> folders, but
+instead, I wanted to attempt to employ the power of build. It has been a long
+while, but I'm slowly remembering how to wield themtharnewfangledjstoolschains,
+aka Gulp, and bower, and npm.</p>
+
+<p>Gulp and bower in particular are quite useful. Bower is like <code>pip
+install</code> for javascript-y libraries. But before using bower, we gotta
+install node. If there is one thing that I know I love, it is installing random
+javascript code from the internet onto my machine globally. Everytime I see
+things like this in a README file, I get very very sad:
+</p>
+
+<code>$ sudo npm install -g totally_legit_js_library</code>
+<br><code>$ sudo pip install totally_legit_python_library</code>
+
+<p>
+Please, don't sudo install the things, and certainly not globally, without
+taking a moment to think if that is desirable or necessary. Don't get me wrong,
+I sure don't grok all the way to the bottom of every stack I deploy, but this
+is <em>exactly</em> why I try not to give any-ole stack the ability to run as
+root.
+</p>
+
+<p>
+On top of that, I've been taught you should *almost* always use a virtualenv,
+or other safe and somewhat isolated micro-universe far away from your system
+packages.
+</p>
+
+<p>
+There are a number of solutions, but my favorite one thusfar has been
+installing into a python virtualenv! One time at a hackathon, I blindly trusted
+a teamate who encouraged me to just <code>curl</code> and <code>./</code> some
+shell script off of a website somewhere to get <code>nvm</code> set up, which I
+begrudgingly did, but have since discontinued the practice of. Here is what
+I've been doing instead:
+</p>
+
+
+<p><a target="_blank" href="https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/">https://lincolnloop.com/blog/installing-nodejs-and-npm-python-virtualenv/</a></p>
+
+<p>
+Yes, it takes longer, but there is something so satisfying about building from
+source. I found that after I got node installed, I could <code>npm install -g
+all-the-things</code> that I needed, and those would be conveniently located within
+a python virtualenv that I'd likely be using to server up the static content
+anways.
+</p>
+
+<p>
+<a target="_blank" href="http://bower.io">bower.io</a>
+<br><a target="_blank" href="http://gulpjs.com">gulpjs.com</a>
+</p>
+
+<p>So far, so good! I've got a working js toolchain, with my desired deps
+installed! You can find the initial commits here: <a target="_blank" href="https://github.com/decause/cardsite">https://github.com/decause/cardsite</a></p>
+
+<h2>Part II Goals</h2>
+
+<ol>
+<li><strike>Get node and npm install on my local machine without requiring root</strike></li>
+    <li><strike>Get a working <code>bower.json</code> package to install the things </strike></li>
+    <li><strike>Get a working <code>gulpfile.js</code> package to move the installed things</strike></li>
+    <li>Get a working <code>nikola deploy</code> workflow to run the gulpfile in addition to building the site!</li>
+    <li>Incorporate semantic-ui cards into <code>fedmsg</code> feed, and possibly other aspects of site.</li>
+</ol>
+<p>Stay tuned for Part II!</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="index-11.html" rel="prev">Newer posts</a>
+            </li>
+            <li class="next">
+                <a href="index-9.html" rel="next">Older posts</a>
+            </li>
+        </ul></nav></main><footer id="footer"><p>Contents © 2024         <a href="mailto:decause@decau.se">decause</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a></p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>

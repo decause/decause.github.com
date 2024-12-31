@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html prefix="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="decau.se">
+<meta name="viewport" content="width=device-width">
+<title>decau.se (old posts, page 21) | decau.se</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="https://decau.se/index-21.html">
+<link rel="icon" href="favicon.ico" sizes="16x16">
+<link rel="icon" href="icon_128x128.png" sizes="128x128">
+<link rel="prev" href="index-22.html" type="text/html">
+<link rel="next" href="index-20.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="." title="decau.se" rel="home">
+        <img src="https://avatars.githubusercontent.com/u/427420?v=4" alt="decau.se" id="logo"></a></h1>
+
+        
+
+        
+    <nav id="menu"><ul>
+<li><a href="https://cv.decau.se/">CV</a></li>
+                <li><a href="https://ig.decau.se/">IG</a></li>
+                <li><a href="https://twitter.decau.se/">TWT</a></li>
+                <li><a href="https://bsky.app/profile/decause.bsky.social">BSKY</a></li>
+                <li><a href="https://github.com/decause">GH</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="galleries">Gallery</a></li>
+                <li><a href="rss.xml">RSS</a></li>
+
+    
+
+    
+    
+    </ul></nav></header><main id="content"><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/fixingsoundcloudbugs/" class="u-url">FixingSoundcloudBugs</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                decause
+            </span></p>
+            <p class="dateline">
+            <a href="blog/fixingsoundcloudbugs/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-06-02T16:42:06Z" itemprop="datePublished" title="2015-06-02 16:42">2015-06-02 16:42</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div height="20%">
+<img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Soundcloud_logo.svg/640px-Soundcloud_logo.svg.png">
+</div>
+
+<p>
+After upgrading to <a target="_blank" href="https://fedoraproject.org">Fedora22</a> last week, I've had to sand down a few rough corners. One of them which has cropped up was that some of the tracks on <a target="_blank" href="http://soundcloud.com">Soundcloud</a> just would not play while I was in <a target="_blank" href="https://mozilla.org/firefox">Firefox</a>. I thought it was likely because user-generated content is often prone to take-downs, spurious or not, and just kinda shrugged it off. But after trying to play a few particularly popular tracks from confirmed accounts, I decided something must be amiss. I popped open the code inspector, enabled the console, and right off the bat was greeted with a clever recruiting message from Soundcloud:
+</p>
+
+<blockquote>
+    "You like to look under the hood? Why not help us build the engine? http://soundcloud.com/jobs"
+</blockquote>
+
+<p>Thereafter, I would get <code>"Media resource could not be decoded"</code> error messages followed by long strings representing the tracks.</p>
+
+<p>
+Through some search-engine-foo, I was able to dig up this ticket: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=964032">https://bugzilla.mozilla.org/show_bug.cgi?id=964032</a>.
+In it, it is explained that there was likely an issue with codecs not being
+installed, with Ubuntu specific instructions. After originally enabling the RPM
+Fusion repos, I was able to search for and install
+<code>gstreamer1-libav</code> codec, restart Firefox, and play the broken tracks.
+</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="previous">
+                <a href="index-22.html" rel="prev">Newer posts</a>
+            </li>
+            <li class="next">
+                <a href="index-20.html" rel="next">Older posts</a>
+            </li>
+        </ul></nav></main><footer id="footer"><p>Contents © 2024         <a href="mailto:decause@decau.se">decause</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a></p>
+            
+        </footer>
+</div>
+    
+    
+
+    
+    
+    
+</body>
+</html>
