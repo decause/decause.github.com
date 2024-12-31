@@ -14,8 +14,12 @@
   <lastmod>2024-12-31T04:56:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://decau.se/galleries/inkscapes/rss.xml</loc>
+  <lastmod>2024-12-31T17:19:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://decau.se/galleries/rss.xml</loc>
-  <lastmod>2024-12-31T15:22:00Z</lastmod>
+  <lastmod>2024-12-31T17:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://decau.se/rss.xml</loc>
@@ -23,6 +27,6 @@
  </sitemap>
  <sitemap>
   <loc>https://decau.se/sitemap.xml</loc>
-  <lastmod>2024-12-31T15:22:00Z</lastmod>
+  <lastmod>2024-12-31T17:19:00Z</lastmod>
  </sitemap>
 </sitemapindex>
