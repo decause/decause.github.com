@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>decau.se</title><link>https://decau.se/</link><description>decau.se</description><atom:link href="https://decau.se/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2024 &lt;a href="mailto:decause@decau.se"&gt;decause&lt;/a&gt; 
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>decau.se</title><link>https://decau.se/</link><description>decau.se</description><atom:link href="https://decau.se/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2026 &lt;a href="mailto:decause@decau.se"&gt;decause&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 31 Dec 2024 20:12:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>decau.se has a POSSE</title><link>https://decau.se/blog/decause-posse/</link><dc:creator>decause</dc:creator><description>&lt;h1&gt;When last we left our hero...&lt;/h1&gt;
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 11 Oct 2026 16:24:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>decau.se</title><link>https://decau.se/blog/decause/</link><dc:creator>decause</dc:creator><description></description><guid>https://decau.se/blog/decause/</guid><pubDate>Sun, 11 Oct 2026 15:58:58 GMT</pubDate></item><item><title>decau.se has a POSSE</title><link>https://decau.se/blog/decause-posse/</link><dc:creator>decause</dc:creator><description>&lt;h1&gt;When last we left our hero...&lt;/h1&gt;
 &lt;p&gt;The year was 2015. Like most authors who revisit their previous works, I do &lt;strong&gt;NOT&lt;/strong&gt; super-enjoy reading much of what was written way back when. For the sake of continuity however, I am compelled to regenerate and redeploy these past posts for posterity.&lt;/p&gt;
 &lt;p&gt;Apologies/Congratulations.&lt;/p&gt;
 &lt;p&gt;Henceforth, this site shall serve as a vehicle to explore the Frontiers of the &lt;a target="_blank" href="https://en.wikipedia.org/wiki/Fediverse"&gt;Fediverse&lt;/a&gt;, embodying the &lt;a target="_blank" href="https://indieweb.org"&gt;Indieweb&lt;/a&gt; principle of "POSSE": &lt;a target="_blank" href="https://indieweb.org/POSSE"&gt;Publish On Your Own Site, Syndicate Everywhere&lt;/a&gt;.&lt;/p&gt;</description><guid>https://decau.se/blog/decause-posse/</guid><pubDate>Mon, 30 Dec 2024 20:48:29 GMT</pubDate></item><item><title>hackerhacked?</title><link>https://decau.se/blog/hackerhacked/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;This post is in response to the article &lt;em&gt;"The Hacker Hacked"&lt;/em&gt; by &lt;a target="_blank" href="https://twitter.com/suitpossum"&gt;Brett Scott&lt;/a&gt;: &lt;/p&gt;&lt;h4&gt;&lt;a target="_blank" href="http://aeon.co/magazine/technology/how-yuppies-hacked-the-original-hacker-ethos/"&gt;http://aeon.co/magazine/technology/how-yuppies-hacked-the-original-hacker-ethos/&lt;/a&gt;&lt;/h4&gt;
@@ -276,7 +276,7 @@ Fusion repos, I was able to search for and install
 &lt;/p&gt;</description><guid>https://decau.se/blog/fixingsoundcloudbugs/</guid><pubDate>Tue, 02 Jun 2015 16:42:06 GMT</pubDate></item><item><title>FPLdoesAMAonReddit</title><link>https://decau.se/blog/fpldoesamaonreddit/</link><dc:creator>decause</dc:creator><description>&lt;img src="https://www.redditstatic.com/icon.png"&gt;
 
 &lt;p&gt;
-Happening right now, mattdm is doing an AMA on &lt;a target="_blank" href="http://reddit.com/r/linux"&gt;reddit.com/r/linux&lt;/a&gt; which can be found here: &lt;a target="_blank" href="https://decau.se/blog/fpldoesamaonreddit/"&gt;https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/&lt;/a&gt;.
+Happening right now, mattdm is doing an AMA on &lt;a target="_blank" href="http://reddit.com/r/linux"&gt;reddit.com/r/linux&lt;/a&gt; which can be found here: &lt;a target="_blank" href"https: www.reddit.com r linux comments 37l2mf i_am_matthew_miller_fedora_project_leader_ask_me "&gt;https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;I got name dropped a couple times (this is still pretty surreal :P), and here is my response to one of the comment threads on Metrics/New Contributors: &lt;a target="_blank" href="https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/crnk7zs"&gt;https://www.reddit.com/r/linux/comments/37l2mf/i_am_matthew_miller_fedora_project_leader_ask_me/crnk7zs&lt;/a&gt;.&lt;/p&gt;
@@ -388,8 +388,8 @@ But, at this point, Fedora Cloud is just that basic building block, and
 doesn't actually provide any cloud-based _services_. For that, one
 approach is to use popular container technology Docker on top of Fedora
 Cloud — read more in this recent Fedora Magazine article:
-&lt;http:&gt;&lt;/http:&gt;
-and take a look at &lt;https:&gt;
+&lt;http: fedoramagazine.org quick-containers-with-fedora-dockerfiles&gt;&lt;/http:&gt;
+and take a look at &lt;https: github.com fedora-cloud fedora-dockerfiles&gt;
 for practical examples, which includes among other things OwnCloud (a
 remote storage solution) and Wordpress (the blogging software, of
 course).
@@ -397,9 +397,9 @@ course).
 
 -- 
 Matthew Miller
-&lt;mattdm&gt;
+&lt;mattdm@fedoraproject.org&gt;
 Fedora Project Leader
-&lt;/mattdm&gt;&lt;/https:&gt;&lt;/pre&gt;</description><guid>https://decau.se/blog/fedoracloudwat/</guid><pubDate>Thu, 28 May 2015 13:46:27 GMT</pubDate></item><item><title>UNICEF Innovation Centre and Fund Launch</title><link>https://decau.se/blog/unicef-innovation-centre-and-fund-launch/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;The raw-but-full transcript from my recent visit to the United Nations for
+&lt;/mattdm@fedoraproject.org&gt;&lt;/https:&gt;&lt;/pre&gt;</description><guid>https://decau.se/blog/fedoracloudwat/</guid><pubDate>Thu, 28 May 2015 13:46:27 GMT</pubDate></item><item><title>UNICEF Innovation Centre and Fund Launch</title><link>https://decau.se/blog/unicef-innovation-centre-and-fund-launch/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;The raw-but-full transcript from my recent visit to the United Nations for
 the Launch of the UN Innovation Centre &amp;amp; Fund can be found in my &lt;a target="_blank" href="http://github.com/decause/raw"&gt;decause/raw&lt;/a&gt; repo
 on GitHub, but here are a few choice quotes, and a rough word_cloud mask.&lt;/p&gt;
 
@@ -551,9 +551,9 @@ gotten &lt;strong&gt;much&lt;/strong&gt; more sophisticated--now using scikitlea
     &lt;li&gt;image masks *must* be saved as greyscale, not rgb images (this was a biggie, and I wouldn't have figured it out if &lt;code&gt;GIMP&lt;/code&gt; didn't display the color encoding in the file statusbar when you opened things :) )&lt;/li&gt;
 &lt;/ul&gt;
 
-I went ahead and uploaded the changes I made to my fork on GitHub: &lt;a target="_blank" href="http://github.com/decause/word_cloud"&gt;http://github.com/decause/word_cloud&lt;/a&gt; if you'd like to see them. The important files are &lt;code&gt;pycon.py&lt;/code&gt; and &lt;code&gt;pycon-greys.py&lt;/code&gt;.</description><guid>https://decau.se/blog/that-rugged-raw/</guid><pubDate>Sat, 25 Apr 2015 04:23:46 GMT</pubDate></item><item><title>Hackademics on Campus</title><link>https://decau.se/blog/hackademics-on-campus/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;I'd love to give a proper reckoning of the past 48 hours, but it would take a not-so-insignificant feat of editing... 
+I went ahead and uploaded the changes I made to my fork on GitHub: &lt;a target="_blank" href="http://github.com/decause/word_cloud"&gt;http://github.com/decause/word_cloud&lt;/a&gt; if you'd like to see them. The important files are &lt;code&gt;pycon.py&lt;/code&gt; and &lt;code&gt;pycon-greys.py&lt;/code&gt;.</description><guid>https://decau.se/blog/that-rugged-raw/</guid><pubDate>Sat, 25 Apr 2015 04:23:46 GMT</pubDate></item><item><title>Hackademics on Campus</title><link>https://decau.se/blog/hackademics-on-campus/</link><dc:creator>decause</dc:creator><description>I'd love to give a proper reckoning of the past 48 hours, but it would take a not-so-insignificant feat of editing... 
 
-&lt;/p&gt;&lt;pre&gt;
+&lt;pre&gt;
 [decause@chapeauxrouge story []]$ wc -w biella-*
  4521 biella-astra-raw.txt
  2486 biella-molly-guest-lecture.txt
@@ -721,9 +721,9 @@ installed! You can find the initial commits here: &lt;a target="_blank" href="ht
 
 &lt;p&gt;BUT!&lt;/p&gt;
 &lt;p&gt;I'm &lt;strong&gt;SUPER&lt;/strong&gt; excited to play around more with programmatically generating static content with the power of python.&lt;/p&gt;
-&lt;p&gt;Shout-out &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="http://threebean.org"&gt;threebean&lt;/a&gt;, and &lt;a target="_blank" href="http://rsb.io"&gt;ryansb&lt;/a&gt; for their wizardry and patience.&lt;/p&gt;</description><guid>https://decau.se/blog/helloworld/</guid><pubDate>Wed, 01 Apr 2015 04:21:00 GMT</pubDate></item><item><title>grokkingfedmsg</title><link>https://decau.se/blog/grokkingfedmsg/</link><dc:creator>decause</dc:creator><description>&lt;p&gt;This is a raw dump of brainstormery had during a hacksession with &lt;a target="_blank" href="http://threebean.org"&gt;Threebean&lt;/a&gt;.
+&lt;p&gt;Shout-out &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="http://threebean.org"&gt;threebean&lt;/a&gt;, and &lt;a target="_blank" href="http://rsb.io"&gt;ryansb&lt;/a&gt; for their wizardry and patience.&lt;/p&gt;</description><guid>https://decau.se/blog/helloworld/</guid><pubDate>Wed, 01 Apr 2015 04:21:00 GMT</pubDate></item><item><title>grokkingfedmsg</title><link>https://decau.se/blog/grokkingfedmsg/</link><dc:creator>decause</dc:creator><description>This is a raw dump of brainstormery had during a hacksession with &lt;a target="_blank" href="http://threebean.org"&gt;Threebean&lt;/a&gt;.
 
-&lt;/p&gt;&lt;h2&gt;Deps&lt;/h2&gt;
+&lt;h2&gt;Deps&lt;/h2&gt;
 &lt;code&gt;$ sudo yum install python-fedmsg-meta-fedora-infrastructure&lt;/code&gt;
 &lt;code&gt;$ hub clone ralphbean/fedora-stats-tools&lt;/code&gt;
 
@@ -1499,7 +1499,7 @@ applying thereafter. Here is a good place to start: &lt;a target="_blank" href="
 
 &lt;h2&gt;&amp;lt;/IvoryTower&amp;gt;&lt;/h2&gt;
 &lt;p&gt;It was over &lt;strong&gt;five&lt;/strong&gt; long years ago when I returned to RIT for the
-first time after my undergraduate studies with &lt;a target="_blank" href="http://lewk.org"&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="https://twitter.com/gregdek"&gt;GregDek&lt;/a&gt;, and &lt;a target="_blank" href="http://blog.melchua.com/"&gt;Mel Chua&lt;/a&gt;, to meet with SJ for the first
+first time after my undergraduate studies with &lt;a target="_blank" href="http://lewk.org" &lt; a&gt;lmacken&lt;/a&gt;, &lt;a target="_blank" href="https://twitter.com/gregdek"&gt;GregDek&lt;/a&gt;, and &lt;a target="_blank" href="http://blog.melchua.com/"&gt;Mel Chua&lt;/a&gt;, to meet with SJ for the first
 time. SJ had orchestrated a jam-packed schedule for everyone to meet with
 Deans, and Department Heads, and IT Administrators of all stripes. We resolved
 after that visit to create the first ever Academic Minor in Free/Open Source

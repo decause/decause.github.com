@@ -7,167 +7,295 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://decau.se/</loc>
-  <lastmod>2025-03-01T23:13:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/2013/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/2014/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/2015/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/2024/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/2026/</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/archive.html</loc>
-  <lastmod>2026-10-11T15:52:00Z</lastmod>
+  <lastmod>2026-10-11T16:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/atributetofairuse/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/commops-toolbox/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/decause-posse/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/decause/</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/enter-the-soylent/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/fedoracloudwat/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/fedorafromfiftythousandfeet/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/fedorapkgsall/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/fixingsoundcloudbugs/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/flockchestersurvey/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/fpldoesamaonreddit/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/grokkingfedmsg/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/hackademics-on-campus/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/hackerhacked/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/head-of-open-source-facebook-oscon/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/helloworld/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/helloworldclock/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-1.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-10.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-11.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-12.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-13.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-14.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-15.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-16.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-17.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-18.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-19.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-2.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-20.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-21.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-22.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-23.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-24.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-25.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-26.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-27.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-28.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-29.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-3.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-4.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-5.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-6.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-7.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-8.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/blog/index-9.html</loc>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/interview-kyle-simpson-javascript/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/interview-pamela-fox-curriculum-engineer-khan-academy/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/jim-whitehurst-inspiration-open-source/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/libreplanet2013-keynote-rms/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/more-harm-than-good-svpino%20/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/newcontributorwat/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/newfangledjstoolschains/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/rowrowrowtheboat/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/salutpycon/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/swimmingupstream/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/that-rugged-raw/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/thefreedomtocloseisnotafreedom/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/blog/unicef-innovation-centre-and-fund-launch/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/categories.html</loc>
-  <lastmod>2026-10-11T15:52:00Z</lastmod>
+  <lastmod>2026-10-11T16:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/categories/odsc/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/coins/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/decks/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/galleries/inkscapes/</loc>
-  <lastmod>2025-12-22T16:45:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/index-1.html</loc>
@@ -251,7 +379,11 @@
  </url>
  <url>
   <loc>https://decau.se/index-28.html</loc>
-  <lastmod>2026-10-11T15:52:00Z</lastmod>
+  <lastmod>2026-10-11T16:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://decau.se/index-29.html</loc>
+  <lastmod>2026-10-11T16:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/index-3.html</loc>
@@ -283,14 +415,14 @@
  </url>
  <url>
   <loc>https://decau.se/listings/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/pages/</loc>
-  <lastmod>2024-12-31T20:12:00Z</lastmod>
+  <lastmod>2026-10-11T16:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://decau.se/tags.html</loc>
-  <lastmod>2026-10-11T15:52:00Z</lastmod>
+  <lastmod>2026-10-11T16:26:00Z</lastmod>
  </url>
 </urlset>
