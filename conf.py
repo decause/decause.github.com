@@ -147,7 +147,7 @@ NAVIGATION_LINKS = {
         ("https://twitter.decau.se/", "TWT"),
         ("https://bsky.app/profile/decause.bsky.social", "BSKY"),
         ("https://github.com/decause", "GH"),
-        #("/blog", "Blog"),
+        ("/blog", "Blog"),
         ("/archive.html", "Archive"),
         ("/galleries", "Gallery"),
         #("/categories/", "Tags"),
